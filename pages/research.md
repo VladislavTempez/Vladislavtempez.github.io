@@ -5,7 +5,7 @@ permalink: /research/
 description: Vladislav Tempez - Travaux de recherche
 ---
 ## Thèse
-J'ai réalisé une thèse sur l'[Apprentissage d'une loi de commande optimale d'un petit quadrotor pour le vol dans des tuyaux cylindriques](https://www.theses.fr/2022LORR0072) dans laquelle j'ai intégré un modèle de perturbations aérodynamiques, dues aux interactions entre l'air déplacé par les hélices et les parois, dans une loi de commande apprise par imitation.
+J'ai réalisé une thèse sur l'[Apprentissage d'une loi de commande optimale d'un petit quadrotor pour le vol dans des tuyaux cylindriques](https://hal.in2p3.fr/LORIA-AIS/tel-03765560v1) dans laquelle j'ai intégré un modèle de perturbations aérodynamiques, dues aux interactions entre l'air déplacé par les hélices et les parois, dans une loi de commande apprise par imitation.
 
 Les diapositives de la soutenance sont disponibles [ici](/docs/slides_these.pdf)
 
