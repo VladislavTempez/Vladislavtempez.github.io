@@ -19,4 +19,4 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
 
 #### OCaml
-- Le 05/09 [Introduction à OCaml](https://nc-lycees.netocentre.fr/s/nNn6dFokSw6ifDJ) [Corrigé](https://nc-lycees.netocentre.fr/s/ZydDWQrRXtDpomt)
+- Le 05/09 [Introduction à OCaml](https://nc-lycees.netocentre.fr/s/nNn6dFokSw6ifDJ) |  [Corrigé](https://nc-lycees.netocentre.fr/s/ZydDWQrRXtDpomt)
