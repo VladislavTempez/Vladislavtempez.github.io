@@ -5,9 +5,8 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Mardi 10/09 14h-16h Cours en **classe entière** à la place du TD en demi groupe
-<!-- - Mercredi 11/09 14h-15h TD Groupe 1 -->
-<!-- - Mercredi 11/09 15h-16h TD Groupe 2 -->
+- Mardi 10/09: 14h-16h Cours en **classe entière** à la place du TD en demi groupe
+- Mercredi 11/09: 14h-15h TD Groupe 1, 15h-16h TD Groupe 2 en A4022
 
 ## Documents et chapitres abordés depuis le début de l'année
 
