@@ -12,7 +12,13 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 ### Cours
 
+#### Calcul propositionnel
+- [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Correction (à venir)]()
+ 
+
 ### TP
+
+
 
 #### Prise en main du terminal
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
