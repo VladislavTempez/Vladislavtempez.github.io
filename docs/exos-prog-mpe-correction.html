@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<!-- 2024-09-09 Mon 16:07 -->
+<!-- 2024-09-09 Mon 16:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Quelques exercices de programmation</title>
@@ -22,18 +22,18 @@
         multlineWidth: '85%'
       },
       tags: 'ams',
-      tagSide: 'right',
+      tagSide: 'left',
       tagIndent: '.8em'
     },
     chtml: {
       scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
+      displayAlign: 'left',
+      displayIndent: '5em'
     },
     svg: {
       scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
+      displayAlign: 'left',
+      displayIndent: '5em'
     },
     output: {
       font: 'mathjax-modern',
@@ -55,82 +55,82 @@
 <h2>Table des matières</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org00d193e">Extremum d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org5cddd3b">Itérer sur les tableaux&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#orgfd4d771">Comparer deux listes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org6a340eb">Inversion de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org616cb4a">Recherche dans un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="ref">ref</span></span></a></li>
-<li><a href="#org6f8b215">Décomposition en base \(b\)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#orgc561b07">Renversement d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></a></li>
-<li><a href="#org686bd20">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></a></li>
-<li><a href="#orgdd3964d">Image d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#orga7b5fa1">Longueur d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#orga92a437">Fusion triée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org7170a13">Produit matriciel&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></a></li>
-<li><a href="#org3413e3e">Appartenance à une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org3b52c36">Image d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#orgb4cc340">Somme si&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#org07cc351">Indice du plus petit élément d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="exception">exception</span></span></a></li>
-<li><a href="#org04a93e6">Zip&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org2543b74">Renversement d&rsquo;un tableau en place&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></a></li>
-<li><a href="#org41206c1">Mémoïsation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dictionnaire">dictionnaire</span>&#xa0;<span class="r_cursif">récursif</span></span></a></li>
-<li><a href="#orgfc3be6e">Nombre de Strahler&#xa0;&#xa0;&#xa0;<span class="tag"><span class="arbre">arbre</span>&#xa0;<span class="type_rec">type_rec</span></span></a></li>
-<li><a href="#org8a4c7f9">Chiffrement de César</a></li>
-<li><a href="#org7c41623">Compter les 0&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dict">dict</span></span></a></li>
-<li><a href="#orgf81c63d">Découpage alterné de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org1ad4b78">Évaluation d&rsquo;un polynôme en un point (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#org6e353d4">Calcul de la dérivée d&rsquo;un polynôme (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org9f33755">Nombre de diviseurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="exception">exception</span></span></a></li>
-<li><a href="#org2655be1">Expression arithmétique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="arbre">arbre</span>&#xa0;<span class="option">option</span></span></a></li>
-<li><a href="#org38a5797">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#orgba78b8b">Bon parenthésage (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#orgaa820eb">Bon parenthésage multiple&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Stack">Stack</span></span></a></li>
-<li><a href="#orgcaf7410">Somme impaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org6b7d478">Hauteur d&rsquo;un arbre ternaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></a></li>
-<li><a href="#org8f4abf3">Liste aplatie&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org095dc77">Produit scalaire (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#org31acb0f">Briser les chaînes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org7656705">Découpage régulier de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org7da5f13">Tri par insertion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org1aa10b3">Filtrage d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#orgccccf55">Inversion de liste (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#orgd47a163">Évaluation d&rsquo;un polynôme en un point (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org1d58a77">Fusion alternée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org041668f">Deuxième max d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="option">option</span></span></a></li>
-<li><a href="#org1178630">PGCD d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org98e206b">Simplification de fraction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="enregistrement">enregistrement</span></span></a></li>
-<li><a href="#orgc4e4924">Itérer sur une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
-<li><a href="#orgd38dd6c">Recherche dichotomique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="option">option</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#orgfe6c072">k-accessibles&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#org080a16a">Recherche de mot dans un texte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="option">option</span></span></a></li>
-<li><a href="#orged61881">Recherche dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="option">option</span></span></a></li>
-<li><a href="#org02f6576">Produit scalaire (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
-<li><a href="#org7a46956">PGCD et PPCM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></a></li>
-<li><a href="#org57222b2">Insertion dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></a></li>
-<li><a href="#org1a221ad">Rotation de matrice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></a></li>
-<li><a href="#org5bc4ea7">Subset sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span>&#xa0;<span class="liste">liste</span></span></a></li>
-<li><a href="#org6266f57">Position du plus grand mot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_rarif">impérarif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#orgdca850a">Palindrome&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
-<li><a href="#org1150e93">Remerciements</a></li>
+<li><a href="#orgab3d815">Extremum d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org952faea">Itérer sur les tableaux&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#orgc163fa8">Comparer deux listes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org76c5074">Inversion de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org799494d">Recherche dans un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="ref">ref</span></span></a></li>
+<li><a href="#org192774a">Décomposition en base \(b\)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org71d1c68">Renversement d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></a></li>
+<li><a href="#orgb79b5f8">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></a></li>
+<li><a href="#org04b4602">Image d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#orge14f6c5">Longueur d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org0a0657c">Fusion triée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orga74df89">Produit matriciel&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></a></li>
+<li><a href="#org20a796b">Appartenance à une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org1578d3b">Image d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#org13549b4">Somme si&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#org1a8ba02">Indice du plus petit élément d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="exception">exception</span></span></a></li>
+<li><a href="#org689a8e3">Zip&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orga5c249b">Renversement d&rsquo;un tableau en place&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></a></li>
+<li><a href="#org66f395a">Mémoïsation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dictionnaire">dictionnaire</span>&#xa0;<span class="r_cursif">récursif</span></span></a></li>
+<li><a href="#org37f802a">Nombre de Strahler&#xa0;&#xa0;&#xa0;<span class="tag"><span class="arbre">arbre</span>&#xa0;<span class="type_rec">type_rec</span></span></a></li>
+<li><a href="#orgd3252c7">Chiffrement de César</a></li>
+<li><a href="#org670f821">Compter les 0&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dict">dict</span></span></a></li>
+<li><a href="#orgb70347e">Découpage alterné de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orgb6268b3">Évaluation d&rsquo;un polynôme en un point (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#orgd204f7f">Calcul de la dérivée d&rsquo;un polynôme (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org34ccfeb">Nombre de diviseurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="exception">exception</span></span></a></li>
+<li><a href="#orgb0356a1">Expression arithmétique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="arbre">arbre</span>&#xa0;<span class="option">option</span></span></a></li>
+<li><a href="#orgbdd6603">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org38aa0cb">Bon parenthésage (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#orgdbc93b0">Bon parenthésage multiple&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Stack">Stack</span></span></a></li>
+<li><a href="#org34b262c">Somme impaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org20b6204">Hauteur d&rsquo;un arbre ternaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></a></li>
+<li><a href="#org50ac458">Liste aplatie&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orgd140292">Produit scalaire (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org71a68fb">Briser les chaînes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org9be9482">Découpage régulier de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org14caf46">Tri par insertion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orgd08fad3">Filtrage d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#org910e65a">Inversion de liste (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org205d3b9">Évaluation d&rsquo;un polynôme en un point (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org82094a0">Fusion alternée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#orga2babd6">Deuxième max d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="option">option</span></span></a></li>
+<li><a href="#org3421a6d">PGCD d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org0533045">Simplification de fraction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="enregistrement">enregistrement</span></span></a></li>
+<li><a href="#org334b35c">Itérer sur une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></a></li>
+<li><a href="#org64e0643">Recherche dichotomique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="option">option</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org7c93433">k-accessibles&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org946e018">Recherche de mot dans un texte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="option">option</span></span></a></li>
+<li><a href="#org75b2ba8">Recherche dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="option">option</span></span></a></li>
+<li><a href="#org5179bce">Produit scalaire (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></a></li>
+<li><a href="#org6d64052">PGCD et PPCM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></a></li>
+<li><a href="#org735ad4f">Insertion dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></a></li>
+<li><a href="#org42e2b91">Rotation de matrice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></a></li>
+<li><a href="#org1783ffd">Subset sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span>&#xa0;<span class="liste">liste</span></span></a></li>
+<li><a href="#org55afcba">Position du plus grand mot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_rarif">impérarif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org3200a2a">Palindrome&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></a></li>
+<li><a href="#org8968dbd">Remerciements</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org00d193e" class="outline-2">
-<h2 id="org00d193e">Extremum d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org00d193e">
+<div id="outline-container-orgab3d815" class="outline-2">
+<h2 id="orgab3d815">Extremum d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orgab3d815">
 </div>
-<div id="outline-container-org20a0982" class="outline-3">
-<h3 id="org20a0982">Énoncé</h3>
-<div class="outline-text-3" id="text-org20a0982">
+<div id="outline-container-orgcce255a" class="outline-3">
+<h3 id="orgcce255a">Énoncé</h3>
+<div class="outline-text-3" id="text-orgcce255a">
 <p>
 Implémenter deux fonctions <code>min_lst</code> et <code>max_lst</code> dont l&rsquo;appel sur une liste non vide s&rsquo;évalue en le min et le max des éléments de cette liste. Sur une liste vide, une exception sera levée.
 Par exemple <code>min_list [0;1;2;3]</code> s&rsquo;évalue en <code>0</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd9942cf" class="outline-3 spoiler">
-<h3 id="orgd9942cf">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd9942cf">
+<div id="outline-container-org968f356" class="outline-3 spoiler">
+<h3 id="org968f356">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org968f356">
 <div class="org-src-container">
 <pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">min_lst</span> <span style="color: #6a1868;">lst</span> =
   <span style="color: #e45649;">match</span> lst <span style="color: #e45649;">with</span>
@@ -147,13 +147,13 @@ Par exemple <code>min_list [0;1;2;3]</code> s&rsquo;évalue en <code>0</code>.
 </div>
 </div>
 </div>
-<div id="outline-container-org5cddd3b" class="outline-2">
-<h2 id="org5cddd3b">Itérer sur les tableaux&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-org5cddd3b">
+<div id="outline-container-org952faea" class="outline-2">
+<h2 id="org952faea">Itérer sur les tableaux&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-org952faea">
 </div>
-<div id="outline-container-org349e0ad" class="outline-3">
-<h3 id="org349e0ad">Énoncé</h3>
-<div class="outline-text-3" id="text-org349e0ad">
+<div id="outline-container-orge62b5cc" class="outline-3">
+<h3 id="orge62b5cc">Énoncé</h3>
+<div class="outline-text-3" id="text-orge62b5cc">
 <p>
 Implémenter une fonction <code>array_iter</code> prenant en entier une fonction à effet de bord (<code>'a -&gt; unit'</code> ) et appliquant cette fonction successivement à tous les éléments d&rsquo;un tableau passé en argument en commençant au premier élément.
 </p>
@@ -167,9 +167,9 @@ Cette fonction réplique le comportement de la fonction <code>Array.iter</code> 
 </p>
 </div>
 </div>
-<div id="outline-container-orge3cf569" class="outline-3 spoiler">
-<h3 id="orge3cf569">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orge3cf569">
+<div id="outline-container-org30479ae" class="outline-3 spoiler">
+<h3 id="org30479ae">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org30479ae">
 <p>
 Ici il suffit de parcourir le tableau via une boucle <code>for</code>. Attention aux dépassements d&rsquo;indice.
 </p>
@@ -184,22 +184,22 @@ Ici il suffit de parcourir le tableau via une boucle <code>for</code>. Attention
 </div>
 </div>
 </div>
-<div id="outline-container-orgfd4d771" class="outline-2">
-<h2 id="orgfd4d771">Comparer deux listes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orgfd4d771">
+<div id="outline-container-orgc163fa8" class="outline-2">
+<h2 id="orgc163fa8">Comparer deux listes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orgc163fa8">
 </div>
-<div id="outline-container-orgdffa0cb" class="outline-3">
-<h3 id="orgdffa0cb">Énoncé</h3>
-<div class="outline-text-3" id="text-orgdffa0cb">
+<div id="outline-container-org81353c7" class="outline-3">
+<h3 id="org81353c7">Énoncé</h3>
+<div class="outline-text-3" id="text-org81353c7">
 <p>
 Implémentez une fonction <code>is_greater</code> de comparaison <code>stricte</code> de liste s&rsquo;appuyant sur l&rsquo;ordre lexicographique (ordre du dictionnaire).
 Par exemple <code>is_greater [] [1]</code> s&rsquo;évalue en <code>false</code>, <code>is_greater [1.2] [1.1; 1.5]</code> s&rsquo;évalue en <code>true</code> et <code>is_greater [1.1] [1.1; 1.5]</code> s&rsquo;évalue en <code>false</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-org3cbe57f" class="outline-3 spoiler">
-<h3 id="org3cbe57f">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org3cbe57f">
+<div id="outline-container-orgc142d21" class="outline-3 spoiler">
+<h3 id="orgc142d21">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgc142d21">
 <p>
 Il suffit de parcourir simultanément les deux listes et de s&rsquo;arrêter dès qu&rsquo;on trouve une bonne raison: soit une liste et vide, et l&rsquo;autre est plus grande, soit un des deux éléments de tête est plus grand que l&rsquo;autre. Si les deux sont vides, on doit renvoyer <code>false</code> car la comparaison est stricte.
 </p>
@@ -216,22 +216,22 @@ Il suffit de parcourir simultanément les deux listes et de s&rsquo;arrêter dè
 </div>
 </div>
 </div>
-<div id="outline-container-org6a340eb" class="outline-2">
-<h2 id="org6a340eb">Inversion de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org6a340eb">
+<div id="outline-container-org76c5074" class="outline-2">
+<h2 id="org76c5074">Inversion de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org76c5074">
 </div>
-<div id="outline-container-orgb776b6a" class="outline-3">
-<h3 id="orgb776b6a">Énoncé</h3>
-<div class="outline-text-3" id="text-orgb776b6a">
+<div id="outline-container-orgdc965fb" class="outline-3">
+<h3 id="orgdc965fb">Énoncé</h3>
+<div class="outline-text-3" id="text-orgdc965fb">
 <p>
 Implémenter une fonction <code>rev</code> dont l&rsquo;appel sur une liste s&rsquo;évalue en cette liste dont l&rsquo;ordre des éléments a été changé.
 Par exemple <code>rev [0;1;2;3]</code> s&rsquo;évalue en <code>[3;2;1;0]</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd90ddb8" class="outline-3 spoiler">
-<h3 id="orgd90ddb8">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd90ddb8">
+<div id="outline-container-org6161719" class="outline-3 spoiler">
+<h3 id="org6161719">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org6161719">
 <p>
 Le principe est de travailler avec une liste contenant ce qui a déjà été inversé (le début de la liste déjà traité, ici <code>already_done_lst</code>). Ensuite, on place en tête de cette liste le premier élément de la liste à traiter, puis on traite la suite de la liste, qui sera donc placée devant l&rsquo;élément qu&rsquo;on vient de traiter.
 </p>
@@ -246,13 +246,13 @@ Le principe est de travailler avec une liste contenant ce qui a déjà été inv
 </div>
 </div>
 </div>
-<div id="outline-container-org616cb4a" class="outline-2">
-<h2 id="org616cb4a">Recherche dans un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="ref">ref</span></span></h2>
-<div class="outline-text-2" id="text-org616cb4a">
+<div id="outline-container-org799494d" class="outline-2">
+<h2 id="org799494d">Recherche dans un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="ref">ref</span></span></h2>
+<div class="outline-text-2" id="text-org799494d">
 </div>
-<div id="outline-container-org0033e8f" class="outline-3">
-<h3 id="org0033e8f">Énoncé</h3>
-<div class="outline-text-3" id="text-org0033e8f">
+<div id="outline-container-org6fe3f7f" class="outline-3">
+<h3 id="org6fe3f7f">Énoncé</h3>
+<div class="outline-text-3" id="text-org6fe3f7f">
 <p>
 Implémentez une fonction <code>array_mem</code> qui s&rsquo;évalue à vrai si un tableau passé en argument contient un élément passé en argument.
 Par exemple <code>array_mem 5 [|1;2;3|]</code> s&rsquo;évalue en <code>false</code> et <code>array_mem [|3;5;6|]</code> s&rsquo;évalue en <code>true</code>.
@@ -263,9 +263,9 @@ Cette fonction réplique le comportement de la fonction <code>Array.mem</code> d
 </p>
 </div>
 </div>
-<div id="outline-container-org0edbdc7" class="outline-3 spoiler">
-<h3 id="org0edbdc7">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org0edbdc7">
+<div id="outline-container-org9ae7f2f" class="outline-3 spoiler">
+<h3 id="org9ae7f2f">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org9ae7f2f">
 <p>
 On parcourt le tableau, si jamais on trouve <code>e</code>, on passe la référence <code>result</code> à <code>true</code>. Attention ici, pas de <code>return</code> et la boucle <code>for</code> ira à son terme.
 </p>
@@ -282,22 +282,22 @@ On parcourt le tableau, si jamais on trouve <code>e</code>, on passe la référe
 </div>
 </div>
 </div>
-<div id="outline-container-org6f8b215" class="outline-2">
-<h2 id="org6f8b215">Décomposition en base \(b\)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org6f8b215">
+<div id="outline-container-org192774a" class="outline-2">
+<h2 id="org192774a">Décomposition en base \(b\)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org192774a">
 </div>
-<div id="outline-container-org3568924" class="outline-3">
-<h3 id="org3568924">Énoncé</h3>
-<div class="outline-text-3" id="text-org3568924">
+<div id="outline-container-org3ced237" class="outline-3">
+<h3 id="org3ced237">Énoncé</h3>
+<div class="outline-text-3" id="text-org3ced237">
 <p>
 Implémentez une fonction <code>base_b</code> qui s&rsquo;évalue en la liste des coefficients de la décomposition en base \(b\) de son argument \(n\). Les coefficients de poids le plus faible seront en tête de liste.
 Par exemple, <code>base_b 2 10</code> s&rsquo;évalue en <code>[0;1;0;1]</code> car \(10 = 2^1 + 2^3\).
 </p>
 </div>
 </div>
-<div id="outline-container-orgea763b3" class="outline-3 spoiler">
-<h3 id="orgea763b3">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgea763b3">
+<div id="outline-container-org95cee74" class="outline-3 spoiler">
+<h3 id="org95cee74">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org95cee74">
 <p>
 On peut exploiter la relation de récurrence suivante: \(n = (n \text{ modulo } b) × 1 + b *(n/b)\) avec \(/\) la division entière. Le coefficient de poids faible est obtenu via le modulo, et les suivant via un appel récursif sur \(n/b\).
 </p>
@@ -312,22 +312,22 @@ On peut exploiter la relation de récurrence suivante: \(n = (n \text{ modulo } 
 </div>
 </div>
 </div>
-<div id="outline-container-orgc561b07" class="outline-2">
-<h2 id="orgc561b07">Renversement d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></h2>
-<div class="outline-text-2" id="text-orgc561b07">
+<div id="outline-container-org71d1c68" class="outline-2">
+<h2 id="org71d1c68">Renversement d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></h2>
+<div class="outline-text-2" id="text-org71d1c68">
 </div>
-<div id="outline-container-org7cf8bba" class="outline-3">
-<h3 id="org7cf8bba">Énoncé</h3>
-<div class="outline-text-3" id="text-org7cf8bba">
+<div id="outline-container-orgb6234ac" class="outline-3">
+<h3 id="orgb6234ac">Énoncé</h3>
+<div class="outline-text-3" id="text-orgb6234ac">
 <p>
 Implémenter une fonction <code>array_rev</code> prenant en entier un tableau <code>array</code> et s&rsquo;évaluant en un tableau <code>[|a.(n); a.(n-1); ...|]</code>
 Par exemple <code>array_rev [|3;2;1|]</code> s&rsquo;évalue en <code>[|1;2;3|]</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb44c06c" class="outline-3 spoiler">
-<h3 id="orgb44c06c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgb44c06c">
+<div id="outline-container-orgf7d514b" class="outline-3 spoiler">
+<h3 id="orgf7d514b">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgf7d514b">
 <p>
 Il faut initialiser un tableau résultat, le remplir avec une valeur du bon type puis une boucle for suffit pour remplir ce tableau par indice décroissant de <code>array</code>.
 </p>
@@ -347,13 +347,13 @@ On peut aussi procéder via <code>Array.init</code> ou bien <code>Array.map</cod
 </div>
 </div>
 </div>
-<div id="outline-container-org686bd20" class="outline-2">
-<h2 id="org686bd20">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org686bd20">
+<div id="outline-container-orgb79b5f8" class="outline-2">
+<h2 id="orgb79b5f8">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orgb79b5f8">
 </div>
-<div id="outline-container-org2cd0154" class="outline-3">
-<h3 id="org2cd0154">Énoncé</h3>
-<div class="outline-text-3" id="text-org2cd0154">
+<div id="outline-container-orgb9a0956" class="outline-3">
+<h3 id="orgb9a0956">Énoncé</h3>
+<div class="outline-text-3" id="text-orgb9a0956">
 <p>
 Implémentez une fonction <code>exp</code> qui prend deux entiers <code>a</code> et <code>n</code> et s&rsquo;évalue en \(a^n\).
 La complexité sera en \(O(\log(n))\) et vous n&rsquo;utiliserez pas de boucle.
@@ -361,9 +361,9 @@ Par exemple <code>exp 5 3</code> s&rsquo;évalue en <code>125</code>
 </p>
 </div>
 </div>
-<div id="outline-container-orgafe5858" class="outline-3 spoiler">
-<h3 id="orgafe5858">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgafe5858">
+<div id="outline-container-org545397a" class="outline-3 spoiler">
+<h3 id="org545397a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org545397a">
 <p>
 Il s&rsquo;agit de l&rsquo;algorithme classique d&rsquo;exponentiation rapide. Attention à ne <b>pas</b> faire deux appels récursifs mais bien un seul dans le cas <code>n</code> pair, sinon tout les gain en complexité sont perdus puisque les calculs sont dupliqués.
 </p>
@@ -380,13 +380,13 @@ Il s&rsquo;agit de l&rsquo;algorithme classique d&rsquo;exponentiation rapide. A
 </div>
 </div>
 </div>
-<div id="outline-container-orgdd3964d" class="outline-2">
-<h2 id="orgdd3964d">Image d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-orgdd3964d">
+<div id="outline-container-org04b4602" class="outline-2">
+<h2 id="org04b4602">Image d&rsquo;un tableau&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-org04b4602">
 </div>
-<div id="outline-container-org0c0a8b0" class="outline-3">
-<h3 id="org0c0a8b0">Énoncé</h3>
-<div class="outline-text-3" id="text-org0c0a8b0">
+<div id="outline-container-org0669161" class="outline-3">
+<h3 id="org0669161">Énoncé</h3>
+<div class="outline-text-3" id="text-org0669161">
 <p>
 Implémenter une fonction <code>array_map</code> prenant en entrée une fonction <code>f</code> et un tableau <code>array</code> et s&rsquo;évaluant en un tableau <code>[|f array.(0); f array.(1); ...|]</code>
 Par exemple <code>array_map (fun x -&gt; x + x) [|1;2;3|]</code> s&rsquo;évalue en <code>[|2;4;6|]</code>.
@@ -397,9 +397,9 @@ Cette fonction réplique le comportement de la fonction <code>Array.map</code> d
 </p>
 </div>
 </div>
-<div id="outline-container-org5369f05" class="outline-3 spoiler">
-<h3 id="org5369f05">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org5369f05">
+<div id="outline-container-org9ff6808" class="outline-3 spoiler">
+<h3 id="org9ff6808">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org9ff6808">
 <p>
 Ici il faut d&rsquo;abord créer le tableau résultat. Pour ça il faut obtenir une valeur initiale pour les cases dont le type doit être le même que celui des images de <code>f</code>. Une approche simple pour ceci consiste à évaluer <code>f</code> sur la première case du tableau <code>array</code>.
 Il ne faut pas oublier de &laquo;&nbsp;renvoyer&nbsp;&raquo; de résultat obtenu.
@@ -422,22 +422,22 @@ Ici, il était aussi possible d&rsquo;utiliser directement <code>Array.init</cod
 </div>
 </div>
 </div>
-<div id="outline-container-orga7b5fa1" class="outline-2">
-<h2 id="orga7b5fa1">Longueur d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orga7b5fa1">
+<div id="outline-container-orge14f6c5" class="outline-2">
+<h2 id="orge14f6c5">Longueur d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orge14f6c5">
 </div>
-<div id="outline-container-org28e2e74" class="outline-3">
-<h3 id="org28e2e74">Énoncé</h3>
-<div class="outline-text-3" id="text-org28e2e74">
+<div id="outline-container-org5a0aafe" class="outline-3">
+<h3 id="org5a0aafe">Énoncé</h3>
+<div class="outline-text-3" id="text-org5a0aafe">
 <p>
 Implémentez une fonction <code>list_length</code> qui s&rsquo;évalue en la longueur d&rsquo;une liste passée en argument.
 Par exemple <code>list_length [0;1;2]</code> s&rsquo;évalue en <code>3</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-org8c504c8" class="outline-3 spoiler">
-<h3 id="org8c504c8">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org8c504c8">
+<div id="outline-container-orga6d555b" class="outline-3 spoiler">
+<h3 id="orga6d555b">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orga6d555b">
 <p>
 Fonction classique.
 </p>
@@ -451,13 +451,13 @@ Fonction classique.
 </div>
 </div>
 </div>
-<div id="outline-container-orga92a437" class="outline-2">
-<h2 id="orga92a437">Fusion triée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orga92a437">
+<div id="outline-container-org0a0657c" class="outline-2">
+<h2 id="org0a0657c">Fusion triée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org0a0657c">
 </div>
-<div id="outline-container-orgc222108" class="outline-3">
-<h3 id="orgc222108">Énoncé</h3>
-<div class="outline-text-3" id="text-orgc222108">
+<div id="outline-container-org55cedad" class="outline-3">
+<h3 id="org55cedad">Énoncé</h3>
+<div class="outline-text-3" id="text-org55cedad">
 <p>
 Implémentez une fonction <code>sorted_merge</code> qui fusionne les éléments de deux listes triées dans l&rsquo;ordre croissant en une seule liste triée.
 </p>
@@ -467,9 +467,9 @@ Par exemple <code>sorted_merge [0;2;3;6] [1;4]</code> s&rsquo;évalue en <code>[
 </p>
 </div>
 </div>
-<div id="outline-container-org1b7f8c3" class="outline-3 spoiler">
-<h3 id="org1b7f8c3">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org1b7f8c3">
+<div id="outline-container-org6bd12dd" class="outline-3 spoiler">
+<h3 id="org6bd12dd">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org6bd12dd">
 <p>
 On parcourt simultanément les deux liste tant qu&rsquo;il reste des éléments, et on place en premier la plus petite des deux tête, puis on continue.
 C&rsquo;est la <b>très</b> classique fusion du tri fusion.
@@ -485,13 +485,13 @@ C&rsquo;est la <b>très</b> classique fusion du tri fusion.
 </div>
 </div>
 </div>
-<div id="outline-container-org7170a13" class="outline-2">
-<h2 id="org7170a13">Produit matriciel&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></h2>
-<div class="outline-text-2" id="text-org7170a13">
+<div id="outline-container-orga74df89" class="outline-2">
+<h2 id="orga74df89">Produit matriciel&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></h2>
+<div class="outline-text-2" id="text-orga74df89">
 </div>
-<div id="outline-container-orga854172" class="outline-3">
-<h3 id="orga854172">Énoncé</h3>
-<div class="outline-text-3" id="text-orga854172">
+<div id="outline-container-org9298bb5" class="outline-3">
+<h3 id="org9298bb5">Énoncé</h3>
+<div class="outline-text-3" id="text-org9298bb5">
 <p>
 Implémentez une fonction <code>matrix_product</code> qui réalise le produit de deux matrices représentées par des <code>float array array</code> dont les dimensions conviennent.
 </p>
@@ -505,9 +505,9 @@ Par exemple <code>matrix_product [|[|1.; 0.|];[|0.; 1.|]|] [|[|5.; 6.|];[|7.; 8.
 </p>
 </div>
 </div>
-<div id="outline-container-org5a831a9" class="outline-3 spoiler">
-<h3 id="org5a831a9">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org5a831a9">
+<div id="outline-container-org3f8a1f6" class="outline-3 spoiler">
+<h3 id="org3f8a1f6">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org3f8a1f6">
 <p>
 Il faut initialiser une matrice qui contiendra le résultat, on peut pour cela utiliser <code>Array.make_matrix</code>.
 Puis il suffit d&rsquo;appliquer la définition du produit matriciel via une triple boucle for.
@@ -543,13 +543,13 @@ On pourra se référer à l&rsquo;algorithme de Strassen si on souhaite une meil
 </div>
 </div>
 </div>
-<div id="outline-container-org3413e3e" class="outline-2">
-<h2 id="org3413e3e">Appartenance à une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org3413e3e">
+<div id="outline-container-org20a796b" class="outline-2">
+<h2 id="org20a796b">Appartenance à une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org20a796b">
 </div>
-<div id="outline-container-orge5f4b2d" class="outline-3">
-<h3 id="orge5f4b2d">Énoncé</h3>
-<div class="outline-text-3" id="text-orge5f4b2d">
+<div id="outline-container-orgb8a7594" class="outline-3">
+<h3 id="orgb8a7594">Énoncé</h3>
+<div class="outline-text-3" id="text-orgb8a7594">
 <p>
 Implémenter une fonction <code>list_mem</code> prenant en entrée un élément <code>e</code> et une liste <code>lst</code> et déterminant si <code>e</code> est une élément de <code>lst</code>.
 Par exemple <code>list_mem 5 [1;2;3]</code> s&rsquo;évalue en <code>false</code>.
@@ -560,9 +560,9 @@ Cette fonction réplique le comportement de la fonction <code>List.mem</code> du
 </p>
 </div>
 </div>
-<div id="outline-container-orgca1173c" class="outline-3 spoiler">
-<h3 id="orgca1173c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgca1173c">
+<div id="outline-container-orga3f9a89" class="outline-3 spoiler">
+<h3 id="orga3f9a89">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orga3f9a89">
 <p>
 Il suffit de parcourir la liste et de renvoyer <code>true</code> si on trouve <code>e</code> et false si on arrive à la fin. Attention dans le <code>match</code> on redéfinit la valeur de <code>e</code> si on <code>écrit =e::tail</code>.
 </p>
@@ -577,13 +577,13 @@ Il suffit de parcourir la liste et de renvoyer <code>true</code> si on trouve <c
 </div>
 </div>
 </div>
-<div id="outline-container-org3b52c36" class="outline-2">
-<h2 id="org3b52c36">Image d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-org3b52c36">
+<div id="outline-container-org1578d3b" class="outline-2">
+<h2 id="org1578d3b">Image d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-org1578d3b">
 </div>
-<div id="outline-container-orgd3a977b" class="outline-3">
-<h3 id="orgd3a977b">Énoncé</h3>
-<div class="outline-text-3" id="text-orgd3a977b">
+<div id="outline-container-org7fdf066" class="outline-3">
+<h3 id="org7fdf066">Énoncé</h3>
+<div class="outline-text-3" id="text-org7fdf066">
 <p>
 Implémenter une fonction <code>list_map</code> prenant en entrée une fonction <code>f</code> et une liste <code>lst</code> et s&rsquo;évaluant en une liste des images des éléments de <code>lst</code> par <code>f</code>.
 Par exemple <code>list_map (fun x -&gt; x + x) [1;2;3]</code> s&rsquo;évalue en <code>[2;4;6]</code>.
@@ -594,9 +594,9 @@ Cette fonction réplique le comportement de la fonction <code>List.map</code> du
 </p>
 </div>
 </div>
-<div id="outline-container-orgdcddd5c" class="outline-3 spoiler">
-<h3 id="orgdcddd5c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgdcddd5c">
+<div id="outline-container-org5c336e2" class="outline-3 spoiler">
+<h3 id="org5c336e2">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org5c336e2">
 <p>
 Il suffit de parcourir récursivement la liste et d&rsquo;appliquer <code>f</code> à tous les éléments rencontrés.
 </p>
@@ -610,22 +610,22 @@ Il suffit de parcourir récursivement la liste et d&rsquo;appliquer <code>f</cod
 </div>
 </div>
 </div>
-<div id="outline-container-orgb4cc340" class="outline-2">
-<h2 id="orgb4cc340">Somme si&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-orgb4cc340">
+<div id="outline-container-org13549b4" class="outline-2">
+<h2 id="org13549b4">Somme si&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-org13549b4">
 </div>
-<div id="outline-container-org234567a" class="outline-3">
-<h3 id="org234567a">Énoncé</h3>
-<div class="outline-text-3" id="text-org234567a">
+<div id="outline-container-org28c6edd" class="outline-3">
+<h3 id="org28c6edd">Énoncé</h3>
+<div class="outline-text-3" id="text-org28c6edd">
 <p>
 On considère une liste d&rsquo;entiers <code>lst</code> et un prédicat sur les entiers <code>p</code>. Implémentez une fonction <code>sum_if</code> qui s&rsquo;évalue en la somme des éléments de la liste qui vérifient le prédicat.
 Par exemple <code>sum_if (fun x -&gt; x mod 2 = 0) [1;3;5]</code> s&rsquo;évalue en <code>0</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org64926f5" class="outline-3 spoiler">
-<h3 id="org64926f5">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org64926f5">
+<div id="outline-container-org62c398d" class="outline-3 spoiler">
+<h3 id="org62c398d">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org62c398d">
 <p>
 On parcourt simplement la liste en vérifiant le prédicat avant de sommer.
 </p>
@@ -640,13 +640,13 @@ On parcourt simplement la liste en vérifiant le prédicat avant de sommer.
 </div>
 </div>
 </div>
-<div id="outline-container-org07cc351" class="outline-2">
-<h2 id="org07cc351">Indice du plus petit élément d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="exception">exception</span></span></h2>
-<div class="outline-text-2" id="text-org07cc351">
+<div id="outline-container-org1a8ba02" class="outline-2">
+<h2 id="org1a8ba02">Indice du plus petit élément d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="exception">exception</span></span></h2>
+<div class="outline-text-2" id="text-org1a8ba02">
 </div>
-<div id="outline-container-org3410f64" class="outline-3">
-<h3 id="org3410f64">Énoncé</h3>
-<div class="outline-text-3" id="text-org3410f64">
+<div id="outline-container-org108481d" class="outline-3">
+<h3 id="org108481d">Énoncé</h3>
+<div class="outline-text-3" id="text-org108481d">
 <p>
 Implémentez une fonction <code>min_and_argmin</code> qui s&rsquo;évalue en un couple du plus petit élément d&rsquo;une liste et de son indice dans la liste. Dans le cas d&rsquo;une liste vide, une exception sera levée. Si la liste contient des doublons, <code>min_and_argmin</code> choisira le min avec l&rsquo;indice le plus faible.
 </p>
@@ -660,9 +660,9 @@ Vous n&rsquo;utiliserez pas de boucle.
 </p>
 </div>
 </div>
-<div id="outline-container-org3affac2" class="outline-3 spoiler">
-<h3 id="org3affac2">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org3affac2">
+<div id="outline-container-org523f1fd" class="outline-3 spoiler">
+<h3 id="org523f1fd">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org523f1fd">
 <p>
 On introduit une fonction auxiliaire avec un argument supplémentaire pour indiquant l&rsquo;index courant dans la liste. On fait un cas particulier pour la liste vide <b>et</b> pour la liste à un seul élément pour éviter de systématiquement lever une exception.
 </p>
@@ -685,13 +685,13 @@ Puis on appel cet fonction avec comme indice initial 0.
 </div>
 </div>
 </div>
-<div id="outline-container-org04a93e6" class="outline-2">
-<h2 id="org04a93e6">Zip&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org04a93e6">
+<div id="outline-container-org689a8e3" class="outline-2">
+<h2 id="org689a8e3">Zip&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org689a8e3">
 </div>
-<div id="outline-container-orge2df07d" class="outline-3">
-<h3 id="orge2df07d">Énoncé</h3>
-<div class="outline-text-3" id="text-orge2df07d">
+<div id="outline-container-org187b4cb" class="outline-3">
+<h3 id="org187b4cb">Énoncé</h3>
+<div class="outline-text-3" id="text-org187b4cb">
 <p>
 Implémentez une fonction <code>zip</code> qui prend en argument deux listes en s&rsquo;évalue en une liste des couples des éléments de même rang de ces deux listes. Si les listes sont de taille différente, une exception sera levée.
 </p>
@@ -701,9 +701,9 @@ Par exemple <code>zip [1;2;3] [4;5;6]</code> s&rsquo;évalue en <code>[(1,4);(2,
 </p>
 </div>
 </div>
-<div id="outline-container-org0962939" class="outline-3 spoiler">
-<h3 id="org0962939">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org0962939">
+<div id="outline-container-orgc2a232a" class="outline-3 spoiler">
+<h3 id="orgc2a232a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgc2a232a">
 <p>
 Il suffit de parcourir récursivement les deux listes.
 </p>
@@ -718,22 +718,22 @@ Il suffit de parcourir récursivement les deux listes.
 </div>
 </div>
 </div>
-<div id="outline-container-org2543b74" class="outline-2">
-<h2 id="org2543b74">Renversement d&rsquo;un tableau en place&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></h2>
-<div class="outline-text-2" id="text-org2543b74">
+<div id="outline-container-orga5c249b" class="outline-2">
+<h2 id="orga5c249b">Renversement d&rsquo;un tableau en place&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span></span></h2>
+<div class="outline-text-2" id="text-orga5c249b">
 </div>
-<div id="outline-container-org644272c" class="outline-3">
-<h3 id="org644272c">Énoncé</h3>
-<div class="outline-text-3" id="text-org644272c">
+<div id="outline-container-org27c59a1" class="outline-3">
+<h3 id="org27c59a1">Énoncé</h3>
+<div class="outline-text-3" id="text-org27c59a1">
 <p>
 Implémenter une fonction <code>array_inplace_rev</code> prenant en entier un tableau <code>array</code> et inversant l&rsquo;ordre de ses cases.
 Par exemple <code>array_inplace_rev [|3;2;1|]</code> modifiera le contenu du tableau en <code>[|1;2;3|]</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd0e9857" class="outline-3 spoiler">
-<h3 id="orgd0e9857">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd0e9857">
+<div id="outline-container-orgea4ac59" class="outline-3 spoiler">
+<h3 id="orgea4ac59">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgea4ac59">
 <p>
 Il faut initialiser un tableau résultat, le remplir avec une valeur du bon type puis une boucle for suffit pour remplir ce tableau par indice décroissant de <code>array</code>.
 </p>
@@ -765,13 +765,13 @@ On pourrait s&rsquo;économiser la première boucle via <code>Array.init</code> 
 </div>
 </div>
 </div>
-<div id="outline-container-org41206c1" class="outline-2">
-<h2 id="org41206c1">Mémoïsation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dictionnaire">dictionnaire</span>&#xa0;<span class="r_cursif">récursif</span></span></h2>
-<div class="outline-text-2" id="text-org41206c1">
+<div id="outline-container-org66f395a" class="outline-2">
+<h2 id="org66f395a">Mémoïsation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dictionnaire">dictionnaire</span>&#xa0;<span class="r_cursif">récursif</span></span></h2>
+<div class="outline-text-2" id="text-org66f395a">
 </div>
-<div id="outline-container-orgefbae9e" class="outline-3">
-<h3 id="orgefbae9e">Énoncé</h3>
-<div class="outline-text-3" id="text-orgefbae9e">
+<div id="outline-container-org82d1cef" class="outline-3">
+<h3 id="org82d1cef">Énoncé</h3>
+<div class="outline-text-3" id="text-org82d1cef">
 <p>
 On considère la suite \(u_n\) définit récursivement pour \(n > 0\) par
 </p>
@@ -782,13 +782,13 @@ On considère la suite \(u_n\) définit récursivement pour \(n > 0\) par
 </ul>
 <p>
 Implémentez une fonction <code>u</code> s&rsquo;évaluant en le terme de rang <code>n</code> de la suite quand on lui passe <code>n</code> en argument. Pour minimiser le temps de calcul nécessaire tout en gardant une consommation mémoire raisonnable vous prendrez soit de mémoïser le calcul des termes nécessaires pour \(u_n\) à l&rsquo;aide d&rsquo;un dictionnaire tel qu&rsquo;implémenté par le module <code>Hashtbl</code> de la bibliothèque standard d&rsquo;OCaml.
-Par exemple, \(u_70 = 87\)
+Par exemple, \(u_{70} = 87\)
 </p>
 </div>
 </div>
-<div id="outline-container-org2f47432" class="outline-3 spoiler">
-<h3 id="org2f47432">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org2f47432">
+<div id="outline-container-org4f975cc" class="outline-3 spoiler">
+<h3 id="org4f975cc">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org4f975cc">
 <p>
 On commence par écrire une fonction auxiliaire récursive qui s&rsquo;appuie sur un dictionnaire passé en argument pour mémoïser le calcul, ensuite on peut faire la fonction attendue qui va créer le dictionnaire nécessaire puis appeler la fonction auxiliaire en lui fournissant le dictionnaire attendu.
 Avant de réaliser un calcul, on vérifiera dans la fonction auxiliaire que le résultat de ce calcul n&rsquo;est pas déjà stocké dans le dictionnaire, et après avoir réalisé un calcul, on ajoutera le résultat dans le dictionnaire.
@@ -803,10 +803,14 @@ On remarque que si \(n = 2k+1\), \(n-2 = 2k-1\) pour gérer le deuxième cas de 
   <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">si on connait d&#233;j&#224; le r&#233;sultat, on le renvoie</span><span style="color: #9ca0a4;">*)</span>
   |n <span style="color: #e45649;">when</span> <span style="color: #986801;">Hashtbl.</span>mem dict n -&gt; <span style="color: #986801;">Hashtbl.</span>find dict n
   <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">Sinon, on calcule le r&#233;sultat, on l'ajoute au dictionnaire et on le renvoie</span><span style="color: #9ca0a4;">*)</span>
-  |n <span style="color: #e45649;">when</span> n <span style="color: #a52a2a;">mod</span> <span style="color: #da8548; font-weight: bold;">2</span> = <span style="color: #da8548; font-weight: bold;">0</span> -&gt; <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">u_k</span> = u_with_dict dict (n/<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">in</span> <span style="color: #986801;">Hashtbl.</span>add dict n u_k; u_k
-  |n -&gt; <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">n mod 2 = 1 ici</span><span style="color: #9ca0a4;"> *)</span> <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">u_k</span> = u_with_dict dict ((n-<span style="color: #da8548; font-weight: bold;">1</span>)/<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">and</span> <span style="color: #6a1868;">u_2k_minus_1</span> = u_with_dict dict (n-<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">in</span>
-                         <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">r</span> = (u_k + u_2k_minus_1)
-                         <span style="color: #000000; font-weight: bold;">in</span> (<span style="color: #986801;">Hashtbl.</span>add dict n r; r)
+  |n <span style="color: #e45649;">when</span> n <span style="color: #a52a2a;">mod</span> <span style="color: #da8548; font-weight: bold;">2</span> = <span style="color: #da8548; font-weight: bold;">0</span> -&gt;
+    <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">u_k</span> = u_with_dict dict (n/<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">in</span>
+    <span style="color: #986801;">Hashtbl.</span>add dict n u_k; u_k
+  |n -&gt; <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">n mod 2 = 1 ici</span><span style="color: #9ca0a4;"> *)</span>
+    <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">u_k</span> = u_with_dict dict ((n-<span style="color: #da8548; font-weight: bold;">1</span>)/<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">and</span>
+        <span style="color: #6a1868;">u_2k_minus_1</span> = u_with_dict dict (n-<span style="color: #da8548; font-weight: bold;">2</span>) <span style="color: #000000; font-weight: bold;">in</span>
+          <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">r</span> = (u_k + u_2k_minus_1) <span style="color: #000000; font-weight: bold;">in</span>
+            (<span style="color: #986801;">Hashtbl.</span>add dict n r; r)
 
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #a626a4;">u</span> <span style="color: #6a1868;">n</span> =
   <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">d</span> = <span style="color: #986801;">Hashtbl.</span>create <span style="color: #da8548; font-weight: bold;">5</span> <span style="color: #000000; font-weight: bold;">in</span>
@@ -816,13 +820,13 @@ On remarque que si \(n = 2k+1\), \(n-2 = 2k-1\) pour gérer le deuxième cas de 
 </div>
 </div>
 </div>
-<div id="outline-container-orgfc3be6e" class="outline-2">
-<h2 id="orgfc3be6e">Nombre de Strahler&#xa0;&#xa0;&#xa0;<span class="tag"><span class="arbre">arbre</span>&#xa0;<span class="type_rec">type_rec</span></span></h2>
-<div class="outline-text-2" id="text-orgfc3be6e">
+<div id="outline-container-org37f802a" class="outline-2">
+<h2 id="org37f802a">Nombre de Strahler&#xa0;&#xa0;&#xa0;<span class="tag"><span class="arbre">arbre</span>&#xa0;<span class="type_rec">type_rec</span></span></h2>
+<div class="outline-text-2" id="text-org37f802a">
 </div>
-<div id="outline-container-org352eb97" class="outline-3">
-<h3 id="org352eb97">Énoncé</h3>
-<div class="outline-text-3" id="text-org352eb97">
+<div id="outline-container-org792c2a7" class="outline-3">
+<h3 id="org792c2a7">Énoncé</h3>
+<div class="outline-text-3" id="text-org792c2a7">
 <p>
 On s&rsquo;intéresse à des arbres d&rsquo;arité non bornée, implémentés de la manière suivante:
 </p>
@@ -852,9 +856,9 @@ Implémenter une fonction <code>strahler</code> qui calcule le nombre de Strahle
 </p>
 </div>
 </div>
-<div id="outline-container-org064a766" class="outline-3 spoiler">
-<h3 id="org064a766">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org064a766">
+<div id="outline-container-org9b1ccf2" class="outline-3 spoiler">
+<h3 id="org9b1ccf2">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org9b1ccf2">
 <p>
 On commence par implémenter une fonction calculant le nombre de Strahler d&rsquo;un arbre dont on connait le nombre de Strahler des enfants. Pour cela on parcourt la liste des nombres de Strahler des enfants, en renvoie le max et le nombre d&rsquo;occurrences de ce max.
 </p>
@@ -889,13 +893,13 @@ On peut obtenir la liste des nombre de Strahler des enfants via l&rsquo;utilisat
 </div>
 </div>
 </div>
-<div id="outline-container-org8a4c7f9" class="outline-2">
-<h2 id="org8a4c7f9">Chiffrement de César</h2>
-<div class="outline-text-2" id="text-org8a4c7f9">
+<div id="outline-container-orgd3252c7" class="outline-2">
+<h2 id="orgd3252c7">Chiffrement de César</h2>
+<div class="outline-text-2" id="text-orgd3252c7">
 </div>
-<div id="outline-container-org3178bc4" class="outline-3">
-<h3 id="org3178bc4">Énoncé</h3>
-<div class="outline-text-3" id="text-org3178bc4">
+<div id="outline-container-orgdd44103" class="outline-3">
+<h3 id="orgdd44103">Énoncé</h3>
+<div class="outline-text-3" id="text-orgdd44103">
 <p>
 Le chiffrement de César consiste modifier le contenu d&rsquo;un message de manière en décalant chaque lettre d&rsquo;un nombre de positions fixe dans l&rsquo;alphabet. Par exemple, pour un décalage de 1, le mot &laquo;&nbsp;HAL&nbsp;&raquo; devient &laquo;&nbsp;IBM&nbsp;&raquo;.
 Implémentez une fonction <code>caesar_encrypt</code> qui chiffre une chaîne de caractère représentant un message à l&rsquo;aide d&rsquo;une clé de décalage.
@@ -906,9 +910,9 @@ Seules les lettres seront modifiées, les autres caractères seront laissés inc
 </p>
 </div>
 </div>
-<div id="outline-container-org2d248b2" class="outline-3 spoiler">
-<h3 id="org2d248b2">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org2d248b2">
+<div id="outline-container-org7814b02" class="outline-3 spoiler">
+<h3 id="org7814b02">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org7814b02">
 <p>
 Pour se simplifier la vie, on commence par implémenter une conversion de <code>string</code> vers <code>char list</code>.
 Ensuite on implémente une fonction pour chiffrer un seul caractère.
@@ -954,13 +958,13 @@ Attention aux modulos négatifs !
 </div>
 </div>
 </div>
-<div id="outline-container-org7c41623" class="outline-2">
-<h2 id="org7c41623">Compter les 0&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dict">dict</span></span></h2>
-<div class="outline-text-2" id="text-org7c41623">
+<div id="outline-container-org670f821" class="outline-2">
+<h2 id="org670f821">Compter les 0&#xa0;&#xa0;&#xa0;<span class="tag"><span class="dict">dict</span></span></h2>
+<div class="outline-text-2" id="text-org670f821">
 </div>
-<div id="outline-container-orgfe68baa" class="outline-3">
-<h3 id="orgfe68baa">Énoncé</h3>
-<div class="outline-text-3" id="text-orgfe68baa">
+<div id="outline-container-org6fce990" class="outline-3">
+<h3 id="org6fce990">Énoncé</h3>
+<div class="outline-text-3" id="text-org6fce990">
 <p>
 On s&rsquo;intéresse au nombre de 0 présents en fin d&rsquo;écriture décimale de \(n!\).
 Implémentez une fonction qui compte ces 0. Vous éviterez de passer par le calcul direct de \(n!\) afin de ne pas vous exposer aux dépassent de capacité sur les entiers.
@@ -968,9 +972,9 @@ Afin de rendre la fonction aussi efficace que possible vous pourrez exploiter la
 </p>
 </div>
 </div>
-<div id="outline-container-org10faeb0" class="outline-3 spoiler">
-<h3 id="org10faeb0">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org10faeb0">
+<div id="outline-container-org5418935" class="outline-3 spoiler">
+<h3 id="org5418935">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org5418935">
 <p>
 Pour savoir combien de facteur 10 possède \(n!\), il suffit de compter les facteurs 2 et 5, et de prendre le minimum des deux.
 </p>
@@ -1019,22 +1023,22 @@ Par exemple, on pourra vérifier que 25! possède 6 0 en fin d&rsquo;écriture d
 </div>
 </div>
 </div>
-<div id="outline-container-orgf81c63d" class="outline-2">
-<h2 id="orgf81c63d">Découpage alterné de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orgf81c63d">
+<div id="outline-container-orgb70347e" class="outline-2">
+<h2 id="orgb70347e">Découpage alterné de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orgb70347e">
 </div>
-<div id="outline-container-orgee06f4e" class="outline-3">
-<h3 id="orgee06f4e">Énoncé</h3>
-<div class="outline-text-3" id="text-orgee06f4e">
+<div id="outline-container-orga5cd5e3" class="outline-3">
+<h3 id="orga5cd5e3">Énoncé</h3>
+<div class="outline-text-3" id="text-orga5cd5e3">
 <p>
 Implémentez une fonction <code>alternate_split_list</code> qui prend en argument une liste et s&rsquo;évalue en un couple de liste, la première contenant les éléments de rang pair et la seconde les éléments de rang impair. Vous n&rsquo;utiliserez pas de boucle dans cette fonction.
 Par exemple <code>alternate_split_list [1;2;3]</code> s&rsquo;évaluera en <code>([1;3], [2])</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org61e7cae" class="outline-3 spoiler">
-<h3 id="org61e7cae">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org61e7cae">
+<div id="outline-container-orgfcec27c" class="outline-3 spoiler">
+<h3 id="orgfcec27c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgfcec27c">
 <p>
 On peut procéder via un filtrage en traitant les terme deux par deux, le premier étant de rang pair et le second de rang impair. Il suffit alors de les ajouter en tête des listes obtenues via un appel récursif sur la liste initial privée de ces deux éléments. Comme les éléments sont traités deux par deux, il faut un cas pour la liste vide <b>et</b> un cas pour la liste ne contenant qu&rsquo;un seul élément.
 </p>
@@ -1050,13 +1054,13 @@ On peut procéder via un filtrage en traitant les terme deux par deux, le premie
 </div>
 </div>
 </div>
-<div id="outline-container-org1ad4b78" class="outline-2">
-<h2 id="org1ad4b78">Évaluation d&rsquo;un polynôme en un point (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-org1ad4b78">
+<div id="outline-container-orgb6268b3" class="outline-2">
+<h2 id="orgb6268b3">Évaluation d&rsquo;un polynôme en un point (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tableau">tableau</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-orgb6268b3">
 </div>
-<div id="outline-container-orgbd85826" class="outline-3">
-<h3 id="orgbd85826">Énoncé</h3>
-<div class="outline-text-3" id="text-orgbd85826">
+<div id="outline-container-org9e3f11b" class="outline-3">
+<h3 id="org9e3f11b">Énoncé</h3>
+<div class="outline-text-3" id="text-org9e3f11b">
 <p>
 On considère un polynôme à coefficients <code>float</code> représenté par le tableau de ses coefficients. La case <code>i</code> contient le coefficient de degré <code>i</code>.
 Implémentez une fonction <code>eval_at_array</code> qui prend ce polynôme et un flottant et évalue ce polynôme en ce flottant.
@@ -1071,9 +1075,9 @@ Par exemple <code>eval_at_array [|5.;6.|] 1.</code> s&rsquo;évalue en <code>11.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd506784" class="outline-3 spoiler">
-<h3 id="orgd506784">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd506784">
+<div id="outline-container-orgb8d3993" class="outline-3 spoiler">
+<h3 id="orgb8d3993">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgb8d3993">
 <p>
 Pour éviter les coûts liés aux calculs des puissances itérées, on peut calculer dans l&rsquo;orde \(x^0\) puis \(x^1\), puis \(x^2\) en temps constant à partir de la puissance précédente. Ici on accumule le résultat dans la référence <code>result</code>.
 </p>
@@ -1093,13 +1097,13 @@ Pour éviter les coûts liés aux calculs des puissances itérées, on peut calc
 </div>
 </div>
 </div>
-<div id="outline-container-org6e353d4" class="outline-2">
-<h2 id="org6e353d4">Calcul de la dérivée d&rsquo;un polynôme (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org6e353d4">
+<div id="outline-container-orgd204f7f" class="outline-2">
+<h2 id="orgd204f7f">Calcul de la dérivée d&rsquo;un polynôme (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-orgd204f7f">
 </div>
-<div id="outline-container-orgd897c55" class="outline-3">
-<h3 id="orgd897c55">Énoncé</h3>
-<div class="outline-text-3" id="text-orgd897c55">
+<div id="outline-container-org545f249" class="outline-3">
+<h3 id="org545f249">Énoncé</h3>
+<div class="outline-text-3" id="text-org545f249">
 <p>
 On considère un polynôme à coefficients <code>float</code> représenté par la listes de ses coefficients. Le terme de rang <code>i</code> contient le coefficient de degré <code>i</code>.
 Implémentez une fonction <code>diff_p_list</code> qui prend ce polynôme et un flottant et s&rsquo;évalue en la dérivée formelle de ce polynôme.
@@ -1114,9 +1118,9 @@ Par exemple <code>diff_p_list [5.; 6.; 7.]</code> s&rsquo;évalue en <code>[6.; 
 </p>
 </div>
 </div>
-<div id="outline-container-org36bb18c" class="outline-3 spoiler">
-<h3 id="org36bb18c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org36bb18c">
+<div id="outline-container-orgb1568f8" class="outline-3 spoiler">
+<h3 id="orgb1568f8">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgb1568f8">
 <p>
 On commence par faire une fonction récursive qui multiplie chaque coefficient par une séquence de valeur consécutives (qui sont censés être le rang des coefficients).
 </p>
@@ -1132,7 +1136,8 @@ Il ne faut pas oublier de faire disparaitre le coefficient constant, décalant a
 <pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">diff_with_power</span> <span style="color: #6a1868;">lst</span> <span style="color: #6a1868;">current_power</span> =
   <span style="color: #e45649;">match</span> lst <span style="color: #e45649;">with</span>
     |<span style="color: #383a42; background-color: #fafafa;">[]</span> -&gt; <span style="color: #383a42; background-color: #fafafa;">[]</span>
-    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt; (head *. current_power) <span style="color: #383a42; background-color: #fafafa;">::</span> (diff_with_power tail (current_power +. <span style="color: #da8548; font-weight: bold;">1</span>.))
+    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt;
+      (head *. current_power) <span style="color: #383a42; background-color: #fafafa;">::</span> (diff_with_power tail (current_power +. <span style="color: #da8548; font-weight: bold;">1</span>.))
 
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #a626a4;">diff_p_list</span> <span style="color: #6a1868;">p</span> =
   <span style="color: #e45649;">match</span> p <span style="color: #e45649;">with</span>
@@ -1143,13 +1148,13 @@ Il ne faut pas oublier de faire disparaitre le coefficient constant, décalant a
 </div>
 </div>
 </div>
-<div id="outline-container-org9f33755" class="outline-2">
-<h2 id="org9f33755">Nombre de diviseurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="exception">exception</span></span></h2>
-<div class="outline-text-2" id="text-org9f33755">
+<div id="outline-container-org34ccfeb" class="outline-2">
+<h2 id="org34ccfeb">Nombre de diviseurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="exception">exception</span></span></h2>
+<div class="outline-text-2" id="text-org34ccfeb">
 </div>
-<div id="outline-container-org11f6139" class="outline-3">
-<h3 id="org11f6139">Énoncé</h3>
-<div class="outline-text-3" id="text-org11f6139">
+<div id="outline-container-org738f180" class="outline-3">
+<h3 id="org738f180">Énoncé</h3>
+<div class="outline-text-3" id="text-org738f180">
 <p>
 Implémentez une fonction <code>div</code> qui calcule le nombre de diviseurs d&rsquo;un entier <code>n</code> donné.
 </p>
@@ -1163,9 +1168,9 @@ Dans le cas \(n=0\), <code>div</code> lèvera une exception.
 </p>
 </div>
 </div>
-<div id="outline-container-org427b411" class="outline-3 spoiler">
-<h3 id="org427b411">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org427b411">
+<div id="outline-container-org23248d9" class="outline-3 spoiler">
+<h3 id="org23248d9">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org23248d9">
 <p>
 Il suffit de faire une boucle for
 </p>
@@ -1185,24 +1190,34 @@ Il suffit de faire une boucle for
 </div>
 </div>
 </div>
-<div id="outline-container-org2655be1" class="outline-2">
-<h2 id="org2655be1">Expression arithmétique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="arbre">arbre</span>&#xa0;<span class="option">option</span></span></h2>
-<div class="outline-text-2" id="text-org2655be1">
+<div id="outline-container-orgb0356a1" class="outline-2">
+<h2 id="orgb0356a1">Expression arithmétique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="arbre">arbre</span>&#xa0;<span class="option">option</span></span></h2>
+<div class="outline-text-2" id="text-orgb0356a1">
 </div>
-<div id="outline-container-org51952dd" class="outline-3">
-<h3 id="org51952dd">Énoncé</h3>
-<div class="outline-text-3" id="text-org51952dd">
+<div id="outline-container-org1942440" class="outline-3">
+<h3 id="org1942440">Énoncé</h3>
+<div class="outline-text-3" id="text-org1942440">
 <p>
-On considère des expression arithmétiques représentées par le type suivant <code>type expr = Value of int | Plus of expr * expr | Minus of expr * expr | Product of expr * expr | Div of expr * expr</code>.
+On considère des expression arithmétiques représentées par le type suivant
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">expr</span> = <span style="color: #383a42; background-color: #fafafa;">Value</span> <span style="color: #e45649;">of</span> int
+          | <span style="color: #383a42; background-color: #fafafa;">Plus</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Minus</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Product</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Div</span> <span style="color: #e45649;">of</span> expr * expr
+</pre>
+</div>
+<p>
 Implémentez une fonction <code>eval_expr</code> qui évalue une telle expression.
 Vous utiliserez un type option pour gérer le cas des expressions dont la valeur n&rsquo;est pas définie.
 Par exemple <code>eval_expr (Plus (Value 1, Minus (Value 0, Value 1)))</code> s&rsquo;évalue en <code>Some 0</code> et <code>eval_expr (Div (Value 1, Value 0))</code> s&rsquo;évalue en <code>None</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-org7f39c71" class="outline-3 spoiler">
-<h3 id="org7f39c71">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org7f39c71">
+<div id="outline-container-org57c2910" class="outline-3 spoiler">
+<h3 id="org57c2910">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org57c2910">
 <p>
 Il s&rsquo;agit de faire un parcours récursif de l&rsquo;arbre représentant l&rsquo;expression.
 </p>
@@ -1215,7 +1230,12 @@ Il ne faut pas oublier de gérer les cas des expression qui non définies, qui s
 Pour la division, il faut aussi gérer le cas où le diviseur vaut 0, et dans ce cas, la division n&rsquo;est pas définie.
 </p>
 <div class="org-src-container">
-<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">expr</span> = <span style="color: #383a42; background-color: #fafafa;">Value</span> <span style="color: #e45649;">of</span> int | <span style="color: #383a42; background-color: #fafafa;">Plus</span> <span style="color: #e45649;">of</span> expr * expr | <span style="color: #383a42; background-color: #fafafa;">Minus</span> <span style="color: #e45649;">of</span> expr * expr | <span style="color: #383a42; background-color: #fafafa;">Product</span> <span style="color: #e45649;">of</span> expr * expr | <span style="color: #383a42; background-color: #fafafa;">Div</span> <span style="color: #e45649;">of</span> expr * expr
+<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">expr</span> = <span style="color: #383a42; background-color: #fafafa;">Value</span> <span style="color: #e45649;">of</span> int
+          | <span style="color: #383a42; background-color: #fafafa;">Plus</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Minus</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Product</span> <span style="color: #e45649;">of</span> expr * expr
+          | <span style="color: #383a42; background-color: #fafafa;">Div</span> <span style="color: #e45649;">of</span> expr * expr
+
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">eval_expr</span> <span style="color: #6a1868;">e</span> =
   <span style="color: #e45649;">match</span> e <span style="color: #e45649;">with</span>
   |<span style="color: #383a42; background-color: #fafafa;">Value</span> i -&gt; <span style="color: #383a42; background-color: #fafafa;">Some</span> i
@@ -1245,13 +1265,13 @@ Pour la division, il faut aussi gérer le cas où le diviseur vaut 0, et dans ce
 </div>
 </div>
 </div>
-<div id="outline-container-org38a5797" class="outline-2">
-<h2 id="org38a5797">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-org38a5797">
+<div id="outline-container-orgbdd6603" class="outline-2">
+<h2 id="orgbdd6603">Exponentiation rapide&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-orgbdd6603">
 </div>
-<div id="outline-container-org5e49766" class="outline-3">
-<h3 id="org5e49766">Énoncé</h3>
-<div class="outline-text-3" id="text-org5e49766">
+<div id="outline-container-org1936498" class="outline-3">
+<h3 id="org1936498">Énoncé</h3>
+<div class="outline-text-3" id="text-org1936498">
 <p>
 Implémentez une fonction <code>exp</code> qui prend deux entiers <code>a</code> et <code>n</code> et s&rsquo;évalue en \(a^n\).
 La complexité sera en \(O(\log(n))\) et vous n&rsquo;utiliserez pas de fonction récursive.
@@ -1259,9 +1279,9 @@ Par exemple <code>exp 5 3</code> s&rsquo;évalue en <code>125</code>
 </p>
 </div>
 </div>
-<div id="outline-container-orgaf867ed" class="outline-3 spoiler">
-<h3 id="orgaf867ed">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgaf867ed">
+<div id="outline-container-orgd0f3aa0" class="outline-3 spoiler">
+<h3 id="orgd0f3aa0">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgd0f3aa0">
 <p>
 Il s&rsquo;agit de l&rsquo;algorithme classique d&rsquo;exponentiation rapide exploitant la relation \(a^{2n} = (a^2)^n\) et \(a^{2n+1} = a×a^{2n}\).
 On peut vérifier la correction via l&rsquo;invariant de boucle <code>a^n = !result * !current_base ^current_power</code> avec en sortie <code>!current_power =0</code>
@@ -1289,13 +1309,13 @@ On peut vérifier la correction via l&rsquo;invariant de boucle <code>a^n = !res
 </div>
 </div>
 </div>
-<div id="outline-container-orgba78b8b" class="outline-2">
-<h2 id="orgba78b8b">Bon parenthésage (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-orgba78b8b">
+<div id="outline-container-org38aa0cb" class="outline-2">
+<h2 id="org38aa0cb">Bon parenthésage (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org38aa0cb">
 </div>
-<div id="outline-container-orge26861a" class="outline-3">
-<h3 id="orge26861a">Énoncé</h3>
-<div class="outline-text-3" id="text-orge26861a">
+<div id="outline-container-orge162c2a" class="outline-3">
+<h3 id="orge162c2a">Énoncé</h3>
+<div class="outline-text-3" id="text-orge162c2a">
 <p>
 On considère une chaîne de caractères ne contenant que des <code>'('</code> et <code>')'</code>.
 Implémentez une fonction <code>is_well_braced</code> vérifiant s&rsquo;il s&rsquo;agit ou non d&rsquo;une expression bien parenthésée.
@@ -1304,9 +1324,9 @@ Vous n&rsquo;utiliserez pas de fonction récursive.
 </p>
 </div>
 </div>
-<div id="outline-container-org6c69ee8" class="outline-3 spoiler">
-<h3 id="org6c69ee8">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org6c69ee8">
+<div id="outline-container-org4d24070" class="outline-3 spoiler">
+<h3 id="org4d24070">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org4d24070">
 <p>
 On s&rsquo;appuie sur le fait que dans une expression bien parenthésée, le nombre de parenthèses ouvrantes depuis le début est toujours supérieur ou égal à celui des parenthèses fermantes et qu&rsquo;à la fin, il y a autant de chaque paire.
 On compte donc le nombre de chaque espèces rencontré jusque là tant qu&rsquo;on n&rsquo;a pas vu de problème (et qu&rsquo;on ne sort pas de la chaîne de caractères).
@@ -1331,13 +1351,13 @@ On compte donc le nombre de chaque espèces rencontré jusque là tant qu&rsquo;
 </div>
 </div>
 </div>
-<div id="outline-container-orgaa820eb" class="outline-2">
-<h2 id="orgaa820eb">Bon parenthésage multiple&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Stack">Stack</span></span></h2>
-<div class="outline-text-2" id="text-orgaa820eb">
+<div id="outline-container-orgdbc93b0" class="outline-2">
+<h2 id="orgdbc93b0">Bon parenthésage multiple&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Stack">Stack</span></span></h2>
+<div class="outline-text-2" id="text-orgdbc93b0">
 </div>
-<div id="outline-container-orga3b31f2" class="outline-3">
-<h3 id="orga3b31f2">Énoncé</h3>
-<div class="outline-text-3" id="text-orga3b31f2">
+<div id="outline-container-org0864701" class="outline-3">
+<h3 id="org0864701">Énoncé</h3>
+<div class="outline-text-3" id="text-org0864701">
 <p>
 On considère une chaîne de caractères ne contenant que des caractères parmi <code>"()[]{}"</code>.
 Implémentez une fonction <code>is_well_braced_multi</code> vérifiant s&rsquo;il s&rsquo;agit ou non d&rsquo;une expression bien parenthésée.
@@ -1346,9 +1366,9 @@ Vous pourrez vous aider du module <code>Stack</code> de la bibliothèque standar
 </p>
 </div>
 </div>
-<div id="outline-container-orgc56803a" class="outline-3 spoiler">
-<h3 id="orgc56803a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgc56803a">
+<div id="outline-container-org7ab09c4" class="outline-3 spoiler">
+<h3 id="org7ab09c4">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org7ab09c4">
 <p>
 Pour vérifier le bon parenthésage, on utilise une pile dans laquelle on entrepose chaque caractère ouvrant, et lorsqu&rsquo;on rencontre un caractère fermant, on vérifie que le caractère ouvrant du dessus de pile correspond bien au caractère fermant lu. Dans le cas contraire on sait que l&rsquo;expression n&rsquo;est pas bien parenthésée. En fin de parcours de l&rsquo;expression, on vérifie que la pile est bien vide.
 </p>
@@ -1381,22 +1401,22 @@ Pour vérifier le bon parenthésage, on utilise une pile dans laquelle on entrep
 </div>
 </div>
 </div>
-<div id="outline-container-orgcaf7410" class="outline-2">
-<h2 id="orgcaf7410">Somme impaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orgcaf7410">
+<div id="outline-container-org34b262c" class="outline-2">
+<h2 id="org34b262c">Somme impaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org34b262c">
 </div>
-<div id="outline-container-org7d3cf1a" class="outline-3">
-<h3 id="org7d3cf1a">Énoncé</h3>
-<div class="outline-text-3" id="text-org7d3cf1a">
+<div id="outline-container-orgf694b85" class="outline-3">
+<h3 id="orgf694b85">Énoncé</h3>
+<div class="outline-text-3" id="text-orgf694b85">
 <p>
 On considère une liste d&rsquo;entiers <code>lst</code>. Implémentez une fonction <code>sum_odd</code> qui s&rsquo;évalue en la somme des éléments de la liste de rang impair.
 Par exemple <code>sum_odd [1;3;5]</code> s&rsquo;évalue en <code>3</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org7be0ae1" class="outline-3 spoiler">
-<h3 id="org7be0ae1">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org7be0ae1">
+<div id="outline-container-orge562d37" class="outline-3 spoiler">
+<h3 id="orge562d37">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orge562d37">
 <p>
 On parcourt simplement la liste en ne prenant pas le premier terme à chaque fois. Le décalage de 2 en 2 assure que le second terme est toujours de rang impair. Il ne faut pas oublier de gérer le cas de la liste à un seul élément et celui de la liste vide vu qu&rsquo;on progresse de 2 éléments en 2 éléments.
 </p>
@@ -1411,42 +1431,59 @@ On parcourt simplement la liste en ne prenant pas le premier terme à chaque foi
 </div>
 </div>
 </div>
-<div id="outline-container-org6b7d478" class="outline-2">
-<h2 id="org6b7d478">Hauteur d&rsquo;un arbre ternaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></h2>
-<div class="outline-text-2" id="text-org6b7d478">
+<div id="outline-container-org20b6204" class="outline-2">
+<h2 id="org20b6204">Hauteur d&rsquo;un arbre ternaire&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></h2>
+<div class="outline-text-2" id="text-org20b6204">
 </div>
-<div id="outline-container-orge12be9d" class="outline-3">
-<h3 id="orge12be9d">Énoncé</h3>
-<div class="outline-text-3" id="text-orge12be9d">
+<div id="outline-container-org5cd3f9d" class="outline-3">
+<h3 id="org5cd3f9d">Énoncé</h3>
+<div class="outline-text-3" id="text-org5cd3f9d">
 <p>
-On considère des arbres ternaires implémentés via le type suivant: <code>type ternary_tree = Leaf | Node of ternary_tree * ternary_tree * ternary_tree</code>. Implémentez une fonction <code>tree_height</code> qui s&rsquo;évalue en la hauteur d&rsquo;un tel arbre. Par exemple <code>tree_height (Node (Leaf, Node (Leaf,Leaf,Leaf), Leaf))</code> s&rsquo;évalue en <code>2</code>.
+On considère des arbres ternaires implémentés via le type suivant:
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">ternary_tree</span> = <span style="color: #383a42; background-color: #fafafa;">Leaf</span> | <span style="color: #383a42; background-color: #fafafa;">Node</span> <span style="color: #e45649;">of</span> ternary_tree * ternary_tree * ternary_tree
+</pre>
+</div>
+<p>
+Implémentez une fonction <code>tree_height</code> qui s&rsquo;évalue en la hauteur d&rsquo;un tel arbre. Par exemple
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml">tree_height (<span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Leaf</span>, <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Leaf</span>,<span style="color: #383a42; background-color: #fafafa;">Leaf</span>,<span style="color: #383a42; background-color: #fafafa;">Leaf</span>), <span style="color: #383a42; background-color: #fafafa;">Leaf</span>))
+</pre>
+</div>
+<p>
+s&rsquo;évalue en <code>2</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-org37f6000" class="outline-3 spoiler">
-<h3 id="org37f6000">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org37f6000">
+<div id="outline-container-orgc36ecf6" class="outline-3 spoiler">
+<h3 id="orgc36ecf6">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgc36ecf6">
 <p>
 Il faut simplement récupérer la hauteur du plus haut des enfants et y ajouter 1. On fait ceci en composant deux max.
 </p>
 <div class="org-src-container">
-<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">ternary_tree</span> = <span style="color: #383a42; background-color: #fafafa;">Leaf</span> | <span style="color: #383a42; background-color: #fafafa;">Node</span> <span style="color: #e45649;">of</span> ternary_tree * ternary_tree * ternary_tree
+<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">ternary_tree</span> = <span style="color: #383a42; background-color: #fafafa;">Leaf</span>
+                  | <span style="color: #383a42; background-color: #fafafa;">Node</span> <span style="color: #e45649;">of</span> ternary_tree * ternary_tree * ternary_tree
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">tree_height</span> <span style="color: #6a1868;">t</span> =
   <span style="color: #e45649;">match</span> t <span style="color: #e45649;">with</span>
   |<span style="color: #383a42; background-color: #fafafa;">Leaf</span> -&gt; <span style="color: #da8548; font-weight: bold;">0</span>
-  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (t1, t2, t3) -&gt; <span style="color: #da8548; font-weight: bold;">1</span> + (max (tree_height t1) (max (tree_height t2) (tree_height t3)))
+  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (t1, t2, t3) -&gt;
+    <span style="color: #da8548; font-weight: bold;">1</span> + (max (tree_height t1)
+             (max (tree_height t2) (tree_height t3)))
 </pre>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-org8f4abf3" class="outline-2">
-<h2 id="org8f4abf3">Liste aplatie&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org8f4abf3">
+<div id="outline-container-org50ac458" class="outline-2">
+<h2 id="org50ac458">Liste aplatie&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org50ac458">
 </div>
-<div id="outline-container-org6af5a0d" class="outline-3">
-<h3 id="org6af5a0d">Énoncé</h3>
-<div class="outline-text-3" id="text-org6af5a0d">
+<div id="outline-container-org0e8ed84" class="outline-3">
+<h3 id="org0e8ed84">Énoncé</h3>
+<div class="outline-text-3" id="text-org0e8ed84">
 <p>
 On considère une liste de liste <code>lst</code>. Implémentez une fonction <code>flatten_lst</code> qui transforme cette liste en une liste de tous les éléments.
 Par exemple <code>flatten [[1;2];[1;5;6];[1]]</code> s&rsquo;évalue en <code>[1;2;1;5;6;1]</code>.
@@ -1454,9 +1491,9 @@ La complexité sera linéaire en le nombre d&rsquo;éléments du résultat.
 </p>
 </div>
 </div>
-<div id="outline-container-org034ef1a" class="outline-3 spoiler">
-<h3 id="org034ef1a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org034ef1a">
+<div id="outline-container-org2450974" class="outline-3 spoiler">
+<h3 id="org2450974">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org2450974">
 <p>
 Ici on utilise l&rsquo;opérateur de concaténation <code>@</code> dont la complexité est la taille de la première liste. On a donc bien la complexité attendue.
 </p>
@@ -1470,13 +1507,13 @@ Ici on utilise l&rsquo;opérateur de concaténation <code>@</code> dont la compl
 </div>
 </div>
 </div>
-<div id="outline-container-org095dc77" class="outline-2">
-<h2 id="org095dc77">Produit scalaire (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-org095dc77">
+<div id="outline-container-orgd140292" class="outline-2">
+<h2 id="orgd140292">Produit scalaire (tableau)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-orgd140292">
 </div>
-<div id="outline-container-orgab7d316" class="outline-3">
-<h3 id="orgab7d316">Énoncé</h3>
-<div class="outline-text-3" id="text-orgab7d316">
+<div id="outline-container-org7dccffb" class="outline-3">
+<h3 id="org7dccffb">Énoncé</h3>
+<div class="outline-text-3" id="text-org7dccffb">
 <p>
 On considère deux vecteurs de même dimension implémentés sous forme de <code>float array</code>.
 Implémentez une fonction <code>dot</code> qui réalise le produit scalaire de ces deux vecteurs.
@@ -1487,9 +1524,9 @@ Par exemple <code>dot [|1.; 0.|] [|0.; 1.|]</code> s&rsquo;évalue en <code>0.</
 </p>
 </div>
 </div>
-<div id="outline-container-orga033c8a" class="outline-3 spoiler">
-<h3 id="orga033c8a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orga033c8a">
+<div id="outline-container-orgc6885dc" class="outline-3 spoiler">
+<h3 id="orgc6885dc">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgc6885dc">
 <p>
 Il suffit de faire une boucle for pour réaliser la somme des produits terme à terme et le stocker dans une <code>ref</code>.
 </p>
@@ -1510,13 +1547,13 @@ Il suffit de faire une boucle for pour réaliser la somme des produits terme à 
 </div>
 </div>
 </div>
-<div id="outline-container-org31acb0f" class="outline-2">
-<h2 id="org31acb0f">Briser les chaînes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org31acb0f">
+<div id="outline-container-org71a68fb" class="outline-2">
+<h2 id="org71a68fb">Briser les chaînes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org71a68fb">
 </div>
-<div id="outline-container-orgef9bad7" class="outline-3">
-<h3 id="orgef9bad7">Énoncé</h3>
-<div class="outline-text-3" id="text-orgef9bad7">
+<div id="outline-container-orge38e07f" class="outline-3">
+<h3 id="orge38e07f">Énoncé</h3>
+<div class="outline-text-3" id="text-orge38e07f">
 <p>
 On considère une chaîne de caractère <code>s</code>. Implémentez une fonction <code>split_on_char</code> qui découpe <code>s</code> en plusieurs sous chaînes délimitées par un caractère passé en argument.
 </p>
@@ -1530,9 +1567,9 @@ Vous pourrez utiliser <code>String.make 1 c</code> qui crée une chaîne de long
 </p>
 </div>
 </div>
-<div id="outline-container-orgb72341f" class="outline-3 spoiler">
-<h3 id="orgb72341f">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgb72341f">
+<div id="outline-container-orgffa92c0" class="outline-3 spoiler">
+<h3 id="orgffa92c0">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgffa92c0">
 <p>
 On procède en parcourant la chaîne récursivement depuis un indice i et en construisant les sous chaînes par accumulation et concaténation des lettres lues tant qu&rsquo;on ne rencontre pas le caractère de séparation.
 </p>
@@ -1560,22 +1597,22 @@ On aussi aurait pu utiliser <code>String.sub</code> pour obtenir les sous chaîn
 </div>
 </div>
 </div>
-<div id="outline-container-org7656705" class="outline-2">
-<h2 id="org7656705">Découpage régulier de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org7656705">
+<div id="outline-container-org9be9482" class="outline-2">
+<h2 id="org9be9482">Découpage régulier de liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org9be9482">
 </div>
-<div id="outline-container-org1b8d7a0" class="outline-3">
-<h3 id="org1b8d7a0">Énoncé</h3>
-<div class="outline-text-3" id="text-org1b8d7a0">
+<div id="outline-container-org9a9ad19" class="outline-3">
+<h3 id="org9a9ad19">Énoncé</h3>
+<div class="outline-text-3" id="text-org9a9ad19">
 <p>
 Implémentez une fonction <code>size_k_split</code> qui découpe une liste en une liste de blocs de termes consécutifs de taille donnée <code>k</code>.
 Par exemple, <code>size_k_split 3 [0;1;2;3;4;5;6;7]</code> s&rsquo;évalue en <code>[[0;1;2];[3;4;5][6;7]]</code>, le dernier bloc est éventuellement de taille inférieures à <code>k</code> s&rsquo;il n&rsquo;y a pas assez de termes.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd3bdfff" class="outline-3 spoiler">
-<h3 id="orgd3bdfff">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd3bdfff">
+<div id="outline-container-org5b59d69" class="outline-3 spoiler">
+<h3 id="org5b59d69">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org5b59d69">
 <p>
 On commence par implémenter une fonction qui sépare une liste entre ses <code>k</code> premier termes et le reste. Pour ceci, on procède en récupérant <code>k-1</code> éléments sur la fin de la liste, et on ajoute le premier éléments aux <code>k-1</code> éléments obtenus par appel récursif.
 </p>
@@ -1603,13 +1640,13 @@ Puis on applique récursivement cette fonction sur la liste initiale.
 </div>
 </div>
 </div>
-<div id="outline-container-org7da5f13" class="outline-2">
-<h2 id="org7da5f13">Tri par insertion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org7da5f13">
+<div id="outline-container-org14caf46" class="outline-2">
+<h2 id="org14caf46">Tri par insertion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org14caf46">
 </div>
-<div id="outline-container-orgf67ae46" class="outline-3">
-<h3 id="orgf67ae46">Énoncé</h3>
-<div class="outline-text-3" id="text-orgf67ae46">
+<div id="outline-container-org0970b28" class="outline-3">
+<h3 id="org0970b28">Énoncé</h3>
+<div class="outline-text-3" id="text-org0970b28">
 <p>
 Implémentez une fonction <code>insertion_sort</code> qui réalise le tri par insertion d&rsquo;une liste.
 </p>
@@ -1620,9 +1657,9 @@ Vous n&rsquo;utiliserez par de boucle.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb9c5bab" class="outline-3 spoiler">
-<h3 id="orgb9c5bab">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgb9c5bab">
+<div id="outline-container-org24c3a46" class="outline-3 spoiler">
+<h3 id="org24c3a46">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org24c3a46">
 <p>
 On commence par implémenter une fonction qui insère un élément <code>e</code> à la bonne place dans une liste déjà triée. Puis on trie la fin de la liste récursivement, et on insère la tête à la bonne place dans la fin triée de la liste.
 </p>
@@ -1642,13 +1679,13 @@ On commence par implémenter une fonction qui insère un élément <code>e</code
 </div>
 </div>
 </div>
-<div id="outline-container-org1aa10b3" class="outline-2">
-<h2 id="org1aa10b3">Filtrage d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-org1aa10b3">
+<div id="outline-container-orgd08fad3" class="outline-2">
+<h2 id="orgd08fad3">Filtrage d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-orgd08fad3">
 </div>
-<div id="outline-container-org6d6c970" class="outline-3">
-<h3 id="org6d6c970">Énoncé</h3>
-<div class="outline-text-3" id="text-org6d6c970">
+<div id="outline-container-org3c99547" class="outline-3">
+<h3 id="org3c99547">Énoncé</h3>
+<div class="outline-text-3" id="text-org3c99547">
 <p>
 Implémenter une fonction <code>list_filter</code> prenant en entrée un prédicat <code>p</code> et une liste <code>lst</code> et filtrant en une liste des éléments de <code>lst</code> vérifiant <code>p</code>.
 Par exemple <code>list_filter (fun x -&gt; x &gt; 5) [1;7;3;8]</code> s&rsquo;évalue en <code>[7;8]</code>.
@@ -1659,9 +1696,9 @@ Cette fonction réplique le comportement de la fonction <code>List.filter</code>
 </p>
 </div>
 </div>
-<div id="outline-container-orgfa93c10" class="outline-3 spoiler">
-<h3 id="orgfa93c10">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgfa93c10">
+<div id="outline-container-org57b2d56" class="outline-3 spoiler">
+<h3 id="org57b2d56">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org57b2d56">
 <p>
 Il suffit de parcourir la liste et de ne garder que les éléments qui vérifient <code>p</code>.
 </p>
@@ -1676,13 +1713,13 @@ Il suffit de parcourir la liste et de ne garder que les éléments qui vérifien
 </div>
 </div>
 </div>
-<div id="outline-container-orgccccf55" class="outline-2">
-<h2 id="orgccccf55">Inversion de liste (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-orgccccf55">
+<div id="outline-container-org910e65a" class="outline-2">
+<h2 id="org910e65a">Inversion de liste (impératif)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org910e65a">
 </div>
-<div id="outline-container-orgecc03b2" class="outline-3">
-<h3 id="orgecc03b2">Énoncé</h3>
-<div class="outline-text-3" id="text-orgecc03b2">
+<div id="outline-container-org4e96203" class="outline-3">
+<h3 id="org4e96203">Énoncé</h3>
+<div class="outline-text-3" id="text-org4e96203">
 <p>
 Implémenter une fonction <code>list_rev</code> dont l&rsquo;appel sur une liste s&rsquo;évalue en cette liste dont l&rsquo;ordre des éléments a été changé.
 Par exemple <code>list_rev [0;1;2;3]</code> s&rsquo;évalue en <code>[3;2;1;0]</code>.
@@ -1690,9 +1727,9 @@ Vous n&rsquo;utiliserez pas de fonction récursive.
 </p>
 </div>
 </div>
-<div id="outline-container-org02b8982" class="outline-3 spoiler">
-<h3 id="org02b8982">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org02b8982">
+<div id="outline-container-orgaedf079" class="outline-3 spoiler">
+<h3 id="orgaedf079">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgaedf079">
 <p>
 Le principe est de travailler avec une référence vers liste contenant ce qui a déjà été inversé (le début de la liste déjà traité, ici <code>already_done_lst</code>) et une contenant ce qu&rsquo;il reste à faire (ici <code>todo</code>). Ensuite, on place en tête de cette liste le premier élément de la liste à traiter, puis on le retire de la liste à traiter.
 </p>
@@ -1710,13 +1747,13 @@ Le principe est de travailler avec une référence vers liste contenant ce qui a
 </div>
 </div>
 </div>
-<div id="outline-container-orgd47a163" class="outline-2">
-<h2 id="orgd47a163">Évaluation d&rsquo;un polynôme en un point (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-orgd47a163">
+<div id="outline-container-org205d3b9" class="outline-2">
+<h2 id="org205d3b9">Évaluation d&rsquo;un polynôme en un point (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org205d3b9">
 </div>
-<div id="outline-container-org2674b03" class="outline-3">
-<h3 id="org2674b03">Énoncé</h3>
-<div class="outline-text-3" id="text-org2674b03">
+<div id="outline-container-org356d257" class="outline-3">
+<h3 id="org356d257">Énoncé</h3>
+<div class="outline-text-3" id="text-org356d257">
 <p>
 On considère un polynôme à coefficients <code>float</code> représenté par la listes de ses coefficients. Le terme de rang <code>i</code> contient le coefficient de degré <code>i</code>.
 Implémentez une fonction <code>eval_at_list</code> qui prend ce polynôme et un flottant et évalue ce polynôme en ce flottant.
@@ -1731,11 +1768,11 @@ Par exemple <code>eval_at_list [5.;6.] 1.</code> s&rsquo;évalue en <code>11.0</
 </p>
 </div>
 </div>
-<div id="outline-container-orgd7e0e1b" class="outline-3 spoiler">
-<h3 id="orgd7e0e1b">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgd7e0e1b">
+<div id="outline-container-org6a216ff" class="outline-3 spoiler">
+<h3 id="org6a216ff">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org6a216ff">
 <p>
-Pour éviter les coûts liés aux calculs des puissances itérées, utilise la relation suivante (dite de Horner) $ &sum;\limits<sub>i=0</sub><sup>d-1</sup>a<sub>i</sub> × x<sup>i</sup> = a<sub>0</sub> + x × (&sum;\limits<sub>i=0</sub><sup>d-2</sup> a<sub>i-1</sub>x<sup>i</sup>)$.
+Pour éviter les coûts liés aux calculs des puissances itérées, utilise la relation suivante (dite de Horner) \(\sum\limits_{i=0}^{d-1}a_i × x^i = a_0 + x × \left(\sum\limits_{i=0}^{d-2} a_{i-1}x^i\right)\).
 </p>
 <div class="org-src-container">
 <pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">eval_at_list</span> <span style="color: #6a1868;">p</span> <span style="color: #6a1868;">x</span> =
@@ -1747,13 +1784,13 @@ Pour éviter les coûts liés aux calculs des puissances itérées, utilise la r
 </div>
 </div>
 </div>
-<div id="outline-container-org1d58a77" class="outline-2">
-<h2 id="org1d58a77">Fusion alternée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org1d58a77">
+<div id="outline-container-org82094a0" class="outline-2">
+<h2 id="org82094a0">Fusion alternée&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org82094a0">
 </div>
-<div id="outline-container-orga127e2f" class="outline-3">
-<h3 id="orga127e2f">Énoncé</h3>
-<div class="outline-text-3" id="text-orga127e2f">
+<div id="outline-container-org2bd91f0" class="outline-3">
+<h3 id="org2bd91f0">Énoncé</h3>
+<div class="outline-text-3" id="text-org2bd91f0">
 <p>
 Implémentez une fonction <code>alternate_merge</code> qui fusionne les éléments de deux listes en une seule en alternant un élément d&rsquo;une liste puis un de la suivante tant que c&rsquo;est possible.
 </p>
@@ -1763,9 +1800,9 @@ Par exemple <code>alternate_merge [0;2;4;6] [1;3]</code> s&rsquo;évalue en <cod
 </p>
 </div>
 </div>
-<div id="outline-container-org0e22840" class="outline-3 spoiler">
-<h3 id="org0e22840">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org0e22840">
+<div id="outline-container-org19e4ec7" class="outline-3 spoiler">
+<h3 id="org19e4ec7">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org19e4ec7">
 <p>
 On parcourt simultanément les deux liste tant qu&rsquo;il reste des éléments, et on place en premier la tête de la première liste, suivie par la tête de la deuxième puis la fin de la fusion via un appel récursif.
 </p>
@@ -1779,13 +1816,13 @@ On parcourt simultanément les deux liste tant qu&rsquo;il reste des éléments,
 </div>
 </div>
 </div>
-<div id="outline-container-org041668f" class="outline-2">
-<h2 id="org041668f">Deuxième max d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="option">option</span></span></h2>
-<div class="outline-text-2" id="text-org041668f">
+<div id="outline-container-orga2babd6" class="outline-2">
+<h2 id="orga2babd6">Deuxième max d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="option">option</span></span></h2>
+<div class="outline-text-2" id="text-orga2babd6">
 </div>
-<div id="outline-container-org41fe817" class="outline-3">
-<h3 id="org41fe817">Énoncé</h3>
-<div class="outline-text-3" id="text-org41fe817">
+<div id="outline-container-orgc39564c" class="outline-3">
+<h3 id="orgc39564c">Énoncé</h3>
+<div class="outline-text-3" id="text-orgc39564c">
 <p>
 On considère une liste <code>lst</code> dont on cherche le deuxième plus grand élément.
 Implémentez une fonction <code>second_max</code> qui renvoie, s&rsquo;il existe cet élément. Vous utiliserez un type option pour gérer les cas où cet élément n&rsquo;existe pas.
@@ -1796,9 +1833,9 @@ Par exemple, <code>second_max [1; 1; 1]</code> s&rsquo;évalue en <code>None</co
 </p>
 </div>
 </div>
-<div id="outline-container-org5dc1586" class="outline-3 spoiler">
-<h3 id="org5dc1586">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org5dc1586">
+<div id="outline-container-orgff442f5" class="outline-3 spoiler">
+<h3 id="orgff442f5">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgff442f5">
 <p>
 On utilise une fonction auxiliaire qui prends en argument les deux plus grands éléments rencontrés jusque là, éventuellement égaux. Quand un nouvel élément plus grand est trouvé, l&rsquo;ancien max devient le second max.
 Ensuite on appelle cette fonction avec pour valeur initial du plus grand élément la tête de la liste dont on cherche le second max.
@@ -1810,27 +1847,31 @@ Ensuite on appelle cette fonction avec pour valeur initial du plus grand éléme
              <span style="color: #383a42; background-color: #fafafa;">None</span>
            <span style="color: #e45649;">else</span>
              <span style="color: #383a42; background-color: #fafafa;">Some</span> second_max
-    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail <span style="color: #e45649;">when</span> head &gt; current_max -&gt; second_max_with_acc tail head current_max
-    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail <span style="color: #e45649;">when</span> head &gt; second_max -&gt; second_max_with_acc tail current_max head
-    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt; second_max_with_acc tail current_max second_max
+    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail <span style="color: #e45649;">when</span> head &gt; current_max -&gt;
+      second_max_with_acc tail head current_max
+    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail <span style="color: #e45649;">when</span> head &gt; second_max -&gt;
+      second_max_with_acc tail current_max head
+    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt;
+      second_max_with_acc tail current_max second_max
 
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #a626a4;">second_max</span> <span style="color: #6a1868;">lst</span> =
   <span style="color: #e45649;">match</span> lst <span style="color: #e45649;">with</span>
     |<span style="color: #383a42; background-color: #fafafa;">[]</span> -&gt; <span style="color: #383a42; background-color: #fafafa;">None</span>
-    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt; second_max_with_acc tail head head
+    |head<span style="color: #383a42; background-color: #fafafa;">::</span>tail -&gt;
+      second_max_with_acc tail head head
 
 </pre>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-org1178630" class="outline-2">
-<h2 id="org1178630">PGCD d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org1178630">
+<div id="outline-container-org3421a6d" class="outline-2">
+<h2 id="org3421a6d">PGCD d&rsquo;une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org3421a6d">
 </div>
-<div id="outline-container-org76e6ad5" class="outline-3">
-<h3 id="org76e6ad5">Énoncé</h3>
-<div class="outline-text-3" id="text-org76e6ad5">
+<div id="outline-container-org6a022f0" class="outline-3">
+<h3 id="org6a022f0">Énoncé</h3>
+<div class="outline-text-3" id="text-org6a022f0">
 <p>
 Implémentez une fonction <code>list_gcd</code> qui calcule le PGCD de tous les éléments d&rsquo;une liste.
 </p>
@@ -1840,9 +1881,9 @@ Par exemple <code>list_gcd [12; 18; 27]</code> s&rsquo;évalue en <code>3</code>
 </p>
 </div>
 </div>
-<div id="outline-container-orgafc7c9e" class="outline-3 spoiler">
-<h3 id="orgafc7c9e">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgafc7c9e">
+<div id="outline-container-org747c20f" class="outline-3 spoiler">
+<h3 id="org747c20f">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org747c20f">
 <p>
 On commence par implémenter une fonction qui calcule le PGCD de deux nombres. Pour cela on procède de manière récursive via la relation <code>gcd a b = gcd b (a mod b)</code> et <code>gcd a 0 = a</code> (algorithme d&rsquo;Euclide).
 </p>
@@ -1867,13 +1908,13 @@ Dans le cas d&rsquo;une liste vide, <code>0</code> est un bon diviseur, cas il e
 </div>
 </div>
 </div>
-<div id="outline-container-org98e206b" class="outline-2">
-<h2 id="org98e206b">Simplification de fraction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="enregistrement">enregistrement</span></span></h2>
-<div class="outline-text-2" id="text-org98e206b">
+<div id="outline-container-org0533045" class="outline-2">
+<h2 id="org0533045">Simplification de fraction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="enregistrement">enregistrement</span></span></h2>
+<div class="outline-text-2" id="text-org0533045">
 </div>
-<div id="outline-container-orgee23215" class="outline-3">
-<h3 id="orgee23215">Énoncé</h3>
-<div class="outline-text-3" id="text-orgee23215">
+<div id="outline-container-orga01a530" class="outline-3">
+<h3 id="orga01a530">Énoncé</h3>
+<div class="outline-text-3" id="text-orga01a530">
 <p>
 On s&rsquo;intéresse à des fractions implémentées à l&rsquo;aide d&rsquo;un enregistrement dont les champs sont <code>numerator</code> et <code>denominator</code>.
 Implémentez le type <code>fraction</code> correspondant, puis implémentez une fonction <code>make_fraction a b</code> qui s&rsquo;évalue en la fraction \(\frac{a}{b}\) et implémentez une fonction <code>simplify  : fraction -&gt; unit</code> qui modifie <b>en place</b> la fraction de manière à la rendre irréductible.
@@ -1884,9 +1925,9 @@ Par exemple, si on pose <code>let f = make_fraction 6 9</code> puis qu&rsquo;on 
 </p>
 </div>
 </div>
-<div id="outline-container-org7b4f446" class="outline-3 spoiler">
-<h3 id="org7b4f446">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org7b4f446">
+<div id="outline-container-orga71c682" class="outline-3 spoiler">
+<h3 id="orga71c682">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orga71c682">
 <p>
 Après avoir implémenté le type (on n&rsquo;oublie pas le type de chaque champ), on implémente une fonction de calcul du PGCD pour simplifier la fraction via l&rsquo;algorithme d&rsquo;Euclide.
 </p>
@@ -1895,7 +1936,8 @@ Après avoir implémenté le type (on n&rsquo;oublie pas le type de chaque champ
 Puis on divise le numérateur et le dénominateur par le PGCD des deux pour simplifier.
 </p>
 <div class="org-src-container">
-<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">fraction</span> = {<span style="color: #e45649;">mutable</span> numerator : int; <span style="color: #e45649;">mutable</span> denominator : int}
+<pre class="src src-ocaml"><span style="color: #000000; font-weight: bold;">type</span> <span style="color: #986801;">fraction</span> = {<span style="color: #e45649;">mutable</span> numerator : int;
+                 <span style="color: #e45649;">mutable</span> denominator : int}
 
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #a626a4;">make_fraction</span> <span style="color: #6a1868;">a</span> <span style="color: #6a1868;">b</span> =
   {numerator = a; denominator = b}
@@ -1915,13 +1957,13 @@ Puis on divise le numérateur et le dénominateur par le PGCD des deux pour simp
 </div>
 </div>
 </div>
-<div id="outline-container-orgc4e4924" class="outline-2">
-<h2 id="orgc4e4924">Itérer sur une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
-<div class="outline-text-2" id="text-orgc4e4924">
+<div id="outline-container-org334b35c" class="outline-2">
+<h2 id="org334b35c">Itérer sur une liste&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="func">func</span></span></h2>
+<div class="outline-text-2" id="text-org334b35c">
 </div>
-<div id="outline-container-orgaf6cb89" class="outline-3">
-<h3 id="orgaf6cb89">Énoncé</h3>
-<div class="outline-text-3" id="text-orgaf6cb89">
+<div id="outline-container-org30cbf51" class="outline-3">
+<h3 id="org30cbf51">Énoncé</h3>
+<div class="outline-text-3" id="text-org30cbf51">
 <p>
 Implémenter une fonction <code>list_iter</code> prenant en entrée une fonction à effet de bord <code>f</code> et une liste <code>lst</code> et appelant la fonction <code>f</code> sur chaque élément de <code>lst</code> dans l&rsquo;ordre.
 Par exemple <code>list_map (fun x -&gt; print_int x) [1;2;3]</code> affiche <code>123</code>.
@@ -1932,9 +1974,9 @@ Cette fonction réplique le comportement de la fonction <code>List.iter</code> d
 </p>
 </div>
 </div>
-<div id="outline-container-org95ffc5e" class="outline-3 spoiler">
-<h3 id="org95ffc5e">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org95ffc5e">
+<div id="outline-container-org04abc8a" class="outline-3 spoiler">
+<h3 id="org04abc8a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org04abc8a">
 <p>
 Il suffit de parcourir récursivement la liste et d&rsquo;appliquer <code>f</code> à tous les éléments rencontrés.
 Attention, il faut gérer le cas de la liste vide, une fonction à effet de bord a une image de type <code>unit</code>, ce qui signifie que pour la liste vide, on peut &laquo;&nbsp;ne rien faire&nbsp;&raquo; en s&rsquo;évaluant en <code>()</code>, la seule valeur de type <code>unit</code>.
@@ -1953,13 +1995,13 @@ On prend soin d&rsquo;appeler <code>f</code> sur la tête <b>avant</b> de réali
 </div>
 </div>
 </div>
-<div id="outline-container-orgd38dd6c" class="outline-2">
-<h2 id="orgd38dd6c">Recherche dichotomique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="option">option</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-orgd38dd6c">
+<div id="outline-container-org64e0643" class="outline-2">
+<h2 id="org64e0643">Recherche dichotomique&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="option">option</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org64e0643">
 </div>
-<div id="outline-container-orga2a0787" class="outline-3">
-<h3 id="orga2a0787">Énoncé</h3>
-<div class="outline-text-3" id="text-orga2a0787">
+<div id="outline-container-org5b0d5c4" class="outline-3">
+<h3 id="org5b0d5c4">Énoncé</h3>
+<div class="outline-text-3" id="text-org5b0d5c4">
 <p>
 On considère un tableau trié d&rsquo;éléments <code>a</code> et un élément de même type <code>e</code>. Implémentez une fonction <code>dicho_search</code> qui recherche l&rsquo;élément <code>e</code> dans <code>a</code> et renvoie son indice s&rsquo;il existe. On utilisera un type option pour gérer le cas où cet indice n&rsquo;existe pas.
 </p>
@@ -1969,9 +2011,9 @@ Par exemple, <code>dicho_search 7 [|1;2;3;4;5;6|]</code> s&rsquo;évaluera en <c
 </p>
 </div>
 </div>
-<div id="outline-container-orge62d1fa" class="outline-3 spoiler">
-<h3 id="orge62d1fa">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orge62d1fa">
+<div id="outline-container-org856f629" class="outline-3 spoiler">
+<h3 id="org856f629">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org856f629">
 <p>
 Pour réaliser la recherche dichotomique, on pose deux références <code>be</code> et <code>en</code> correspondant respectivement à l&rsquo;indice de la première case de la zone de recherche et à l&rsquo;indice de la première case juste après la zone de recherche.
 </p>
@@ -2006,13 +2048,13 @@ On applique ensuite l&rsquo;algorithme classique de recherche dichotomique.
 </div>
 </div>
 </div>
-<div id="outline-container-orgfe6c072" class="outline-2">
-<h2 id="orgfe6c072">k-accessibles&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-orgfe6c072">
+<div id="outline-container-org7c93433" class="outline-2">
+<h2 id="org7c93433">k-accessibles&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="tableau">tableau</span>&#xa0;<span class="liste">liste</span>&#xa0;<span class="rec">rec</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org7c93433">
 </div>
-<div id="outline-container-orgb8618c1" class="outline-3">
-<h3 id="orgb8618c1">Énoncé</h3>
-<div class="outline-text-3" id="text-orgb8618c1">
+<div id="outline-container-org281d7d0" class="outline-3">
+<h3 id="org281d7d0">Énoncé</h3>
+<div class="outline-text-3" id="text-org281d7d0">
 <p>
 On considère un graphe représenté par listes d&rsquo;adjacences implémentées par le type <code>(int list) array</code>.
 Implémentez une fonction <code>k_reachable</code> qui détermine la liste des sommets accessibles en exactement <code>k</code> étape à partir d&rsquo;une liste de sommets initiaux.
@@ -2023,9 +2065,9 @@ Par exemple pour le graphe <code>let g = [|[2;3];[2];[4];[4];[1]|]</code>, <code
 </p>
 </div>
 </div>
-<div id="outline-container-org4d18a5a" class="outline-3 spoiler">
-<h3 id="org4d18a5a">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org4d18a5a">
+<div id="outline-container-org122e41b" class="outline-3 spoiler">
+<h3 id="org122e41b">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org122e41b">
 <p>
 Pour calculer la liste demandée, on va procéder en calculant la liste des sommets accessible en exactement une étape et répéter ceci <code>k</code> fois à partir de la liste obtenue à l&rsquo;étape précédente. Afin d&rsquo;éviter des calculs inutiles, on va commencer par implémenter une fonction d&rsquo;insertion dans doublons dans une liste.
 </p>
@@ -2042,8 +2084,11 @@ Pour calculer la liste demandée, on va procéder en calculant la liste des somm
     <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">next_vertices</span> = <span style="color: #a626a4;">ref</span> <span style="color: #383a42; background-color: #fafafa;">[]</span> <span style="color: #000000; font-weight: bold;">in</span>
     <span style="color: #e45649;">while</span> <span style="color: #a52a2a;">!</span>current_vertices &lt;&gt; <span style="color: #383a42; background-color: #fafafa;">[]</span> <span style="color: #e45649;">do</span>
       <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">v</span> = <span style="color: #986801;">List.</span>hd <span style="color: #a52a2a;">!</span>current_vertices <span style="color: #000000; font-weight: bold;">in</span>
-      <span style="color: #986801;">List.</span>iter (<span style="color: #e45649;">fun</span> <span style="color: #6a1868;">x</span> -&gt; next_vertices := insert_no_duplicates x <span style="color: #a52a2a;">!</span>next_vertices) g.(v);
-      current_vertices := <span style="color: #986801;">List.</span>tl <span style="color: #a52a2a;">!</span>current_vertices
+      <span style="color: #986801;">List.</span>iter
+        (<span style="color: #e45649;">fun</span> <span style="color: #6a1868;">x</span> -&gt;
+          next_vertices := insert_no_duplicates x <span style="color: #a52a2a;">!</span>next_vertices)
+        g.(v);
+        current_vertices := <span style="color: #986801;">List.</span>tl <span style="color: #a52a2a;">!</span>current_vertices
     <span style="color: #e45649;">done</span>;
     current_vertices := <span style="color: #a52a2a;">!</span>next_vertices
   <span style="color: #e45649;">done</span>;
@@ -2053,13 +2098,13 @@ Pour calculer la liste demandée, on va procéder en calculant la liste des somm
 </div>
 </div>
 </div>
-<div id="outline-container-org080a16a" class="outline-2">
-<h2 id="org080a16a">Recherche de mot dans un texte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="option">option</span></span></h2>
-<div class="outline-text-2" id="text-org080a16a">
+<div id="outline-container-org946e018" class="outline-2">
+<h2 id="org946e018">Recherche de mot dans un texte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span>&#xa0;<span class="option">option</span></span></h2>
+<div class="outline-text-2" id="text-org946e018">
 </div>
-<div id="outline-container-org1e6f1f9" class="outline-3">
-<h3 id="org1e6f1f9">Énoncé</h3>
-<div class="outline-text-3" id="text-org1e6f1f9">
+<div id="outline-container-orgf643815" class="outline-3">
+<h3 id="orgf643815">Énoncé</h3>
+<div class="outline-text-3" id="text-orgf643815">
 <p>
 Implémentez une fonction <code>ctrl_f</code> qui recherche un mot <code>w</code> dans un texte <code>t</code> et renvoie son indice s&rsquo;il est dans le texte. Vous utiliserez un type option pour gérer le cas où le mot n&rsquo;est pas dans le texte.
 </p>
@@ -2069,9 +2114,9 @@ Par exemple <code>ctrl_f "test" "conteste"</code> s&rsquo;évalue en <code>Some 
 </p>
 </div>
 </div>
-<div id="outline-container-orgdc03f69" class="outline-3 spoiler">
-<h3 id="orgdc03f69">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgdc03f69">
+<div id="outline-container-org4618b18" class="outline-3 spoiler">
+<h3 id="org4618b18">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org4618b18">
 <p>
 Pour chaque position de départ possible dans le texte, on parcourt toutes les lettres du mot recherché pour voir si on trouve un occurrence.
 </p>
@@ -2100,13 +2145,13 @@ Attention à de pas dépasser les bornes des tableaux.
 </div>
 </div>
 </div>
-<div id="outline-container-orged61881" class="outline-2">
-<h2 id="orged61881">Recherche dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="option">option</span></span></h2>
-<div class="outline-text-2" id="text-orged61881">
+<div id="outline-container-org75b2ba8" class="outline-2">
+<h2 id="org75b2ba8">Recherche dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span>&#xa0;<span class="option">option</span></span></h2>
+<div class="outline-text-2" id="text-org75b2ba8">
 </div>
-<div id="outline-container-orge0f4459" class="outline-3">
-<h3 id="orge0f4459">Énoncé</h3>
-<div class="outline-text-3" id="text-orge0f4459">
+<div id="outline-container-orga7dfe18" class="outline-3">
+<h3 id="orga7dfe18">Énoncé</h3>
+<div class="outline-text-3" id="text-orga7dfe18">
 <p>
 On s&rsquo;intéresse à une implémentation des arbres binaires de recherche à l&rsquo;aide d&rsquo;un type récursif dont le constructeur pour un arbre vide est nommé <code>Empty</code> et le constructeur pour un noeud est nommé <code>Node</code> et prend un triplet (fils gauche, (couple clé, valeur), fils droit) en paramètre.
 Implémentez le type récursif <code>abr</code> correspondant, les clés seront des <code>string</code> et les valeurs de <code>int</code>.
@@ -2117,13 +2162,37 @@ Implémentez une fonction <code>abr_search</code> qui recherche  une valeur <cod
 </p>
 
 <p>
-Par exemple <code>abr_search "key" (Node (Node (Empty, ("hey", 0), Empty), ("jey",1), (Node (Empty, ("key",2),Empty))))</code> s&rsquo;évaluera en <code>2</code> et <code>abr_search "ley" (Node (Node (Empty, ("hey", 0), Empty), ("jey",1), (Node (Empty, ("key",2),Empty))))</code> s&rsquo;évaluera en <code>None</code>.
+Par exemple =
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml">abr_search <span style="color: #50a14f;">"key"</span> (<span style="color: #383a42; background-color: #fafafa;">Node</span> (
+                      <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"hey"</span>, <span style="color: #da8548; font-weight: bold;">0</span>), <span style="color: #383a42; background-color: #fafafa;">Empty</span>),
+                      (<span style="color: #50a14f;">"jey"</span>,<span style="color: #da8548; font-weight: bold;">1</span>),
+                      (<span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"key"</span>,<span style="color: #da8548; font-weight: bold;">2</span>),<span style="color: #383a42; background-color: #fafafa;">Empty</span>))
+                    )
+                 )
+</pre>
+</div>
+<p>
+s&rsquo;évaluera en <code>2</code> et
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml">abr_search <span style="color: #50a14f;">"ley"</span> (<span style="color: #383a42; background-color: #fafafa;">Node</span> (
+                      <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"hey"</span>, <span style="color: #da8548; font-weight: bold;">0</span>), <span style="color: #383a42; background-color: #fafafa;">Empty</span>),
+                      (<span style="color: #50a14f;">"jey"</span>,<span style="color: #da8548; font-weight: bold;">1</span>),
+                      (<span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"key"</span>,<span style="color: #da8548; font-weight: bold;">2</span>),<span style="color: #383a42; background-color: #fafafa;">Empty</span>))
+                    )
+                )
+</pre>
+</div>
+<p>
+s&rsquo;évaluera en <code>None</code>.
 </p>
 </div>
 </div>
-<div id="outline-container-org322e6e5" class="outline-3 spoiler">
-<h3 id="org322e6e5">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org322e6e5">
+<div id="outline-container-orgd9b6263" class="outline-3 spoiler">
+<h3 id="orgd9b6263">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgd9b6263">
 <p>
 On commence par implémenter le type de demandé.
 </p>
@@ -2149,13 +2218,13 @@ En arrivant sur un arbre vide, on ne peut plus continuer, on sait qu&rsquo;on ne
 </div>
 </div>
 </div>
-<div id="outline-container-org02f6576" class="outline-2">
-<h2 id="org02f6576">Produit scalaire (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org02f6576">
+<div id="outline-container-org5179bce" class="outline-2">
+<h2 id="org5179bce">Produit scalaire (liste)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="liste">liste</span>&#xa0;<span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org5179bce">
 </div>
-<div id="outline-container-org1f6e3f9" class="outline-3">
-<h3 id="org1f6e3f9">Énoncé</h3>
-<div class="outline-text-3" id="text-org1f6e3f9">
+<div id="outline-container-org65ec5af" class="outline-3">
+<h3 id="org65ec5af">Énoncé</h3>
+<div class="outline-text-3" id="text-org65ec5af">
 <p>
 On considère deux vecteurs de même dimension implémentés sous forme de <code>float list</code>.
 Implémentez une fonction <code>dot</code> qui réalise le produit scalaire de ces deux vecteurs.
@@ -2166,9 +2235,9 @@ Par exemple <code>dot [1.; 0.] [0.; 1.]</code> s&rsquo;évalue en <code>0.</code
 </p>
 </div>
 </div>
-<div id="outline-container-orgcd91634" class="outline-3 spoiler">
-<h3 id="orgcd91634">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgcd91634">
+<div id="outline-container-org7da7d2c" class="outline-3 spoiler">
+<h3 id="org7da7d2c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org7da7d2c">
 <p>
 On parcourt les liste en simultané et on somme les produits terme à terme au résultat obtenu par l&rsquo;appel récursif.
 </p>
@@ -2183,13 +2252,13 @@ On parcourt les liste en simultané et on somme les produits terme à terme au r
 </div>
 </div>
 </div>
-<div id="outline-container-org7a46956" class="outline-2">
-<h2 id="org7a46956">PGCD et PPCM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></h2>
-<div class="outline-text-2" id="text-org7a46956">
+<div id="outline-container-org6d64052" class="outline-2">
+<h2 id="org6d64052">PGCD et PPCM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span></span></h2>
+<div class="outline-text-2" id="text-org6d64052">
 </div>
-<div id="outline-container-org58f5e4f" class="outline-3">
-<h3 id="org58f5e4f">Énoncé</h3>
-<div class="outline-text-3" id="text-org58f5e4f">
+<div id="outline-container-orgf3b4e05" class="outline-3">
+<h3 id="orgf3b4e05">Énoncé</h3>
+<div class="outline-text-3" id="text-orgf3b4e05">
 <p>
 Implémentez une fonction <code>gcd_and_lcm</code> qui s&rsquo;évalue en le couple du PGCD et PPCM des deux entiers passés en argument.
 </p>
@@ -2199,9 +2268,9 @@ Par exemple <code>gcd_and_lcm 15 9</code> s&rsquo;évalue en <code>(3,45)</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org8306231" class="outline-3 spoiler">
-<h3 id="org8306231">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org8306231">
+<div id="outline-container-org4bfe306" class="outline-3 spoiler">
+<h3 id="org4bfe306">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org4bfe306">
 <p>
 On commence par implémenter une fonction qui calcule le PGCD de deux nombres. Pour cela on procède de manière récursive via la relation <code>gcd a b = gcd b (a mod b)</code> et <code>gcd a 0 = a</code> (algorithme d&rsquo;Euclide).
 </p>
@@ -2224,13 +2293,13 @@ Ensuite on se sert de la relation <code>(gcd a b) × (lcm a b) = a×b</code>
 </div>
 </div>
 </div>
-<div id="outline-container-org57222b2" class="outline-2">
-<h2 id="org57222b2">Insertion dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></h2>
-<div class="outline-text-2" id="text-org57222b2">
+<div id="outline-container-org735ad4f" class="outline-2">
+<h2 id="org735ad4f">Insertion dans un Arbre Binaire de recherche&#xa0;&#xa0;&#xa0;<span class="tag"><span class="type_rec">type_rec</span></span></h2>
+<div class="outline-text-2" id="text-org735ad4f">
 </div>
-<div id="outline-container-org24f4986" class="outline-3">
-<h3 id="org24f4986">Énoncé</h3>
-<div class="outline-text-3" id="text-org24f4986">
+<div id="outline-container-org1265876" class="outline-3">
+<h3 id="org1265876">Énoncé</h3>
+<div class="outline-text-3" id="text-org1265876">
 <p>
 On s&rsquo;intéresse à une implémentation des arbres binaires de recherche à l&rsquo;aide d&rsquo;un type récursif dont le constructeur pour un arbre vide est nommé <code>Empty</code> et le constructeur pour un noeud est nommé <code>Node</code> et prend un triplet (fils gauche, (couple clé, valeur), fils droit) en paramètre.
 Implémentez le type récursif <code>abr</code> correspondant, les clés seront des <code>string</code> et les valeurs de <code>int</code>.
@@ -2241,13 +2310,30 @@ Implémentez une fonction <code>abr_insert</code> qui insère à la bonne place 
 </p>
 
 <p>
-Par exemple <code>abr_insert "key" 2 (Node (Node (Empty, ("hey", 0), Empty), ("jey",1), Empty))</code> s&rsquo;évaluera en <code>(Node (Node (Empty, ("hey", 0), Empty), ("jey",1), (Node (Empty, ("key",2),Empty))))</code>.
+Par exemple
 </p>
+<div class="org-src-container">
+<pre class="src src-ocaml">abr_insert <span style="color: #50a14f;">"key"</span> <span style="color: #da8548; font-weight: bold;">2</span> (<span style="color: #383a42; background-color: #fafafa;">Node</span> (
+                        <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"hey"</span>, <span style="color: #da8548; font-weight: bold;">0</span>), <span style="color: #383a42; background-color: #fafafa;">Empty</span>),
+                        (<span style="color: #50a14f;">"jey"</span>,<span style="color: #da8548; font-weight: bold;">1</span>),
+                        <span style="color: #383a42; background-color: #fafafa;">Empty</span>))
+</pre>
+</div>
+<p>
+s&rsquo;évaluera en:
+</p>
+<div class="org-src-container">
+<pre class="src src-ocaml">(<span style="color: #383a42; background-color: #fafafa;">Node</span> (
+     <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"hey"</span>, <span style="color: #da8548; font-weight: bold;">0</span>), <span style="color: #383a42; background-color: #fafafa;">Empty</span>),
+     (<span style="color: #50a14f;">"jey"</span>,<span style="color: #da8548; font-weight: bold;">1</span>),
+     (<span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (<span style="color: #50a14f;">"key"</span>,<span style="color: #da8548; font-weight: bold;">2</span>),<span style="color: #383a42; background-color: #fafafa;">Empty</span>))))
+</pre>
 </div>
 </div>
-<div id="outline-container-org4836cce" class="outline-3 spoiler">
-<h3 id="org4836cce">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org4836cce">
+</div>
+<div id="outline-container-org35f1f03" class="outline-3 spoiler">
+<h3 id="org35f1f03">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org35f1f03">
 <p>
 On commence par implémenter le type de demandé.
 </p>
@@ -2266,21 +2352,24 @@ Si jamais on trouve la clé dans l&rsquo;arbre pendant la recherche de la bonne 
 <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #000000; font-weight: bold;">rec</span> <span style="color: #a626a4;">abr_insert</span> <span style="color: #6a1868;">key</span> <span style="color: #6a1868;">value</span> <span style="color: #6a1868;">t</span> =
   <span style="color: #e45649;">match</span> t <span style="color: #e45649;">with</span>
   |<span style="color: #383a42; background-color: #fafafa;">Empty</span> -&gt; <span style="color: #383a42; background-color: #fafafa;">Node</span> (<span style="color: #383a42; background-color: #fafafa;">Empty</span>, (key, value), <span style="color: #383a42; background-color: #fafafa;">Empty</span>)
-  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #e45649;">when</span> k = key -&gt; <span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (key,value), r)
-  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #e45649;">when</span> k &gt; key -&gt; <span style="color: #383a42; background-color: #fafafa;">Node</span> (abr_insert key value l, (k,v), r)
-  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">k &gt; key</span><span style="color: #9ca0a4;">*)</span> -&gt; <span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), abr_insert key value r)
+  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #e45649;">when</span> k = key -&gt;
+    <span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (key,value), r)
+  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #e45649;">when</span> k &gt; key -&gt;
+    <span style="color: #383a42; background-color: #fafafa;">Node</span> (abr_insert key value l, (k,v), r)
+  |<span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), r) <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">k &gt; key</span><span style="color: #9ca0a4;">*)</span> -&gt;
+    <span style="color: #383a42; background-color: #fafafa;">Node</span> (l, (k,v), abr_insert key value r)
 </pre>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-org1a221ad" class="outline-2">
-<h2 id="org1a221ad">Rotation de matrice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></h2>
-<div class="outline-text-2" id="text-org1a221ad">
+<div id="outline-container-org42e2b91" class="outline-2">
+<h2 id="org42e2b91">Rotation de matrice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="matrice">matrice</span></span></h2>
+<div class="outline-text-2" id="text-org42e2b91">
 </div>
-<div id="outline-container-orge341f14" class="outline-3">
-<h3 id="orge341f14">Énoncé</h3>
-<div class="outline-text-3" id="text-orge341f14">
+<div id="outline-container-orga73338e" class="outline-3">
+<h3 id="orga73338e">Énoncé</h3>
+<div class="outline-text-3" id="text-orga73338e">
 <p>
 Implémentez une fonction <code>matrix_turn</code> qui prend en argument une matrice carrée et s&rsquo;évalue en cette matrice tournée d&rsquo;un quart de tour dans le sens positif.
 </p>
@@ -2290,9 +2379,9 @@ Par exemple <code>matrix_turn [|[|1;2;3|];[|4;5;6|];[|7;8;9|]|]</code> s&rsquo;�
 </p>
 </div>
 </div>
-<div id="outline-container-org96412a6" class="outline-3 spoiler">
-<h3 id="org96412a6">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-org96412a6">
+<div id="outline-container-org35d359e" class="outline-3 spoiler">
+<h3 id="org35d359e">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org35d359e">
 <p>
 Pour faire cette rotation, on peut se rendre compte que le coefficient <code>i,j</code> est remplacé par <code>j, n-1-i</code>.
 </p>
@@ -2320,13 +2409,13 @@ Afin de ne pas modifier la matrice initiale, il faut créer une matrice de dimen
 </div>
 </div>
 </div>
-<div id="outline-container-org5bc4ea7" class="outline-2">
-<h2 id="org5bc4ea7">Subset sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span>&#xa0;<span class="liste">liste</span></span></h2>
-<div class="outline-text-2" id="text-org5bc4ea7">
+<div id="outline-container-org1783ffd" class="outline-2">
+<h2 id="org1783ffd">Subset sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="rec">rec</span>&#xa0;<span class="liste">liste</span></span></h2>
+<div class="outline-text-2" id="text-org1783ffd">
 </div>
-<div id="outline-container-orgbbcc256" class="outline-3">
-<h3 id="orgbbcc256">Énoncé</h3>
-<div class="outline-text-3" id="text-orgbbcc256">
+<div id="outline-container-org2d4525d" class="outline-3">
+<h3 id="org2d4525d">Énoncé</h3>
+<div class="outline-text-3" id="text-org2d4525d">
 <p>
 On s&rsquo;intéresse au problème suivant: étant donné une liste <code>lst</code> d&rsquo;entiers positifs et un entier positifs <code>n</code>, est-il possible de trouver un ensemble d&rsquo;éléments de <code>lst</code> dont la somme est <code>n</code> ?
 Implémentez une fonction <code>subset_sum</code> qui renvoie la liste des éléments de <code>lst</code> qui somment à <code>n</code> si elle existe. Vous utiliserez un type option pour gérez le cas où une telle liste n&rsquo;existe pas.
@@ -2341,9 +2430,9 @@ Quelle est la complexité d&rsquo;une telle fonction par rapport au nombre d&rsq
 </p>
 </div>
 </div>
-<div id="outline-container-orgf1f6fde" class="outline-3 spoiler">
-<h3 id="orgf1f6fde">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgf1f6fde">
+<div id="outline-container-org2514635" class="outline-3 spoiler">
+<h3 id="org2514635">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org2514635">
 <p>
 On s&rsquo;appuie sur la disjonction de cas suivante: si <code>lst = head::tail</code> alors on peut obtenir n avec les élément de lst dans deux cas:
 </p>
@@ -2374,13 +2463,13 @@ La complexité est exponentielle en la taille de la liste dans le pire cas. On p
 </div>
 </div>
 </div>
-<div id="outline-container-org6266f57" class="outline-2">
-<h2 id="org6266f57">Position du plus grand mot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_rarif">impérarif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-org6266f57">
+<div id="outline-container-org55afcba" class="outline-2">
+<h2 id="org55afcba">Position du plus grand mot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_rarif">impérarif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org55afcba">
 </div>
-<div id="outline-container-org4637c12" class="outline-3">
-<h3 id="org4637c12">Énoncé</h3>
-<div class="outline-text-3" id="text-org4637c12">
+<div id="outline-container-orgc1fdd52" class="outline-3">
+<h3 id="orgc1fdd52">Énoncé</h3>
+<div class="outline-text-3" id="text-orgc1fdd52">
 <p>
 On considère une chaîne de caractères constituée uniquement de lettre et d&rsquo;espaces.
 Implémentez une fonction <code>search_largest_word</code> qui s&rsquo;évalue en la position de début et de fin du mot le plus long de cette chaîne.
@@ -2391,9 +2480,9 @@ Par exemple <code>search_largest_word "ceci est une phrase vide"</code> s&rsquo;
 </p>
 </div>
 </div>
-<div id="outline-container-orgb6ed3bb" class="outline-3 spoiler">
-<h3 id="orgb6ed3bb">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgb6ed3bb">
+<div id="outline-container-org3162c6d" class="outline-3 spoiler">
+<h3 id="org3162c6d">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-org3162c6d">
 <p>
 On va parcourir toute la chaîne en gardant en mémoire les meilleurs indices de début et de fin en plus des indices courants de début et de fin de mot. Quand on tombe sur un espace, on compare la longueur du mot et on met éventuellement à jour les meilleurs indices.
 </p>
@@ -2430,13 +2519,13 @@ On va parcourir toute la chaîne en gardant en mémoire les meilleurs indices de
 </div>
 </div>
 </div>
-<div id="outline-container-orgdca850a" class="outline-2">
-<h2 id="orgdca850a">Palindrome&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
-<div class="outline-text-2" id="text-orgdca850a">
+<div id="outline-container-org3200a2a" class="outline-2">
+<h2 id="org3200a2a">Palindrome&#xa0;&#xa0;&#xa0;<span class="tag"><span class="imp_ratif">impératif</span>&#xa0;<span class="r_f_rence">référence</span></span></h2>
+<div class="outline-text-2" id="text-org3200a2a">
 </div>
-<div id="outline-container-orga6762fe" class="outline-3">
-<h3 id="orga6762fe">Énoncé</h3>
-<div class="outline-text-3" id="text-orga6762fe">
+<div id="outline-container-orgf7c1d9f" class="outline-3">
+<h3 id="orgf7c1d9f">Énoncé</h3>
+<div class="outline-text-3" id="text-orgf7c1d9f">
 <p>
 Implémentez une fonction <code>is_palindrome</code> qui s&rsquo;évalue en <code>true</code> si la chaîne passée en argument est un palindrome et <code>false</code> autrement. Les espaces seront ignorés.
 </p>
@@ -2446,9 +2535,9 @@ Par exemple <code>is_palindrome "ab ce cba"</code> s&rsquo;évalue en <code>true
 </p>
 </div>
 </div>
-<div id="outline-container-orgc16b086" class="outline-3 spoiler">
-<h3 id="orgc16b086">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
-<div class="outline-text-3" id="text-orgc16b086">
+<div id="outline-container-orgeb6677c" class="outline-3 spoiler">
+<h3 id="orgeb6677c">Corrigé&#xa0;&#xa0;&#xa0;<span class="tag"><span class="corrige">corrige</span></span></h3>
+<div class="outline-text-3" id="text-orgeb6677c">
 <p>
 Pour vérifier le caractère de palindrome, on va lire le mot depuis le début et la fin simultanément. Pour cela on introduit deux références correspondant à la position du curseur et début et fin de mot. Quand on rencontre un espace, on fait avancer les curseurs jusqu&rsquo;à la prochaine lettre.
 Quand on rencontre deux lettre identiques pour les deux curseurs, on les fait avancer aussi.
@@ -2468,7 +2557,8 @@ Si jamais on trouve une lettre distincte, on peut stopper le parcours.
   <span style="color: #000000; font-weight: bold;">let</span> <span style="color: #6a1868;">no_problem_yet</span> = <span style="color: #a626a4;">ref</span> <span style="color: #b751b6;">true</span> <span style="color: #000000; font-weight: bold;">in</span>
   <span style="color: #e45649;">while</span> <span style="color: #a52a2a;">!</span>end_index &gt; <span style="color: #a52a2a;">!</span>start_index <span style="color: #a52a2a;">&amp;&amp;</span> <span style="color: #a52a2a;">!</span>no_problem_yet <span style="color: #e45649;">do</span>
     <span style="color: #e45649;">if</span> s.[<span style="color: #a52a2a;">!</span>start_index] = s.[<span style="color: #a52a2a;">!</span>end_index] <span style="color: #e45649;">then</span>
-       <span style="color: #9ca0a4;">(*</span><span style="color: #9ca0a4;">Si les lettres sont identiques, espace ou non, on peut progresser</span><span style="color: #9ca0a4;">*)</span>
+       <span style="color: #9ca0a4;">(* </span><span style="color: #9ca0a4;">Si les lettres sont identiques,</span><span style="color: #9ca0a4;"> *)</span>
+       <span style="color: #9ca0a4;">(* </span><span style="color: #9ca0a4;">espace ou non, on peut progresser</span><span style="color: #9ca0a4;"> *)</span>
        (
          start_index := <span style="color: #a52a2a;">!</span>start_index + <span style="color: #da8548; font-weight: bold;">1</span>;
          end_index := <span style="color: #a52a2a;">!</span>end_index - <span style="color: #da8548; font-weight: bold;">1</span>
@@ -2486,9 +2576,9 @@ Si jamais on trouve une lettre distincte, on peut stopper le parcours.
 </div>
 </div>
 </div>
-<div id="outline-container-org1150e93" class="outline-2">
-<h2 id="org1150e93">Remerciements</h2>
-<div class="outline-text-2" id="text-org1150e93">
+<div id="outline-container-org8968dbd" class="outline-2">
+<h2 id="org8968dbd">Remerciements</h2>
+<div class="outline-text-2" id="text-org8968dbd">
 <p>
 Merci à J.Reichert pour ses nombreuses idées d&rsquo;exercice.
 </p>
@@ -2496,7 +2586,7 @@ Merci à J.Reichert pour ses nombreuses idées d&rsquo;exercice.
 </div>
 </div>
 <div id="postamble" class="status">
-Vladislav Tempez, 2024-09-09 Mon 16:07
+Vladislav Tempez, 2024-09-09 Mon 16:42
 </div>
 </body>
 </html>
