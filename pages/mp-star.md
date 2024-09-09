@@ -11,4 +11,4 @@ description: Vladislav Tempez - Enseignement - MP - Informatique
 ### TP
 ### Divers
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/mHTAr95LAZjoAYP)
-- [Exercices de programmation pour l'année](/docs/exos-prof-mpe.html) / [avec corrigé](/docs/exos-prog-mpe-correction.html)
+- [Exercices de programmation pour l'année](/docs/exos-prog-mpe.html) / [avec corrigé](/docs/exos-prog-mpe-correction.html)
