@@ -6,7 +6,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ---
 ## Actualités
 - Mardi 10/09: 14h-16h Cours en **classe entière** à la place du TD en demi groupe
-- Mercredi 11/09: 14h-15h TD Groupe 1, 15h-16h TD Groupe 2 en A4022
+- Mercredi 11/09: 14h-15h TD Groupe 1, 15h-16h TD Groupe 2 en A402
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -25,3 +25,4 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### OCaml
 - Le 05/09 [Introduction à OCaml](https://nc-lycees.netocentre.fr/s/nNn6dFokSw6ifDJ) /  [Corrigé](https://nc-lycees.netocentre.fr/s/ZydDWQrRXtDpomt)
+- Le 12/09 [Types avancés en OCaml](https://nc-lycees.netocentre.fr/s/DCkseTCmWJL4jjY) / [Corrigé](https://nc-lycees.netocentre.fr/s/krHkoti3eqBzF5L)
