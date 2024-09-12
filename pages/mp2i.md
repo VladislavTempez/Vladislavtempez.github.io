@@ -5,24 +5,23 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Mardi 10/09: 14h-16h Cours en **classe entière** à la place du TD en demi groupe
-- Mercredi 11/09: 14h-15h TD Groupe 1, 15h-16h TD Groupe 2 en A402
+- À partir de la semaine prochaine, les groupes sont dans le colloscope. 
 
 ## Documents et chapitres abordés depuis le début de l'année
 
 ### Cours
 
 #### Calcul propositionnel
-- [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Correction (à venir)]()
- 
+- [TD2: Sémantique du calcul propositionnel](https://nc-lycees.netocentre.fr/s/JQeAGrgzxkR4axz) / [Corrigé (à venir)]()
+- [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé (à venir)]()
 
 ### TP
 
-
+#### OCaml
+- Le 03/10 [Caractères, chaînes, entrées et sorties](https://nc-lycees.netocentre.fr/s/tqay8X4RBwDQRH3) / [Corrigé](https://nc-lycees.netocentre.fr/s/Sd68EsiYc8E6K3p)
+- Le 26/09 [Types construits en OCaml](https://nc-lycees.netocentre.fr/s/Z8g4Zw34QaDdx3d) / [Corrigé](https://nc-lycees.netocentre.fr/s/YyetAsRFG5qbtPx)
+- Le 12/09 et 19/09 [Types avancés en OCaml](https://nc-lycees.netocentre.fr/s/DCkseTCmWJL4jjY) / [Corrigé](https://nc-lycees.netocentre.fr/s/krHkoti3eqBzF5L)
+- Le 05/09 [Introduction à OCaml](https://nc-lycees.netocentre.fr/s/nNn6dFokSw6ifDJ) /  [Corrigé](https://nc-lycees.netocentre.fr/s/ZydDWQrRXtDpomt)
 
 #### Prise en main du terminal
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
-
-#### OCaml
-- Le 05/09 [Introduction à OCaml](https://nc-lycees.netocentre.fr/s/nNn6dFokSw6ifDJ) /  [Corrigé](https://nc-lycees.netocentre.fr/s/ZydDWQrRXtDpomt)
-- Le 12/09 [Types avancés en OCaml](https://nc-lycees.netocentre.fr/s/DCkseTCmWJL4jjY) / [Corrigé](https://nc-lycees.netocentre.fr/s/krHkoti3eqBzF5L)
