@@ -12,6 +12,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Cours
 
 #### Calcul propositionnel
+- [Ce qui faut savoir sur le calcul propositionnel](https://nc-lycees.netocentre.fr/s/KwZCjsorqBw7TGQ)
 - [TD2: Sémantique du calcul propositionnel](https://nc-lycees.netocentre.fr/s/JQeAGrgzxkR4axz) / [Corrigé (à venir)]()
 - [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé](https://nc-lycees.netocentre.fr/s/6kcK8T9yiGQ6oQm)
 
