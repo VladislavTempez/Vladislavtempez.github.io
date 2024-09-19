@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- À partir de la semaine prochaine, les groupes sont dans le colloscope. 
+- Rien pour le moment.
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -13,7 +13,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Calcul propositionnel
 - [TD2: Sémantique du calcul propositionnel](https://nc-lycees.netocentre.fr/s/JQeAGrgzxkR4axz) / [Corrigé (à venir)]()
-- [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé (à venir)]()
+- [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé](https://nc-lycees.netocentre.fr/s/6kcK8T9yiGQ6oQm)
 
 ### TP
 
