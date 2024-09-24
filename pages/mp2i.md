@@ -13,6 +13,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Calcul propositionnel
 - [Ce qui faut savoir sur le calcul propositionnel](https://nc-lycees.netocentre.fr/s/KwZCjsorqBw7TGQ)
+- [TD3: Formes normales et problème SAT](https://nc-lycees.netocentre.fr/s/y5z7WL5rETEjq5C) / [Corrigé (à venir)]()
 - [TD2: Sémantique du calcul propositionnel](https://nc-lycees.netocentre.fr/s/JQeAGrgzxkR4axz) / [Corrigé (à venir)]()
 - [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé](https://nc-lycees.netocentre.fr/s/6kcK8T9yiGQ6oQm)
 
@@ -26,3 +27,11 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Prise en main du terminal
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
+
+### DS 
+#### DS 1
+Au programme: 
+- Ensembles inductifs et preuves par induction (TD1)
+- Syntaxe et sémantique du calcul propositionnel (TD1 et TD2)
+- Syntaxe du langage OCaml (TP OCaml 1,2 et 3)
+- [Un exemple d'exercice de programmation en OCaml](https://nc-lycees.netocentre.fr/s/52Z7ZdiciBkgn5x)
