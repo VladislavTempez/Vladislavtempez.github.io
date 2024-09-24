@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Rien pour le moment.
+- DS1 le 09/10.
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -29,9 +29,10 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
 
 ### DS 
+- [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
 #### DS 1
 Au programme: 
 - Ensembles inductifs et preuves par induction (TD1)
 - Syntaxe et sémantique du calcul propositionnel (TD1 et TD2)
-- Syntaxe du langage OCaml (TP OCaml 1,2 et 3)
+- Syntaxe du langage OCaml (TP OCaml 1, 2, 3 et 4)
 - [Un exemple d'exercice de programmation en OCaml](https://nc-lycees.netocentre.fr/s/52Z7ZdiciBkgn5x)
