@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Premier DS d'informatique le 09/10. Programme [ici](###Programme-DS1)
+- Premier DS d'informatique le 09/10. Programme [ici](####Programme-DS1)
 
 ## Documents et chapitres abordés depuis le début de l'année
 
