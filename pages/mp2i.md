@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- DS1 le 09/10.
+- Premier DS d'informatique le 09/10. Programme [ici](### Programme DS1)
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -18,7 +18,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé](https://nc-lycees.netocentre.fr/s/6kcK8T9yiGQ6oQm)
 
 ### TP
-
+- Quelques problèmes plus ouverts pour s'entraîner [ici]()
 #### OCaml
 - Le 03/10 [Caractères, chaînes, entrées et sorties](https://nc-lycees.netocentre.fr/s/tqay8X4RBwDQRH3) / [Corrigé](https://nc-lycees.netocentre.fr/s/Sd68EsiYc8E6K3p)
 - Le 26/09 [Types construits en OCaml](https://nc-lycees.netocentre.fr/s/Z8g4Zw34QaDdx3d) / [Corrigé](https://nc-lycees.netocentre.fr/s/YyetAsRFG5qbtPx)
@@ -27,10 +27,12 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Prise en main du terminal
 - Le 05/09 [sujet](https://nc-lycees.netocentre.fr/s/WXQyBHjADspJ8Xk)
-
+#### Problèmes de programmation sans lien direct avec le cours
+À traiter en C ou en OCaml, mots de passe disponible sur demande. Une proposition de correction dans un langage est disponible.
+- [Conteneur sécurisé](/docs/exos-prog/secure-container.html)
 ### DS 
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
-#### DS 1
+#### Programme DS1
 Au programme: 
 - Ensembles inductifs et preuves par induction (TD1)
 - Syntaxe et sémantique du calcul propositionnel (TD1 et TD2)
