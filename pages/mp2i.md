@@ -19,6 +19,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 ### TP
 #### OCaml
+- [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
 - Le 03/10 [Caractères, chaînes, entrées et sorties](https://nc-lycees.netocentre.fr/s/tqay8X4RBwDQRH3) / [Corrigé](https://nc-lycees.netocentre.fr/s/Sd68EsiYc8E6K3p)
 - Le 26/09 [Types construits en OCaml](https://nc-lycees.netocentre.fr/s/Z8g4Zw34QaDdx3d) / [Corrigé](https://nc-lycees.netocentre.fr/s/YyetAsRFG5qbtPx)
 - Le 12/09 et 19/09 [Types avancés en OCaml](https://nc-lycees.netocentre.fr/s/DCkseTCmWJL4jjY) / [Corrigé](https://nc-lycees.netocentre.fr/s/krHkoti3eqBzF5L)
