@@ -31,7 +31,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### Problèmes de programmation sans lien direct avec le cours
 À traiter en C ou en OCaml, mots de passe disponible sur demande. Une proposition de correction dans un langage est disponible.
 - [Conteneur sécurisé](/docs/exos-prog/secure-container.html)
-- [Interpeter](/docs/exos-prog/interpreter.html)
+- [Interpreteur](/docs/exos-prog/interpreter.html)
 
 ### DS 
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
