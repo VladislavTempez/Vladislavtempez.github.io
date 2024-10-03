@@ -83,16 +83,12 @@ h1
     color: black;
 }
 a{
-    color: black;
-    font-weight: italic;
+    color: darkolivegreen;
     text-decoration: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px dashed;
 }
 a:hover {
-    border-bottom: 2px solid;
-    border-top: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
+    border-bottom: 1px solid;
 }
 li{
     color: black;
