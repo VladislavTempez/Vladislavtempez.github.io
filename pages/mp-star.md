@@ -8,6 +8,7 @@ description: Vladislav Tempez - Enseignement - MP - Informatique
 <!-- - Mercredi 18/09 8h-9h Cours en D103 -->
 ## Documents et chapitres abordés depuis le début de l'année
 ### Cours
+- [TD Automates et langages](https://nc-lycees.netocentre.fr/s/Rwp2Pqksk5E5Set) / [Corrigé à venir]()
 ### TP
 ### Divers
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/mHTAr95LAZjoAYP)
