@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Premier DS d'informatique le 09/10. Programme [ici](#programme-ds1)
+- Compte rendu sur le TP formules à rendre pour le 03/11 22h dernier délai, les consignes de rédaction sont [ici](#divers)
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -35,10 +35,11 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [Conteneur sécurisé](/docs/exos-prog/secure-container.html)
 - [Interpreteur](/docs/exos-prog/interpreter.html)
 
-### DS 
+### Divers 
+- [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
 
-#### Programme DS1
+#### Programme DS1 (09/10)
 Au programme: 
 - Ensembles inductifs et preuves par induction (TD1)
 - Syntaxe et sémantique du calcul propositionnel (TD1 et TD2)
