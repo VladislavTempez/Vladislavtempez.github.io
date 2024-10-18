@@ -6,6 +6,9 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ---
 ## Actualités
 - Compte rendu sur le TP formules à rendre pour le 03/11 22h dernier délai, les consignes de rédaction sont [ici](#divers)
+- 05/11/14h-16h 2h de cours en classe entière à la place de la séance de TD
+- 06/11 DS2 d'informatique, programme détaillé [ici](#programme-ds2)
+- 12/11 14h-16h 2h en classe entière: 1h de TD et 1h de cours sur la mémoire
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -39,6 +42,13 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
 
+#### Programme DS2
+- Le 06/11 de 15h45 à 17h45
+- Tout le calcul propositionnel
+- Toute la syntaxe OCaml
+- Un exercice de modélisation
+- Un exercice syntaxe/sémantique
+- Un exercice de programmation
 #### Programme DS1 (09/10)
 Au programme: 
 - Ensembles inductifs et preuves par induction (TD1)
