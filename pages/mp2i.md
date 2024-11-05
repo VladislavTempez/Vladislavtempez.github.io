@@ -21,6 +21,12 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [TD1: Ensemble inductifs et syntaxe du calcul propositionnel](https://nc-lycees.netocentre.fr/s/M3pzHQJyNSm3Egy) / [Corrigé](https://nc-lycees.netocentre.fr/s/6kcK8T9yiGQ6oQm)
 
 ### TP
+#### C
+- Le 05/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
+- Le 28/11 [Enregistrements](https://nc-lycees.netocentre.fr/s/y73mn4cxXaTsWCQ) / [Corrigé](https://nc-lycees.netocentre.fr/s/scQyaYRTSBHW2Cn)
+- Le 21/11 [Allocations dynamiques](https://nc-lycees.netocentre.fr/s/ga4Qckc4Psn3pxt) / [Corrigé](https://nc-lycees.netocentre.fr/s/nbKpqsTaWZ5eJHm)
+- Le 14/11 [Pointeurs](https://nc-lycees.netocentre.fr/s/pQseMBy2bAobLHR) [Code source des programmes](https://nc-lycees.netocentre.fr/s/bQwJgTQosPZrsqZ) / [Corrigé](https://nc-lycees.netocentre.fr/s/PXrd4Hb39CANQrG)
+- Le 07/11 [Introduction au C](https://nc-lycees.netocentre.fr/s/8X7X7ZFyfEdoaY4) / [Corrigé](https://nc-lycees.netocentre.fr/s/pQDQCS2ofKQJied)
 #### OCaml
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
 - Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/joPXZY2BsXLwKma) / [Corrigé](https://nc-lycees.netocentre.fr/s/nQwjoKmpNAe8tqq)
@@ -42,7 +48,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
 
-#### Programme DS2
+#### Programme DS2 (06/11)
 - Le 06/11 de 15h45 à 17h45
 - Tout le calcul propositionnel
 - Toute la syntaxe OCaml
