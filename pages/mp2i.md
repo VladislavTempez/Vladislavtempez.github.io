@@ -27,7 +27,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Le 05/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
 - Le 28/11 [Enregistrements](https://nc-lycees.netocentre.fr/s/y73mn4cxXaTsWCQ) / [Corrigé](https://nc-lycees.netocentre.fr/s/scQyaYRTSBHW2Cn)
 - Le 21/11 [Allocations dynamiques](https://nc-lycees.netocentre.fr/s/ga4Qckc4Psn3pxt) / [Corrigé](https://nc-lycees.netocentre.fr/s/nbKpqsTaWZ5eJHm)
-- Le 14/11 [Pointeurs](https://nc-lycees.netocentre.fr/s/pQseMBy2bAobLHR) [Code source des programmes](https://nc-lycees.netocentre.fr/s/bQwJgTQosPZrsqZ) / [Corrigé](https://nc-lycees.netocentre.fr/s/PXrd4Hb39CANQrG)
+- Le 14/11 [Pointeurs](https://nc-lycees.netocentre.fr/s/pQseMBy2bAobLHR) / [Code source des programmes](https://nc-lycees.netocentre.fr/s/bQwJgTQosPZrsqZ) / [Corrigé](https://nc-lycees.netocentre.fr/s/PXrd4Hb39CANQrG)
 - Le 07/11 [Introduction au C](https://nc-lycees.netocentre.fr/s/8X7X7ZFyfEdoaY4) / [Corrigé](https://nc-lycees.netocentre.fr/s/pQDQCS2ofKQJied)
 
 #### OCaml
