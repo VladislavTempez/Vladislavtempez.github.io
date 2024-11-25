@@ -8,6 +8,7 @@ description: Vladislav Tempez - Enseignement - MP - Informatique
 <!-- - Mercredi 18/09 8h-9h Cours en D103 -->
 ## Documents et chapitres abordés depuis le début de l'année
 ### Cours
+- [TD Déduction Naturelle](https://nc-lycees.netocentre.fr/s/Rwp2Pqksk5E5Set) / [Corrigé](https://nc-lycees.netocentre.fr/s/PPpc2Y4EJneP4DD)
 - [TD Automates et langages](https://nc-lycees.netocentre.fr/s/Rwp2Pqksk5E5Set) / [Corrigé](https://nc-lycees.netocentre.fr/s/PPpc2Y4EJneP4DD)
 ### TP
 - Le 04/11/2024 [TP automates et langages](https://nc-lycees.netocentre.fr/s/JznXWdCmtgwTSBX) / [Corrigé](https://nc-lycees.netocentre.fr/s/KWML9rwdFbipkrF)
