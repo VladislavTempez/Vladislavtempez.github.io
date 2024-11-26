@@ -5,8 +5,8 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- 06/11: DS2 d'informatique, programme détaillé [ici](#programme-ds2)
-- 12/11 14h-16h: 2h en classe entière: 1h de TD et 1h de cours sur la mémoire
+- 03/12 14h-16h: 2h en de TD en classe entière. Préparez les exercices 1 à 3 du TD.
+- 18/12 13h30-16h30: DS de 3h. [programme détaillé](#programme-ds3)
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -14,7 +14,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Analyse d'algorithmes 
 - [TD5: Complexité](https://nc-lycees.netocentre.fr/s/dc7mR3xgF5tGLXS) / [Corrigé à venir]()
-- [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé à venir]()
+- [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/TDfHc2smCSkHbks)
 
 #### Calcul propositionnel
 - [Ce qui faut savoir sur le calcul propositionnel](https://nc-lycees.netocentre.fr/s/KwZCjsorqBw7TGQ)
@@ -52,7 +52,13 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
 
-#### Programme DS2 (06/11)
+#### Programme DS3
+- Le 18/12 de 13h30 à 16h30 (3h)
+- Tout le chapitre d'analyse d'algorithmes
+- Lecture de code en OCaml et en C.
+- Analyse de code (correction/terminaison/complexité) sur des programmes en C et OCaml.
+
+#### Programme DS2
 - Le 06/11 de 15h45 à 17h45
 - Tout le calcul propositionnel
 - Toute la syntaxe OCaml
@@ -60,8 +66,8 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Un exercice syntaxe/sémantique
 - Un exercice de programmation
 
-#### Programme DS1 (09/10)
-Au programme: 
+#### Programme DS1
+- Le 09/10 de 15h45 à 17h45
 - Ensembles inductifs et preuves par induction (TD1)
 - Syntaxe et sémantique du calcul propositionnel (TD1 et TD2)
 - Syntaxe du langage OCaml (TP OCaml 1, 2, 3 et 4)
