@@ -27,7 +27,8 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
-- Le 05/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
+- le 19/12 [Algorithme de Seam Carving pour le redimensionnement d'images](https://nc-lycees.netocentre.fr/s/jLGBTsSQCH47X5H) / [Fichiers de base et bibliothèque](https://nc-lycees.netocentre.fr/s/2g5PFefr6oMj24r) / [Correction](https://nc-lycees.netocentre.fr/s/mxEeHNYwPY2ScPj)
+- Le 12/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
 - Le 28/11 [Enregistrements](https://nc-lycees.netocentre.fr/s/y73mn4cxXaTsWCQ) / [Corrigé](https://nc-lycees.netocentre.fr/s/scQyaYRTSBHW2Cn)
 - Le 21/11 [Allocations dynamiques](https://nc-lycees.netocentre.fr/s/ga4Qckc4Psn3pxt) / [Corrigé](https://nc-lycees.netocentre.fr/s/nbKpqsTaWZ5eJHm)
 - Le 14/11 [Pointeurs](https://nc-lycees.netocentre.fr/s/pQseMBy2bAobLHR) / [Code source des programmes](https://nc-lycees.netocentre.fr/s/bQwJgTQosPZrsqZ) / [Corrigé](https://nc-lycees.netocentre.fr/s/PXrd4Hb39CANQrG)
