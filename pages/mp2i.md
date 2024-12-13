@@ -5,16 +5,19 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- 03/12 14h-16h: 2h en de TD en classe entière. Préparez les exercices 1 à 3 du TD.
 - 18/12 13h30-16h30: DS de 3h. [programme détaillé](#programme-ds3)
 
 ## Documents et chapitres abordés depuis le début de l'année
 
 ### Cours
 
+#### Tests Structurels
+- [Ce qui faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/Z2sMtMs4kYTbXs)
+- [TD7: Tests structurels](https://nc-lycees.netocentre.fr/s/BQzYXGWTSdad3RJ) / [Corrigé à venir]()
+
 #### Analyse d'algorithmes 
 - [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/YNpWjQD32sCZMzB)
-- [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/XpmKa5Rogpzo6kd) / [Corrigé à venir]()
+- [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/XpmKa5Rogpzo6kd) / [Corrigé](https://nc-lycees.netocentre.fr/s/cxn69GzMMY5Ls8p)
 - [TD5: Complexité](https://nc-lycees.netocentre.fr/s/dc7mR3xgF5tGLXS) / [Corrigé](https://nc-lycees.netocentre.fr/s/oTCJX7zRcjZqRE7)
 - [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/TDfHc2smCSkHbks)
 
