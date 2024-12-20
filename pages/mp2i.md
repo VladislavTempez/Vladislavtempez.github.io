@@ -4,8 +4,8 @@ title: Enseignement - MP2I
 permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
-## Actualités
-- 18/12 13h30-16h30: DS de 3h. [programme détaillé](#programme-ds3)
+<!-- ## Actualités -->
+<!-- - 18/12 13h30-16h30: DS de 3h. [programme détaillé](#programme-ds3) -->
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -13,7 +13,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Tests Structurels
 - [Ce qui faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/Z2sMtMs4kYTbXs)
-- [TD7: Tests structurels](https://nc-lycees.netocentre.fr/s/BQzYXGWTSdad3RJ) / [Corrigé à venir]()
+- [TD7: Tests structurels](https://nc-lycees.netocentre.fr/s/BQzYXGWTSdad3RJ) / [Corrigé](https://nc-lycees.netocentre.fr/s/Y8eFZLSX58zddd3)
 
 #### Analyse d'algorithmes 
 - [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/YNpWjQD32sCZMzB)
