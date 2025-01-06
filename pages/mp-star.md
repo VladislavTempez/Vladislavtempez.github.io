@@ -5,9 +5,10 @@ permalink: /teaching/mp-star/
 description: Vladislav Tempez - Enseignement - MP - Informatique 
 ---
 ## Actualités
-- Lundi 09/12 10h-12h TP en C203
+
 ## Documents et chapitres abordés depuis le début de l'année
 ### Cours
+- [Correction de l'algorithme de parcours en largeur](https://nc-lycees.netocentre.fr/s/PdE7G8rXGTFXTdo)
 - [TD Déduction Naturelle](https://nc-lycees.netocentre.fr/s/S5zxP6pBAqdbZMH) / [Corrigé Partiel](https://nc-lycees.netocentre.fr/s/W52ojF6CL9YDsbe)
 - [TD Automates et langages](https://nc-lycees.netocentre.fr/s/Rwp2Pqksk5E5Set) / [Corrigé](https://nc-lycees.netocentre.fr/s/PPpc2Y4EJneP4DD)
 ### TP
