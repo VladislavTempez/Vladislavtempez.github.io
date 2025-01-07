@@ -4,8 +4,10 @@ title: Enseignement - MP2I
 permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
-<!-- ## Actualités -->
-<!-- - 18/12 13h30-16h30: DS de 3h. [programme détaillé](#programme-ds3) -->
+## Actualités
+- Le 22/01 DS4 d'informatique [programme détaillé](#programme-ds4)
+- Le 27/01 Début du semestre 2, changement d'emploi du temps, 2h de cours lundi matin de 8h à 10h, 2x1h de TD de 14h à 16h en parallèle du TD de physique. 
+<!-- - Le 29/01 2x1h de TD de 14h à 16h, avec les groupes dans le même ordre que le TD du lundi -->
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -30,6 +32,8 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
+- le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/ozR5ZEprXNcCB8a)
+- le 16/01 [Listes chaînées](https://nc-lycees.netocentre.fr/s/oqyEDkyCkDJjE4e) / [Code compagnon](https://nc-lycees.netocentre.fr/s/Hb3aoLmFiBQ9fCL) / [Correction](https://nc-lycees.netocentre.fr/s/BjM5rTzbsWCyQdS)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/i2yJEDGAMqK7iqm) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - le 19/12 [Algorithme de Seam Carving pour le redimensionnement d'images](https://nc-lycees.netocentre.fr/s/JotJLz772Wiwgz3) / [Fichiers de base et bibliothèque](https://nc-lycees.netocentre.fr/s/2g5PFefr6oMj24r) / [Correction](https://nc-lycees.netocentre.fr/s/mxEeHNYwPY2ScPj)
 - Le 12/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
@@ -40,6 +44,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### OCaml
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
+- le 23/01 [Dictionnaires](https://nc-lycees.netocentre.fr/s/sNg4nS4WdgMXZSo) / [Correction](https://nc-lycees.netocentre.fr/s/WAgkGbtfxcqTLHr)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/i2yJEDGAMqK7iqm) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/joPXZY2BsXLwKma) / [Corrigé](https://nc-lycees.netocentre.fr/s/nQwjoKmpNAe8tqq)
 - Le 10/10 [Manipulations de formules du calcul propositionnel en OCaml](https://nc-lycees.netocentre.fr/s/ctMnDaKRmHoJowz) / [Corrigé](https://nc-lycees.netocentre.fr/s/bBQ95nQmqT86Myq)
@@ -59,6 +64,11 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
+
+#### Programme DS4
+- Le 22/01 de 15h45 à 17h45
+- Le chapitre de Tests structurels
+- Le chapitre de Structures de données séquentielles
 
 #### Programme DS3
 - Le 18/12 de 13h30 à 16h30 (3h)
