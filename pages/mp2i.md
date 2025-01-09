@@ -34,7 +34,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### C
 - le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/ozR5ZEprXNcCB8a)
 - le 16/01 [Listes chaînées](https://nc-lycees.netocentre.fr/s/oqyEDkyCkDJjE4e) / [Code compagnon](https://nc-lycees.netocentre.fr/s/Hb3aoLmFiBQ9fCL) / [Correction](https://nc-lycees.netocentre.fr/s/BjM5rTzbsWCyQdS)
-- le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/i2yJEDGAMqK7iqm) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
+- le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/mX8K9Dgy6TSrrsD) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - le 19/12 [Algorithme de Seam Carving pour le redimensionnement d'images](https://nc-lycees.netocentre.fr/s/JotJLz772Wiwgz3) / [Fichiers de base et bibliothèque](https://nc-lycees.netocentre.fr/s/2g5PFefr6oMj24r) / [Correction](https://nc-lycees.netocentre.fr/s/mxEeHNYwPY2ScPj)
 - Le 12/12 [Caractères, chaînes, entrées, sorties](https://nc-lycees.netocentre.fr/s/MXZ7ztJ62AHBi6y) / [Corrigé](https://nc-lycees.netocentre.fr/s/9AXEq8cqTiXNWFE)
 - Le 28/11 [Enregistrements](https://nc-lycees.netocentre.fr/s/y73mn4cxXaTsWCQ) / [Corrigé](https://nc-lycees.netocentre.fr/s/scQyaYRTSBHW2Cn)
@@ -45,7 +45,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### OCaml
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
 - le 23/01 [Dictionnaires](https://nc-lycees.netocentre.fr/s/sNg4nS4WdgMXZSo) / [Correction](https://nc-lycees.netocentre.fr/s/WAgkGbtfxcqTLHr)
-- le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/i2yJEDGAMqK7iqm) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
+- le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/mX8K9Dgy6TSrrsD) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/joPXZY2BsXLwKma) / [Corrigé](https://nc-lycees.netocentre.fr/s/nQwjoKmpNAe8tqq)
 - Le 10/10 [Manipulations de formules du calcul propositionnel en OCaml](https://nc-lycees.netocentre.fr/s/ctMnDaKRmHoJowz) / [Corrigé](https://nc-lycees.netocentre.fr/s/bBQ95nQmqT86Myq)
 - Le 03/10 [Caractères, chaînes, entrées et sorties](https://nc-lycees.netocentre.fr/s/tqay8X4RBwDQRH3) / [Corrigé](https://nc-lycees.netocentre.fr/s/Sd68EsiYc8E6K3p)
