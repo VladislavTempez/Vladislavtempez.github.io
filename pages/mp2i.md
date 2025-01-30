@@ -17,6 +17,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 - [Ce qu'il faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/C4QN8geTtcANE3D)
 - [TD8: Structures séquentielles](https://nc-lycees.netocentre.fr/s/rHsqCQ3MisoHXbN) / [Correction](https://nc-lycees.netocentre.fr/s/BinKQZcqoJDdnq8)
+- [TD9: Représentation des nombres](https://nc-lycees.netocentre.fr/s/76b7acTRqHr5kxw) / [Correction](https://nc-lycees.netocentre.fr/s/HYmAg5L84r4Wx77)
 
 #### Tests Structurels
 - [Ce qui faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/4eP4EZkJ3sctMTp)
