@@ -37,7 +37,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
-- le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/ozR5ZEprXNcCB8a)
+- le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/6FqSF3NTKradLKj)
 - le 16/01 [Listes chaînées](https://nc-lycees.netocentre.fr/s/oqyEDkyCkDJjE4e) / [Code compagnon](https://nc-lycees.netocentre.fr/s/Hb3aoLmFiBQ9fCL) / [Correction](https://nc-lycees.netocentre.fr/s/BjM5rTzbsWCyQdS)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/tiLM7cjAHw55ckJ) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - le 19/12 [Algorithme de Seam Carving pour le redimensionnement d'images](https://nc-lycees.netocentre.fr/s/JotJLz772Wiwgz3) / [Fichiers de base et bibliothèque](https://nc-lycees.netocentre.fr/s/2g5PFefr6oMj24r) / [Correction](https://nc-lycees.netocentre.fr/s/mxEeHNYwPY2ScPj)
