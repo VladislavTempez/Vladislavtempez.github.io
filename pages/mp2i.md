@@ -5,13 +5,16 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Le 22/01 DS4 d'informatique [programme détaillé](#programme-ds4)
-- Le 27/01 Début du semestre 2, changement d'emploi du temps, 2h de cours lundi matin de 8h à 10h, 2x1h de TD de 14h à 16h en parallèle du TD de physique. 
+<!-- - Le 22/01 DS4 d'informatique [programme détaillé](#programme-ds4) -->
+<!-- - Le 27/01 Début du semestre 2, changement d'emploi du temps, 2h de cours lundi matin de 8h à 10h, 2x1h de TD de 14h à 16h en parallèle du TD de physique.  -->
 <!-- - Le 29/01 2x1h de TD de 14h à 16h, avec les groupes dans le même ordre que le TD du lundi -->
 
 ## Documents et chapitres abordés depuis le début de l'année
 
 ### Cours
+
+#### Arbres
+- [TD10: Arbres](https://nc-lycees.netocentre.fr/s/iayms2r48owasek) / [Correction à venir]()
 
 #### Structures séquentielles
 
@@ -50,6 +53,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### OCaml
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
+- Le 02/02 [Grands entiers](https://nc-lycees.netocentre.fr/s/F53ZoDP9TXQkC6N) / [Correction](https://nc-lycees.netocentre.fr/s/4e2RWKioGQN7diT)
 - le 23/01 [Dictionnaires](https://nc-lycees.netocentre.fr/s/sNg4nS4WdgMXZSo) / [Correction](https://nc-lycees.netocentre.fr/s/WAgkGbtfxcqTLHr)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/tiLM7cjAHw55ckJ) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
 - Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/joPXZY2BsXLwKma) / [Corrigé](https://nc-lycees.netocentre.fr/s/nQwjoKmpNAe8tqq)
@@ -66,6 +70,9 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 À traiter en C ou en OCaml, mots de passe disponible sur demande. Une proposition de correction dans un langage est disponible.
 - [Conteneur sécurisé](/docs/exos-prog/secure-container.html)
 - [Interpréteur](/docs/exos-prog/interpreter.html)
+
+### TIPE
+- [Diapositives de présentation de l'épreuve](https://nc-lycees.netocentre.fr/s/eAqqLALLKdYGTEW)
 
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
