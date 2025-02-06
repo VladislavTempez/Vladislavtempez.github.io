@@ -14,6 +14,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Cours
 
 #### Arbres
+- [Ce qu'il faut savoir sur les arbres](https://nc-lycees.netocentre.fr/s/63a25pfJpNLBa8g)
 - [TD10: Arbres](https://nc-lycees.netocentre.fr/s/iayms2r48owasek) / [Correction à venir]()
 
 #### Structures séquentielles
@@ -23,7 +24,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [TD9: Représentation des nombres](https://nc-lycees.netocentre.fr/s/76b7acTRqHr5kxw) / [Correction](https://nc-lycees.netocentre.fr/s/HYmAg5L84r4Wx77)
 
 #### Tests Structurels
-- [Ce qui faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/4eP4EZkJ3sctMTp)
+- [Ce qu'il faut savoir sur les tests structurels](https://nc-lycees.netocentre.fr/s/4eP4EZkJ3sctMTp)
 - [TD7: Tests structurels](https://nc-lycees.netocentre.fr/s/BQzYXGWTSdad3RJ) / [Corrigé](https://nc-lycees.netocentre.fr/s/XSrkmwyC5B5B5mK)
 
 #### Analyse d'algorithmes 
