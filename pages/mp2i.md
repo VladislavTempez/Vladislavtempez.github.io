@@ -28,7 +28,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - [TD7: Tests structurels](https://nc-lycees.netocentre.fr/s/BQzYXGWTSdad3RJ) / [Corrigé](https://nc-lycees.netocentre.fr/s/XSrkmwyC5B5B5mK)
 
 #### Analyse d'algorithmes 
-- [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/YNpWjQD32sCZMzB)
+- [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/N2dHJNtjBw9S3bk)
 - [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/XpmKa5Rogpzo6kd) / [Corrigé](https://nc-lycees.netocentre.fr/s/cxn69GzMMY5Ls8p)
 - [TD5: Complexité](https://nc-lycees.netocentre.fr/s/dc7mR3xgF5tGLXS) / [Corrigé](https://nc-lycees.netocentre.fr/s/oTCJX7zRcjZqRE7)
 - [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/TDfHc2smCSkHbks)
