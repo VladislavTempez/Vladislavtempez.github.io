@@ -30,8 +30,8 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### Analyse d'algorithmes 
 - [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/N2dHJNtjBw9S3bk)
 - [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/XpmKa5Rogpzo6kd) / [Corrigé](https://nc-lycees.netocentre.fr/s/cxn69GzMMY5Ls8p)
-- [TD5: Complexité](https://nc-lycees.netocentre.fr/s/dc7mR3xgF5tGLXS) / [Corrigé](https://nc-lycees.netocentre.fr/s/oTCJX7zRcjZqRE7)
-- [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/TDfHc2smCSkHbks)
+- [TD5: Complexité](https://nc-lycees.netocentre.fr/s/TzTQcdjm4ZkR5Ps) / [Corrigé](https://nc-lycees.netocentre.fr/s/oTCJX7zRcjZqRE7)
+- [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/QmTK3emGMf4t9DF)
 
 #### Calcul propositionnel
 - [Ce qui faut savoir sur le calcul propositionnel](https://nc-lycees.netocentre.fr/s/KwZCjsorqBw7TGQ)
