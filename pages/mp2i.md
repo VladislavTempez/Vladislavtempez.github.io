@@ -42,6 +42,8 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
+- le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/8gpLHmFsgFcdXBt) / [Correction](https://nc-lycees.netocentre.fr/s/RYS7fwgwXBMQdC9)
+- le 27/02 [Arbres et tas](https://nc-lycees.netocentre.fr/s/bjQNnZ2MMHDRbzT) / [Correction](https://nc-lycees.netocentre.fr/s/wd4moSKDJxNNicS)
 - le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/6FqSF3NTKradLKj)
 - le 16/01 [Listes chaînées](https://nc-lycees.netocentre.fr/s/oqyEDkyCkDJjE4e) / [Code compagnon](https://nc-lycees.netocentre.fr/s/Hb3aoLmFiBQ9fCL) / [Correction](https://nc-lycees.netocentre.fr/s/BjM5rTzbsWCyQdS)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/tiLM7cjAHw55ckJ) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
@@ -53,7 +55,10 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Le 07/11 [Introduction au C](https://nc-lycees.netocentre.fr/s/8X7X7ZFyfEdoaY4) / [Corrigé](https://nc-lycees.netocentre.fr/s/pQDQCS2ofKQJied)
 
 #### OCaml
+
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
+- [Compression de Lempel-Ziv-Welch](https://nc-lycees.netocentre.fr/s/yCMkZnqbm3dAAnZ) / [Correction](https://nc-lycees.netocentre.fr/s/tM54F4y8D7ALX5T)
+- Le 07/03 [Arbres binaires de recherche](https://nc-lycees.netocentre.fr/s/Q3P8FMjKsdtHcHS) / [Correction](https://nc-lycees.netocentre.fr/s/Rr9kTqYPe46EpNc)
 - Le 02/02 [Grands entiers](https://nc-lycees.netocentre.fr/s/F53ZoDP9TXQkC6N) / [Correction](https://nc-lycees.netocentre.fr/s/4e2RWKioGQN7diT)
 - le 23/01 [Dictionnaires](https://nc-lycees.netocentre.fr/s/sNg4nS4WdgMXZSo) / [Correction](https://nc-lycees.netocentre.fr/s/WAgkGbtfxcqTLHr)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/tiLM7cjAHw55ckJ) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
