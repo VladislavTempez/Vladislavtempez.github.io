@@ -15,7 +15,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Arbres
 - [Ce qu'il faut savoir sur les arbres](https://nc-lycees.netocentre.fr/s/63a25pfJpNLBa8g)
-- [TD10: Arbres](https://nc-lycees.netocentre.fr/s/iayms2r48owasek) / [Correction à venir]()
+- [TD10: Arbres](https://nc-lycees.netocentre.fr/s/iayms2r48owasek) / [Correction](https://nc-lycees.netocentre.fr/s/kZ3Sb6nH3XFjQwi)
 
 #### Structures séquentielles
 
@@ -79,6 +79,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 ### TIPE
 - [Diapositives de présentation de l'épreuve](https://nc-lycees.netocentre.fr/s/eAqqLALLKdYGTEW)
+- [Synthèse des sujets](https://nc-lycees.netocentre.fr/s/CyMGrWHC29isXY7) / [Retour sujet par sujet](https://nc-lycees.netocentre.fr/s/Yb4z4bkG5LYLc9c)
 
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
