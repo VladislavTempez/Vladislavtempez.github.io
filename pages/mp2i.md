@@ -42,7 +42,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
-- Le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/8gpLHmFsgFcdXBt) / [Correction](https://nc-lycees.netocentre.fr/s/RYS7fwgwXBMQdC9)
+- Le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/4PYFpe5NJRZffsy) / [Correction](https://nc-lycees.netocentre.fr/s/r48HwcnBjTYaB76)
 - Le 27/02 [Arbres et tas](https://nc-lycees.netocentre.fr/s/bjQNnZ2MMHDRbzT) / [Correction](https://nc-lycees.netocentre.fr/s/wd4moSKDJxNNicS)
 - Le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/6FqSF3NTKradLKj)
 - Le 16/01 [Listes chaînées](https://nc-lycees.netocentre.fr/s/oqyEDkyCkDJjE4e) / [Code compagnon](https://nc-lycees.netocentre.fr/s/Hb3aoLmFiBQ9fCL) / [Correction](https://nc-lycees.netocentre.fr/s/BjM5rTzbsWCyQdS)
