@@ -13,6 +13,13 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 ### Cours
 
+#### Graphes
+- [Ce qu'il faut savoir sur les graphes](https://nc-lycees.netocentre.fr/s/EWJ9ogRmHpGS8aX)
+
+#### Algorithmique 
+- [Ce qu'il faut savoir sur les algorithmes gloutons et le backtracking](https://nc-lycees.netocentre.fr/s/X83xwBNJzpr9Gzb)
+- [TD11: Algorithmes gloutons et backtracking](https://nc-lycees.netocentre.fr/s/2c349db7kPmRqmz) / [Correction](https://nc-lycees.netocentre.fr/s/tP2yPY5Hd4NdApN)
+
 #### Arbres
 - [Ce qu'il faut savoir sur les arbres](https://nc-lycees.netocentre.fr/s/63a25pfJpNLBa8g)
 - [TD10: Arbres](https://nc-lycees.netocentre.fr/s/iayms2r48owasek) / [Correction](https://nc-lycees.netocentre.fr/s/kZ3Sb6nH3XFjQwi)
