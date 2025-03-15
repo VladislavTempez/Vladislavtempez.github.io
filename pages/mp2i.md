@@ -5,9 +5,9 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-<!-- - Le 22/01 DS4 d'informatique [programme détaillé](#programme-ds4) -->
-<!-- - Le 27/01 Début du semestre 2, changement d'emploi du temps, 2h de cours lundi matin de 8h à 10h, 2x1h de TD de 14h à 16h en parallèle du TD de physique.  -->
-<!-- - Le 29/01 2x1h de TD de 14h à 16h, avec les groupes dans le même ordre que le TD du lundi -->
+- Le 19/03 2h de cours de 14h à 16h en salle A402
+- Le 30/04 2h de cours de 8h à 10h à la place de la physique dans la salle de Physique habituelle. 
+- Le 30/04 2h de cours de 14h à 16h en salle A402
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -16,7 +16,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### Graphes
 - [Ce qu'il faut savoir sur les graphes](https://nc-lycees.netocentre.fr/s/EWJ9ogRmHpGS8aX)
 
-#### Algorithmique 
+#### Algorithmique 1
 - [Ce qu'il faut savoir sur les algorithmes gloutons et le backtracking](https://nc-lycees.netocentre.fr/s/X83xwBNJzpr9Gzb)
 - [TD11: Algorithmes gloutons et backtracking](https://nc-lycees.netocentre.fr/s/2c349db7kPmRqmz) / [Correction](https://nc-lycees.netocentre.fr/s/tP2yPY5Hd4NdApN)
 
@@ -49,6 +49,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
+- Le 27/03 [Résolution de Sudoku](https://nc-lycees.netocentre.fr/s/F24pQsFwzTp6D6x) / [Correction](https://nc-lycees.netocentre.fr/s/TJmApeXDeCJEfMJ)
 - Le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/4PYFpe5NJRZffsy) / [Correction](https://nc-lycees.netocentre.fr/s/r48HwcnBjTYaB76)
 - Le 27/02 [Arbres et tas](https://nc-lycees.netocentre.fr/s/bjQNnZ2MMHDRbzT) / [Correction](https://nc-lycees.netocentre.fr/s/wd4moSKDJxNNicS)
 - Le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/6FqSF3NTKradLKj)
@@ -91,6 +92,13 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
+
+#### Programme DS5
+- Le 26/03
+- Chapitre sur la représentation des nombres
+- Chapitre sur les arbres
+- Chapitre d'algorithmique (gloutons et backtracking)
+- Début du chapitre de graphes (partie 1 sur le vocabulaire)
 
 #### Programme DS4
 - Le 22/01 de 15h45 à 17h45
