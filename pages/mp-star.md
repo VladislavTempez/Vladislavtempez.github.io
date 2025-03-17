@@ -8,6 +8,7 @@ description: Vladislav Tempez - Enseignement - MP - Informatique
 
 ## Documents et chapitres abordés depuis le début de l'année
 ### Cours
+- [QCM de révisions](https://nc-lycees.netocentre.fr/s/o3k4GsamE5JoScK)
 - [Correction de l'algorithme de parcours en largeur](https://nc-lycees.netocentre.fr/s/PdE7G8rXGTFXTdo)
 - [TD Déduction Naturelle](https://nc-lycees.netocentre.fr/s/S5zxP6pBAqdbZMH) / [Corrigé Partiel](https://nc-lycees.netocentre.fr/s/W52ojF6CL9YDsbe)
 - [TD Automates et langages](https://nc-lycees.netocentre.fr/s/Rwp2Pqksk5E5Set) / [Corrigé](https://nc-lycees.netocentre.fr/s/PPpc2Y4EJneP4DD)
