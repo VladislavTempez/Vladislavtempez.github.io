@@ -49,7 +49,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
-- Le 27/03 [Résolution de Sudoku](https://nc-lycees.netocentre.fr/s/F24pQsFwzTp6D6x) / [Correction](https://nc-lycees.netocentre.fr/s/TJmApeXDeCJEfMJ)
+- Le 27/03 [Résolution de Sudoku](https://nc-lycees.netocentre.fr/s/F24pQsFwzTp6D6x) / [Correction partie théorique](https://nc-lycees.netocentre.fr/s/n6ZNtHndadS7FCQ) / [Correction C](https://nc-lycees.netocentre.fr/s/TJmApeXDeCJEfMJ) 
 - Le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/4PYFpe5NJRZffsy) / [Correction](https://nc-lycees.netocentre.fr/s/r48HwcnBjTYaB76)
 - Le 27/02 [Arbres et tas](https://nc-lycees.netocentre.fr/s/bjQNnZ2MMHDRbzT) / [Correction](https://nc-lycees.netocentre.fr/s/wd4moSKDJxNNicS)
 - Le 30/01 [Tableaux redimensionnables](https://nc-lycees.netocentre.fr/s/Q7T4BpPfQQ9f2Ft) / [Correction](https://nc-lycees.netocentre.fr/s/6FqSF3NTKradLKj)
