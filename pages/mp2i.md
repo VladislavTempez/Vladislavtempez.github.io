@@ -5,8 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Le 19/03 2h de cours de 14h à 16h en salle A402
-- Le 30/04 2h de cours de 8h à 10h à la place de la physique dans la salle de Physique habituelle. 
+- Le 30/04 2h de cours de 8h à 10h à la place de la physique dans la salle de physique habituelle. 
 - Le 30/04 2h de cours de 14h à 16h en salle A402
 
 ## Documents et chapitres abordés depuis le début de l'année
@@ -66,6 +65,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### OCaml
 
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
+- Le 03/04 [Parcours de graphes et applications](https://nc-lycees.netocentre.fr/s/ZLjjDTE2eT5GPpT) / [Correction](https://nc-lycees.netocentre.fr/s/yiwkyAccsNCoJrD)
 - Le 20/03 [Compression de Lempel-Ziv-Welch](https://nc-lycees.netocentre.fr/s/yCMkZnqbm3dAAnZ) / [Correction](https://nc-lycees.netocentre.fr/s/tM54F4y8D7ALX5T)
 - Le 07/03 [Arbres binaires de recherche](https://nc-lycees.netocentre.fr/s/Q3P8FMjKsdtHcHS) / [Correction](https://nc-lycees.netocentre.fr/s/Rr9kTqYPe46EpNc)
 - Le 02/02 [Grands entiers](https://nc-lycees.netocentre.fr/s/F53ZoDP9TXQkC6N) / [Correction](https://nc-lycees.netocentre.fr/s/4e2RWKioGQN7diT)
