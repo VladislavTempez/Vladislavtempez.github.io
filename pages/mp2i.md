@@ -7,10 +7,24 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ## Actualités
 - Le 30/04 2h de cours de 8h à 10h à la place de la physique dans la salle de physique habituelle. 
 - Le 30/04 2h de cours de 14h à 16h en salle A402
+- Le 07/05 DS6, 4h programme plus bas dans la page.
 
 ## Documents et chapitres abordés depuis le début de l'année
 
 ### Cours
+
+#### Bases de données
+- [Ce qu'il faut savoir sur les bases de données et le SQL](https://nc-lycees.netocentre.fr/s/YYnWf2S4ixzpbiT)
+- [TD16: Bases de données](https://nc-lycees.netocentre.fr/s/ciToNZfb3iAKtmG) / [Correction à venir]()
+
+#### Algorithmique du texte
+- [Ce qu'il faut savoir sur l'algorithmique du texte](https://nc-lycees.netocentre.fr/s/44CfGGsxxSDK723)
+- [TD15: Algorithmique du Texte](https://nc-lycees.netocentre.fr/s/egzMtsxXaboxQgy) / [Correction](https://nc-lycees.netocentre.fr/s/j9Jre748HHSLz4Q)
+
+#### Algorithmique 2
+- [Ce qu'il faut savoir sur diviser pour régner et la programmation dynamique](https://nc-lycees.netocentre.fr/s/zKap8dagEdBFW25)
+- [TD13: Karatsuba](https://nc-lycees.netocentre.fr/s/fYYSHkgcEgoYZiK) / [Correction](https://nc-lycees.netocentre.fr/s/HxnyCE2zW9k7snp)
+- [TD14: Diviser pour régner et Programmation Dynamique](https://nc-lycees.netocentre.fr/s/q3aJpqdwKQDDyJa) / [Correction](https://nc-lycees.netocentre.fr/s/K5YGyti6CoDRebn)
 
 #### Graphes
 - [Ce qu'il faut savoir sur les graphes](https://nc-lycees.netocentre.fr/s/EWJ9ogRmHpGS8aX)
@@ -94,6 +108,11 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
+
+#### Programme DS6
+- Le 07/05
+- Chapitre sur les graphes
+- Chapitre sur l'algorithmique (diviser pour régner, programmation dynamique, algorithmique du texte)
 
 #### Programme DS5
 - Le 26/03
