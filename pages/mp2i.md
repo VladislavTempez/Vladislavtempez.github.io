@@ -87,7 +87,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 - Le 02/02 [Grands entiers](https://nc-lycees.netocentre.fr/s/F53ZoDP9TXQkC6N) / [Correction](https://nc-lycees.netocentre.fr/s/4e2RWKioGQN7diT)
 - le 23/01 [Dictionnaires](https://nc-lycees.netocentre.fr/s/sNg4nS4WdgMXZSo) / [Correction](https://nc-lycees.netocentre.fr/s/WAgkGbtfxcqTLHr)
 - le 09/01 [Compilation séparée et Makefile](https://nc-lycees.netocentre.fr/s/68RWwz2nC4jgmBS) / [Code compagnon](https://nc-lycees.netocentre.fr/s/tiLM7cjAHw55ckJ) / [Correction](https://nc-lycees.netocentre.fr/s/qPkwy8YHBHK3oDE)
-- Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/NMQytf2WBdMjDqG) / [Corrigé](https://nc-lycees.netocentre.fr/s/nQwjoKmpNAe8tqq)
+- Le 17/10 [Syntaxe impérative en OCaml](https://nc-lycees.netocentre.fr/s/NMQytf2WBdMjDqG) / [Corrigé](https://nc-lycees.netocentre.fr/s/jDDXJ9mnDZo3R3n)
 - Le 10/10 [Manipulations de formules du calcul propositionnel en OCaml](https://nc-lycees.netocentre.fr/s/ctMnDaKRmHoJowz) / [Corrigé](https://nc-lycees.netocentre.fr/s/bBQ95nQmqT86Myq)
 - Le 03/10 [Caractères, chaînes, entrées et sorties](https://nc-lycees.netocentre.fr/s/tqay8X4RBwDQRH3) / [Corrigé](https://nc-lycees.netocentre.fr/s/Sd68EsiYc8E6K3p)
 - Le 26/09 [Types construits en OCaml](https://nc-lycees.netocentre.fr/s/Z8g4Zw34QaDdx3d) / [Corrigé](https://nc-lycees.netocentre.fr/s/YyetAsRFG5qbtPx)
