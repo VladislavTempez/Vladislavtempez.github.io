@@ -13,6 +13,9 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 ### Cours
 
+#### Apprentissage supervisé
+- [Ce qu'il faut savoir sur l'apprentissage supervisé](https://nc-lycees.netocentre.fr/s/DsWrAQxPzQsCrKJ)
+
 #### Bases de données
 - [Ce qu'il faut savoir sur les bases de données et le SQL](https://nc-lycees.netocentre.fr/s/YYnWf2S4ixzpbiT)
 - [TD16: Bases de données](https://nc-lycees.netocentre.fr/s/ciToNZfb3iAKtmG) / [Correction à venir]()
