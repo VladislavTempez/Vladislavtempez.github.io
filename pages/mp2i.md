@@ -18,7 +18,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Bases de données
 - [Ce qu'il faut savoir sur les bases de données et le SQL](https://nc-lycees.netocentre.fr/s/YYnWf2S4ixzpbiT)
-- [TD16: Bases de données](https://nc-lycees.netocentre.fr/s/ciToNZfb3iAKtmG) / [Correction à venir]()
+- [TD16: Bases de données](https://nc-lycees.netocentre.fr/s/ciToNZfb3iAKtmG) / [Correction](https://nc-lycees.netocentre.fr/s/pSBb8yaTKece6r2)
 
 #### Algorithmique du texte
 - [Ce qu'il faut savoir sur l'algorithmique du texte](https://nc-lycees.netocentre.fr/s/44CfGGsxxSDK723)
