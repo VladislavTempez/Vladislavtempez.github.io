@@ -5,16 +5,15 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Le 30/04 2h de cours de 8h à 10h à la place de la physique dans la salle de physique habituelle. 
-- Le 30/04 2h de cours de 14h à 16h en salle A402
 - Le 07/05 DS6, 4h programme plus bas dans la page.
 
 ## Documents et chapitres abordés depuis le début de l'année
 
 ### Cours
 
-#### Apprentissage supervisé
-- [Ce qu'il faut savoir sur l'apprentissage supervisé](https://nc-lycees.netocentre.fr/s/DsWrAQxPzQsCrKJ)
+#### Apprentissage automatique
+- [Ce qu'il faut savoir sur l'apprentissage automatique](https://nc-lycees.netocentre.fr/s/DsWrAQxPzQsCrKJ)
+- [TD17: apprentissage automatique](https://nc-lycees.netocentre.fr/s/mfyTMtEYY3D5kzB)
 
 #### Bases de données
 - [Ce qu'il faut savoir sur les bases de données et le SQL](https://nc-lycees.netocentre.fr/s/YYnWf2S4ixzpbiT)
@@ -66,6 +65,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### TP
 
 #### C
+- Le 05/06 [k plus proches champignons (et correction)](https://nc-lycees.netocentre.fr/s/WQkggsCJToCJRAs)
 - Le 24/04 [Graphes et labyrinthes](https://nc-lycees.netocentre.fr/s/JQNgTrDDoZQ6Hgz) / [Correction](https://nc-lycees.netocentre.fr/s/EzDwf4pzMs2qFW5)
 - Le 27/03 [Résolution de Sudoku](https://nc-lycees.netocentre.fr/s/F24pQsFwzTp6D6x) / [Correction partie théorique](https://nc-lycees.netocentre.fr/s/n6ZNtHndadS7FCQ) / [Correction C](https://nc-lycees.netocentre.fr/s/TJmApeXDeCJEfMJ) 
 - Le 13/03 [Compression de Huffman](https://nc-lycees.netocentre.fr/s/mLXt5MTypfHzKy4) / [Code compagnon](https://nc-lycees.netocentre.fr/s/4PYFpe5NJRZffsy) / [Correction](https://nc-lycees.netocentre.fr/s/r48HwcnBjTYaB76)
