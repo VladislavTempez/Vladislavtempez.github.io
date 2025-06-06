@@ -5,7 +5,7 @@ permalink: /teaching/mp2i/
 description: Vladislav Tempez - Enseignement - MP2I - Informatique 
 ---
 ## Actualités
-- Le 07/05 DS6, 4h programme plus bas dans la page.
+- Le 11/06 DS7, 4h programme plus bas dans la page.
 
 ## Documents et chapitres abordés depuis le début de l'année
 
@@ -13,7 +13,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Apprentissage automatique
 - [Ce qu'il faut savoir sur l'apprentissage automatique](https://nc-lycees.netocentre.fr/s/DsWrAQxPzQsCrKJ)
-- [TD17: apprentissage automatique](https://nc-lycees.netocentre.fr/s/mfyTMtEYY3D5kzB)
+- [TD17: apprentissage automatique](https://nc-lycees.netocentre.fr/s/mfyTMtEYY3D5kzB) [Correction](https://nc-lycees.netocentre.fr/s/R5iR8MBjqJggrHL)
 
 #### Bases de données
 - [Ce qu'il faut savoir sur les bases de données et le SQL](https://nc-lycees.netocentre.fr/s/YYnWf2S4ixzpbiT)
@@ -52,7 +52,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 
 #### Analyse d'algorithmes 
 - [Ce qui faut savoir sur l'analyse d'algorithmes](https://nc-lycees.netocentre.fr/s/N2dHJNtjBw9S3bk)
-- [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/XpmKa5Rogpzo6kd) / [Corrigé](https://nc-lycees.netocentre.fr/s/cxn69GzMMY5Ls8p)
+- [TD6: Analyse d'algorithme récursifs](https://nc-lycees.netocentre.fr/s/JP6zw23MdPCsScR) / [Corrigé](https://nc-lycees.netocentre.fr/s/cxn69GzMMY5Ls8p)
 - [TD5: Complexité](https://nc-lycees.netocentre.fr/s/TzTQcdjm4ZkR5Ps) / [Corrigé](https://nc-lycees.netocentre.fr/s/oTCJX7zRcjZqRE7)
 - [TD4: Correction et terminaison](https://nc-lycees.netocentre.fr/s/MnxxTMawzAodcZe) / [Corrigé](https://nc-lycees.netocentre.fr/s/QmTK3emGMf4t9DF)
 
@@ -112,6 +112,12 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 ### Divers 
 - [Consignes concernant les compte rendu du TP](https://nc-lycees.netocentre.fr/s/atbJ9Jgezo58yfA)
 - [Consignes de rédaction des copies](https://nc-lycees.netocentre.fr/s/Yf43iRNiZM3TAsL)
+
+#### Programme DS7
+- Le 11/06
+- Chapitre sur l'algorithmique (diviser pour régner, programmation dynamique, algorithmique du texte)
+- Chapitres sur les bases de données
+- Chapitre sur l'apprentissage automatique jusqu'à la partie sur l'apprentissage supervisé (incluse)
 
 #### Programme DS6
 - Le 07/05
