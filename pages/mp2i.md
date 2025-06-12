@@ -83,6 +83,7 @@ description: Vladislav Tempez - Enseignement - MP2I - Informatique
 #### OCaml
 
 - [La syntaxe à connaître en OCaml](https://nc-lycees.netocentre.fr/s/3YsmRsNCXLd57FK)
+- Le 12/06 [Les pingouins sont-ils des manchots ?](https://nc-lycees.netocentre.fr/s/rLS8cLgDZs3CTPo) / [Code compagnon et corrigé](https://nc-lycees.netocentre.fr/s/Tzgc4QmeQRAtP7c)
 - Le 15/05 [Recherche dans le texte](https://nc-lycees.netocentre.fr/s/s5J8e7g4SFT3CRK) / [Correction](https://nc-lycees.netocentre.fr/s/8MaR7o3C83WfMaT)
 - Le 03/04 [Parcours de graphes et applications](https://nc-lycees.netocentre.fr/s/HYcFwTwBej4fi97) / [Correction](https://nc-lycees.netocentre.fr/s/yiwkyAccsNCoJrD)
 - Le 20/03 [Compression de Lempel-Ziv-Welch](https://nc-lycees.netocentre.fr/s/yCMkZnqbm3dAAnZ) / [Correction](https://nc-lycees.netocentre.fr/s/tM54F4y8D7ALX5T)
