@@ -1,0 +1,908 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instructions pour la séance groupée d'installation de /Linux/</title>
+<meta name="author" content="Vladislav TEMPEZ, Lycée Descartes, Tours">
+<meta name="generator" content="Org Mode">
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Instructions pour la séance groupée d’installation de <i>Linux</i></h1>
+<div id="outline-container-orgcf63c4f" class="outline-2">
+<h2 id="orgcf63c4f"><span class="section-number-2">1.</span> Au préalable</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Les données ont été sauvegardées sur un support externe ou sur une autre machine.</li>
+<li>La machine est branchée sur le secteur.</li>
+<li>Une clé USB contenant une image de la distribution désirée est disponible.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf1b4781" class="outline-2">
+<h2 id="orgf1b4781"><span class="section-number-2">2.</span> Création de la clé</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Cette étape n’est <b>PAS</b> nécessaire pour cette séance puisqu’une clé
+ vous sera fournie. Elle pourrait cependant vous servir si vous 
+souhaitez faire une autre installation à l’avenir.
+</p>
+<ul class="org-ul">
+<li>Obtenir une clé USB de capacité au moins 4Go (8 conseillés).</li>
+<li>Vous assurer que <b>toutes</b> les données sur cette clé sont 
+sauvegardées ailleurs. Le processus de création de clé effacera tout ce 
+qui est contenu sur la clé.</li>
+</ul>
+</div>
+<div id="outline-container-org2c72fab" class="outline-3">
+<h3 id="org2c72fab"><span class="section-number-3">2.1.</span> Sous Windows</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Télécharger le logiciel Rufus à l’adresse suivante: <a href="https://github.com/pbatard/rufus/releases/download/v4.2/rufus-4.2p.exe">https://github.com/pbatard/rufus/releases/download/v4.2/rufus-4.2p.exe</a></li>
+<li>Lancer le logiciel.</li>
+<li>Sélectionner la clé que vous souhaitez utiliser dans le champs <code>périphérique</code> et l’image dans le champs <code>type de démarrage</code>.</li>
+<li>Lancer le processus en appuyant sur <code>démarrer</code>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd475dae" class="outline-3">
+<h3 id="orgd475dae"><span class="section-number-3">2.2.</span> Sous Ubuntu</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Utiliser le logiciel <code>usb-creator</code> dont l’utilisation est détaillée sur la page suivante: <a href="https://doc.ubuntu-fr.org/usb-creator">https://doc.ubuntu-fr.org/usb-creator</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge965cdb" class="outline-3">
+<h3 id="orge965cdb"><span class="section-number-3">2.3.</span> <b>Après</b> avoir fini d’utiliser la clé pour installer votre système</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Une fois que vous avez terminé d’utiliser cette clé, pouvez ensuite la 
+formater. Le choix du format répond aux contraintes suivantes :
+</p>
+<ul class="org-ul">
+<li>Le format <code>FAT32</code> ne permet pas de manipuler des fichiers de plus de 4Go.</li>
+<li>Le format <code>exFAT</code> n’est pas nativement supporté par les systèmes Linux.</li>
+<li>Le format <code>NTFS</code> n’est pas nativement supporté par les MacOS.</li>
+</ul>
+<p>
+Selon vos modalités d’usage pour cette clé, vous choisirez le format qui
+ vous convient le plus. Concernant le format exFAT, il est relativement 
+aisé de permettre à votre système Linux de fonctionner avec, mais cela 
+demande tout de même une petite intervention de votre part. Cette 
+modification pourrait ne pas être possible sur une machine que vous 
+n’administrez pas, par exemple une machine de TP.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org012bf8e" class="outline-2">
+<h2 id="org012bf8e"><span class="section-number-2">3.</span> Installation du système</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge110d6b" class="outline-3">
+<h3 id="orge110d6b"><span class="section-number-3">3.1.</span> Distribution proposée et alternatives</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+La distribution Linux dont l’installation est proposée est <span class="underline">Ubuntu</span>.
+ C’est la distribution la plus connue, et probablement celle qui dispose
+ de la plus grosse communauté d’utilisateurs. Elle est orientée grand 
+public et dispose de nombreuses ressources d’aide en ligne. De 
+nombreuses autres distributions existent et il vous est tout à fait 
+possible d’en choisir une autre. Même si cette séance d’installation 
+n’est pas pensée pour vous aider à les installer, le principe reste 
+proche et ce que vous aurez appris durant cette séance vous resservira 
+si vous voulez installer une autre distribution.
+Il est important de noter que si Linux est habituellement qualifié de 
+logiciel libre, certaines distributions, dont Ubuntu, contiennent du 
+code qui n’est pas libre. Cela ne signifie pas pour autant que vous 
+devrez payer quoi que ce soit pour procéder à l’installation ou durant 
+l’utilisation: Ubuntu est un système complètement gratuit.
+</p>
+
+<p>
+Par ailleurs, la version proposée à l’installation contient une interface (appelée <i>environnement de bureau</i> ou <i>desktop environnement</i>
+ en VO) qui n’est pas intrinsèquement liée à celle-ci. Il vous sera tout
+ à fait possible de changer cette interface, pour l’accorder à vos 
+goûts, <b>SANS</b> devoir réinstaller le système Linux.
+L’environnement de bureau proposé est <code>Xfce</code>, qui est un environnement léger dont l’organisation de l’interface graphique ne devrait normalement pas trop vous dépayser. <code>Ubuntu</code> avec <code>Xfce</code> est habituellement appelé <code>Xubuntu</code>.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdd32c96" class="outline-3">
+<h3 id="orgdd32c96"><span class="section-number-3">3.2.</span> Au préalable</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>Selon la marque et le modèle, il est nécessaire de déterminer quelle
+ est la touche permettant d’accéder à l’ordre de boot de votre machine 
+(généralement une des touches F&lt;un numéro&gt;, par exemple F2). C’est
+ via cette touche qu’il est possible d’indiquer que vous souhaitez 
+démarrer votre machine avec le système installé sur votre clé USB.</li>
+<li>Il peut être nécessaire de désactiver les options <code>secure boot</code> et <code>fast boot</code> depuis le bios si jamais l’option de démarrer à partir de votre clé n’apparaît pas.</li>
+</ul>
+<p>
+Lors de l’installation on peut être dans quatre cas de figure différents. Peu importe la situation il <b>FAUT</b> avoir soigneusement sauvegardé vos données sur un support externe ou une autre machine.
+</p>
+<ul class="org-ul">
+<li>Premier cas: vous voulez remplacer complètement votre système actuel
+ par Linux. Votre système précédent et tous les fichiers présents sur 
+votre machine seront effacés dans l’opération.</li>
+<li>Second cas: vous voulez installer Linux à côté de votre système 
+d’exploitation actuel. Il faudra alors disposer de suffisamment d’espace
+ sur votre disque. Comptez au moins 50Go voire 80Go pour être large. 
+Après l’installation, à chaque démarrage de votre machine il vous sera 
+demandé de choisir le système sur lequel vous voulez poursuivre. Si tout
+ se passe bien, votre système d’exploitation précédent ne sera pas 
+modifié.</li>
+<li>Troisième cas: vous ne voulez pas installer directement Linux sur 
+votre machine mais souhaitez passer par une machine virtuelle. Votre 
+système d’exploitation actuel simulera une machine vierge sur laquelle 
+vous pourrez faire fonctionne Linux en même temps que votre OS. Ceci 
+nécessite une machine raisonnablement puissante (16 Go de RAM 
+conseillés), et que les programmes qui tournent dans cette machine 
+virtuelle ne soient pas trop lourds. <b>Dans ce cas téléchargez l’image iso en avance</b>.</li>
+<li>Quatrième cas: vous ne souhaitez pas avoir un environnement Linux 
+indépendant mais vous souhaitez uniquement pouvoir utiliser certaines 
+des fonctionnalités de Linux dans votre système Windows via Window 
+Subsystem for Linux (WSL). Cette approche est similaire à une machine 
+virtuelle, sous la forme d’un terminal simulant un système Linux.
+Ce n’est pas un bon moyen de découvrir le système d’exploitation Linux, 
+mais cela permet de faire fonctionner tous les outils nécessaires pour 
+le cours d’informatique de CPGE.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8d6295e" class="outline-3">
+<h3 id="org8d6295e"><span class="section-number-3">3.3.</span> Installation de WSL (Cas 4)</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>Lancez le powershell en mode administrateur, cela se fait en 
+recherchant «&nbsp;powershell&nbsp;» dans la liste des programmes puis 
+clic droit et «&nbsp;exécutez en tant qu’administrateur&nbsp;».</li>
+<li><p>
+Copiez la commande suivante dans le terminal que vous venez d’ouvrir et appuyez sur entrée:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil"> dism.exe /online /enable-feature
+ /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+</pre>
+</div></li>
+<li>Redémarrez votre ordinateur</li>
+<li><p>
+Relancez le powershell en mode administrateur et lancez la commande suivante:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil"> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform
+ /all /norestart
+</pre>
+</div></li>
+<li>Redémarrez votre ordinateur</li>
+
+<li>Téléchargez les fichiers pour le noyau linux via le lien suivant: <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"><code>https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</code></a></li>
+<li>Lancez le programme téléchargé et suivez les instructions pour son installation.</li>
+<li>Redémarrez votre ordinateur</li>
+<li><p>
+Relancez le powershell en mode administrateur et lancez la commande suivante:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">    wsl.exe --update
+</pre>
+</div></li>
+<li>Redémarrez votre ordinateur</li>
+<li><p>
+Relancez le powershell en mode administrateur et lancez la commande suivante:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">   wsl --set-default-version 2
+</pre>
+</div></li>
+<li>Redémarrez votre ordinateur</li>
+<li><p>
+Relancez le powershell en mode administrateur et lancez la commande suivante:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">   wsl.exe --install Ubuntu-22.04
+</pre>
+</div></li>
+<li>Redémarrez votre ordinateur</li>
+<li>Lancez le programme appelé Ubuntu.</li>
+<li>Indiquez le nom d’utilisateur voulu puis entrez un mot de passe deux fois.</li>
+<li>Vous êtes maintenant dans un terminal Linux. Référez vous maintenant à la section Installation des logiciels.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org19880d9" class="outline-3">
+<h3 id="org19880d9"><span class="section-number-3">3.4.</span> Installation de Virtual Box (Cas 3)</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Allez sur le site <a href="https://www.virtualbox.org/wiki/Downloads"><code>https://www.virtualbox.org/wiki/Downloads</code></a> pour télécharger le logiciel qui permet de gérer les machines virtuelles.
+</p>
+<ul class="org-ul">
+<li>Le lien direct est <a href="https://download.virtualbox.org/virtualbox/7.0.20/VirtualBox-7.0.20-163906-Win.exe"><code>https://download.virtualbox.org/virtualbox/7.0.20/VirtualBox-7.0.20-163906-Win.exe</code></a></li>
+<li>Une fois le fichier téléchargé, exécutez le et suivez les instructions:
+<ul class="org-ul">
+<li>Appuyez deux fois sur suivant.</li>
+<li>Appuyez sur oui à l’avertissement sur les interfaces réseau.</li>
+<li>Appuyez sur oui à l’avertissement sur les dépendances manquantes.</li>
+<li>Appuyez sur suivant après avoir coché toutes les cases.</li>
+<li>Cliquez sur installer.</li>
+<li>Cliquez sur terminer et lancez le programme.</li>
+</ul></li>
+<li>Téléchargez le pack d’extension disponible <a href="https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack"><code>https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack</code></a></li>
+<li>Double cliquez sur le fichier télécharger pour installer ce pack d’extension.</li>
+<li>Lancez le logiciel virtualbox.</li>
+<li>Récupérez une image iso de Xubuntu disponible <a href="https://cdimage.ubuntu.com/xubuntu/releases/jammy/release/xubuntu-22.04.4-desktop-amd64.iso"><code>https://cdimage.ubuntu.com/xubuntu/releases/jammy/release/xubuntu-22.04.4-desktop-amd64.iso</code></a></li>
+<li>Cliquez sur le bouton bleu en étoile pour créer une nouvelle machine virtuelle:
+<ul class="org-ul">
+<li>Choisissez un nom</li>
+<li>Sélectionnez l’image iso que vous avez téléchargée en avance.</li>
+<li>Cliquez sur suivant</li>
+<li>Choisissez un nom d’utilisateur et un mot de passe, vous pouvez 
+laisser le nom d’hôte et le nom de domaine. Cochez la case «&nbsp;Guest 
+additions.&nbsp;»</li>
+<li>Sélectionnez la quantité de mémoire que vous souhaitez allouer à la 
+machine virtuelle ainsi que le nombre de processeurs. Il est conseillé 
+d’allouer au moins 4Go de mémoire, mais 8 serait mieux et deux 
+processeurs pour la machine virtuelle.</li>
+<li>Cliquez sur suivant, puis choisissez l’espace disque alloué à la machine virtuelle, il est conseillé d’allouer au moins 30Go.</li>
+<li>Cliquez sur terminez.</li>
+</ul></li>
+<li>Un nouveau menu devrait apparaître. Il s’agit de celui de <code>grub</code> qui vous propose en particulier l’option <code>Try or Install Xubuntu</code> : sélectionnez celle ci et appuyez sur Entrée.</li>
+<li>Le système démarre et vous arrivez ensuite sur un environnement de 
+bureau. Cet environnement est celui du système que vous allez utiliser. 
+Cette approche installe le système en anglais par défaut, pour changer 
+ceci, appuyez sur le bouton windows pour ouvrir le menu, puis cliquez 
+sur Settings, Language Support, Install/Remove, choisissez français, 
+cliquez sur «&nbsp;Apply&nbsp;».</li>
+<li>Lancez le menu cliquez sur «&nbsp;log out&nbsp;» puis une fois 
+déconnecté, cliquez sur «&nbsp;en&nbsp;» en haut à gauche pour 
+sélectionner «&nbsp;French&nbsp;».</li>
+<li>Pour avoir les droits <code>sudo</code>, il est nécessaire d’ajouter votre utilisateur au groupe <code>sudo</code> pour ceci entrez la commande suivante:</li>
+</ul>
+<div class="org-src-container">
+<pre class="src src-bash">su -
+</pre>
+</div>
+<p>
+qui vous place en mode <b>s</b> uper <b>u</b> tilisateur, puis
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">usermod -a -G <span style="color: #986801;">sudo</span> &lt;username&gt;
+</pre>
+</div>
+<p>
+où <code>&lt;username&gt;</code> est votre nom d’utilisateur sur la machine.
+</p>
+<ul class="org-ul">
+<li>Référez vous à la section Installation des logiciels pour la suite.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7cdd6f5" class="outline-3">
+<h3 id="org7cdd6f5"><span class="section-number-3">3.5.</span> Démarrage sur la clé d’installation (Cas 1 et 2)</h3>
+<div class="outline-text-3" id="text-3-5">
+<ul class="org-ul">
+<li>Commencez par éteindre votre machine.</li>
+<li>Branchez la clé USB à votre machine.</li>
+<li>Démarrez votre machine et durant le démarrage, appuyez de manière 
+répétitive sur la touche permettant d’accéder à l’ordre de boot de votre
+ machine. Si votre machine démarre normalement, la touche n’est pas la 
+bonne, ou bien l’option <code>fast boot</code> doit être désactivée.</li>
+<li>S’affiche alors un menu vous proposant une liste d’options de <code>boot</code>.
+ Sélectionnez celle correspondant à la clé USB via le clavier puis 
+appuyez sur Entrée. Habituellement la marque de la clé figure dans le 
+nom de l’option de boot. Si aucune option ne correspond à votre clé USB,
+ il est peut être nécessaire de désactiver l’option <code>secure boot</code>.</li>
+<li>Un nouveau menu devrait apparaître. Il s’agit de celui de <code>grub</code> qui vous propose en particulier l’option <code>Try or Install Xubuntu</code> : sélectionnez celle ci et appuyez sur Entrée.</li>
+<li>Apparaît ensuite un menu graphique vous proposant de choisir entre <code>Try Xubuntu</code> et <code>Install Xubuntu</code>, choisissez <code>Try Xubuntu</code>.</li>
+<li>Le système démarre et vous arrivez ensuite sur un environnement de 
+bureau. Cet environnement est celui du système que vous allez installer.
+ Avant de procéder à l’installation proprement dite, vous pouvez vous 
+familiariser avec le système.</li>
+<li>Quand vous souhaitez démarrer l’installation, double cliquez sur le raccourci du bureau intitulé <code>Install Xubuntu</code>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4d244f5" class="outline-3">
+<h3 id="org4d244f5"><span class="section-number-3">3.6.</span> Paramétrage du système</h3>
+<div class="outline-text-3" id="text-3-6">
+<ul class="org-ul">
+<li>Pour commencer vous pouvez choisir la langue de l’interface 
+d’installation dans un menu déroulant sur la gauche, puis cliquer sur <code>continuer</code>.</li>
+<li>Il faut ensuite choisir la disposition de votre clavier. Il y a 
+toutes les chances qu’il s’agisse d’un AZERTY que vous pourrez trouver 
+en sélectionnant d’abord <code>french</code> dans le menu de gauche puis <code>French - French(AZERTY)</code>
+ dans le menu de droite. Dans le doute, vous pouvez utiliser l’outil de 
+détection accessible en bas à gauche et tester la bonne correspondance 
+entre ce que vous tapez et l’affichage obtenu dans la barre de test. 
+Cliquez ensuite sur <code>continuer</code>.</li>
+<li>Il est ensuite possible de configurer la connexion à un réseau sans 
+fil. Ce n’est pas nécessaire pour l’instant, mais si vous avez accès à 
+une connexion sans fil, par exemple via un partage avec votre téléphone,
+ vous pouvez la configurer.</li>
+<li>Le menu suivant propose de choisir entre une installation normale et
+ une installation minimale. Choisissez l’installation normale. Si vous 
+avez configuré la connexion sans fil vous pouvez cocher l’option de mise
+ à jour. Il est conseillé de cocher aussi l’option d’installation de 
+logiciels non libres utiles pour la lecture de certains format 
+multimédias. Décochez par contre l’option concernant le <code>secure boot</code>  si celle ci est présente.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc9c1705" class="outline-3">
+<h3 id="orgc9c1705"><span class="section-number-3">3.7.</span> Préparation des disques</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+Le menu suivant vous permet de faire un choix entre plusieurs approches 
+pour préparer les disques durs de votre PC à l’installation du nouveau 
+système.
+</p>
+</div>
+<div id="outline-container-org90d177d" class="outline-4">
+<h4 id="org90d177d"><span class="section-number-4">3.7.1.</span> En cas de remplacement complet du système précédent</h4>
+<div class="outline-text-4" id="text-3-7-1">
+<ul class="org-ul">
+<li>Choisissez <code>Effacer le disque et installer Xubuntu</code>.</li>
+<li>Choisissez ensuite le disque sur lequel vous souhaitez installer <code>Xubuntu</code> si vous en avez plusieurs, puis cliquer sur <code>installer maintenant</code> et confirmez votre choix.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5a5e447" class="outline-4">
+<h4 id="org5a5e447"><span class="section-number-4">3.7.2.</span> En cas de dual boot (vous souhaitez conserver Windows)</h4>
+<div class="outline-text-4" id="text-3-7-2">
+<ul class="org-ul">
+<li>Choisissez <code>Installer Xubuntu à coté de ...</code></li>
+<li>Vous pouvez maintenant déterminer quelle portion du disque sera 
+allouée à chacun des systèmes en déplaçant la limite verticale entre les
+ deux partitions. Rappel : comptez 50Go pour Linux, 80Go pour être 
+large.</li>
+<li>Validez ensuite.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3e77055" class="outline-4">
+<h4 id="org3e77055"><span class="section-number-4">3.7.3.</span> Si vous souhaitez configurer manuellement</h4>
+<div class="outline-text-4" id="text-3-7-3">
+<p>
+Choisissez <code>Autre chose</code>. Cette option est déconseillée, mais permet d’agencer les partitions à votre convenance. Prévoyez :
+</p>
+<ul class="org-ul">
+<li>Une partition de boot de 512Mo au moins, au format <code>FAT32</code>. Le point de montage sera <code>/boot</code></li>
+<li>Éventuellement une partition de swap de même dimension que votre RAM.</li>
+<li>Une partition pour votre système d’au moins 40Go, au format ext4. Le point de montage sera <code>/</code></li>
+<li>Éventuellement une partition séparée pour vos fichiers personnels. Le point de montage sera alors <code>/home</code>. Prévoyez 20Go minimum.</li>
+<li>Si vous prévoyez un dual boot et que vous le souhaitez, vous pouvez prévoir une partition de données, au format <code>ntfs</code> qui sera lisible depuis les deux systèmes. Vous pouvez choisir <code>/data</code> comme point de montage, ou tout autre nom non utilisé de votre choix.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org67c8686" class="outline-3">
+<h3 id="org67c8686"><span class="section-number-3">3.8.</span> Fin de la configuration</h3>
+<div class="outline-text-3" id="text-3-8">
+<ul class="org-ul">
+<li>Choisissez ensuite votre fuseau horaire. La cohabitation de deux 
+systèmes peut avoir des effets indésirables sur l’heure affichée par 
+votre système. En cas de dual boot, ne vous fiez pas systématiquement à 
+l’heure du système. Il est possible de corriger ce problème, mais cela 
+demande quelques manipulations.</li>
+<li>Renseignez ensuite votre nom, le nom que vous souhaitez attribuer à 
+votre système, votre nom d’utilisateur et votre mot de passe qui vous 
+serviront à vous identifier, puis appuyez sur continuer.</li>
+<li>Patientez durant la copie des fichiers.</li>
+<li>A la fin de l’installation, une fenêtre vous proposant de redémarrer la machine devrait s’ouvrir : acceptez.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org951d20a" class="outline-3">
+<h3 id="org951d20a"><span class="section-number-3">3.9.</span> Lors du prochain démarrage</h3>
+<div class="outline-text-3" id="text-3-9">
+<ul class="org-ul">
+<li>Si vous n’avez gardé qu’un seul système, le démarrage de votre 
+machine vous mènera à un écran d’authentification dans lequel vous 
+pourrez entrer votre mot de passe afin de terminer le démarrage du 
+système.</li>
+<li>Si vous avez opté pour un dual boot et conservé Windows, lors de 
+chaque démarrage il vous sera demandé de choisir entre Linux et Windows.
+ Il est possible de configurer le système qui sera choisi par défaut 
+ainsi que le délai avant que ce choix par défaut soit effectué à l’aide 
+du programme <code>grub-customizer</code> que vous aurez le loisir d’installer plus tard.</li>
+<li>Lorsque vous débrancherez votre clé, attention celle ci peut être brûlante.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd7accec" class="outline-2">
+<h2 id="orgd7accec"><span class="section-number-2">4.</span> Installation des logiciels</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org19f9139" class="outline-3">
+<h3 id="org19f9139"><span class="section-number-3">4.1.</span> Au préalable</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Avant d’installer les outils sur votre système tout neuf, il convient de
+ vous assurer que votre machine est bien connectée à internet. C’est via
+ cette connexion que les outils seront installés.
+</p>
+</div>
+<div id="outline-container-orgc196d38" class="outline-4">
+<h4 id="orgc196d38"><span class="section-number-4">4.1.1.</span> Communication avec la machine</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+A ce stade, votre système Linux est installé et opérationnel. Cette 
+partie vise à installer les outils qui vous serviront pour 
+l’informatique en MP2I-MPI. Pour ce faire, vous allez communiquer avec 
+votre système pour lui indiquer d’installer tel outil, configurer tel 
+autre, écrire à tel endroit… Cette communication se fait par le biais 
+d’un terminal. Pour ouvrir un terminal, appuyez sur CTRL+ALT+t. Pour 
+donner des instructions sur ce qu’elle doit faire à la machine, il faut 
+attendre de disposer d’une invite dans le terminal (si c’est le cas, la 
+dernière ligne dans votre terminal doit ressembler à <code>&lt;votre nom&gt;@&lt;le nom de la machine&gt;:~$</code>
+ le tout suivi d’un curseur), taper la commande correspondante puis sur 
+Entrée.
+Lors de l’exécution de certaines commandes (pas toutes), des 
+informations sur son déroulement seront affichées dans le terminal. Il 
+n’est généralement pas nécessaire de comprendre ces informations. Les 
+seules qui nous intéressent sont celles demandant confirmation de votre 
+part pour faire quelque chose (installer un outil, modifier un fichier 
+de configuration…) ; auquel cas, il faut y répondre en appuyant sur la 
+touche appropriée, qui sera indiquée par le terminal.
+Notez que l’exécution d’une commande peut prendre du temps. Il faut 
+attendre qu’une commande soit finie (c’est le cas lorsque votre terminal
+ propose une invite) avant d’en donner une autre.
+</p>
+</div>
+</div>
+<div id="outline-container-org3960fc5" class="outline-4">
+<h4 id="org3960fc5"><span class="section-number-4">4.1.2.</span> Utilisation de la commande <code>apt</code></h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+La première étape est de mettre à jour la liste des programmes 
+disponibles pour votre système. Le programme qui va vous permettre de 
+mettre à jour, et désinstaller ou d’installer de nouveau programmes se 
+nomme <code>apt</code>.
+Pour mettre à jour la liste des programmes que peut installer <code>apt</code> il suffit d’entrer la commande suivante dans votre terminal :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt update
+</pre>
+</div>
+<p>
+Il s’agit de la mise à jour (<code>update</code>) des sources qu’utilise <code>apt</code> pour installer des programmes. Le mot clé <code>sudo</code> devant la commande permet de donner la permission à <code>apt</code>
+ de procéder à des modifications potentiellement importantes sur le 
+système. Pour autoriser ces modifications, il vous sera demandé d’entrer
+ votre mot de passe. Le fait de devoir entrer un mot de passe et de 
+demander pour certains programmes des droits supplémentaires lors de 
+l’exécution est une mesure de sécurité mise en place par le système. Il 
+faut éviter d’exécuter des programmes avec ces permissions étendues 
+quand cela n’est pas nécessaire. Dans le cas présent, <code>apt update</code>
+ ne fera pas de modification importante de votre système, mais vous 
+informera éventuellement que certains programmes disposent d’une mise à 
+jour. Il est possible d’installer ces mises à jour via <code>apt</code> avec la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt upgrade
+</pre>
+</div>
+<p>
+Là encore, des permissions étendues sont demandées et cette commande 
+peut modifier votre système via la mise à jour de vos programmes dont le
+ comportement pourrait changer. La liste des programmes qui vont être 
+mis à jour vous est alors présentée et il faut valider le fait que vous 
+souhaitez en effet mettre à jour ces programmes avant que la mise à jour
+ ne soit réalisée. Vous pouvez décider de ne mettre à jour qu’un seul 
+programme avec la commande :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt upgrade &lt;nom du programme&gt;
+</pre>
+</div>
+<p>
+où <code>&lt;nom du programme&gt;</code> est remplacé par le nom du programme que vous souhaitez mettre à jour.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3b31368" class="outline-3">
+<h3 id="org3b31368"><span class="section-number-3">4.2.</span> GCC</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Premier outil essentiel que nous utiliserons cette année, un compilateur pour le langage <code>C</code> dont le but est de transformer vos programmes écrits dans le langage <code>C</code> en programme directement exécutable par votre machine. Nous utiliserons pour ça le compilateur <code>GCC</code> (GNU Compiler Collection). Pour installer <code>GCC</code>, il suffit d’entrer la commande suivante:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt install gcc
+</pre>
+</div>
+<p>
+On reconnaît un schéma identique aux commandes précédentes faisant intervenir <code>apt</code>. Ici on spécifie qu’on souhaite installer un programme via le mot clé <code>install</code> suivi du nom du programme qu’on souhaite installer. Lors de l’installation d’un programme, <code>apt</code> pourra vous indiquer que le programme que vous souhaitez installer possède des <code>dépendances</code>, c’est à dire d’autres programmes nécessaires à son fonctionnement. Dans ce cas, si ces dépendances ne sont pas installées, <code>apt</code>
+ vous indiquera quelles sont ces dépendances et vous demandera de 
+valider le fait que ces dépendances seront installées en même temps que 
+votre programme.
+</p>
+
+<p>
+Vous pouvez maintenant vérifier que <code>gcc</code> fonctionne comme attendu en compilant puis exécutant un programme <code>C</code>.
+Toujours dans le terminal, entrez les commandes suivantes. Chacune des 
+lignes doit être tapée puis validée (en appuyant sur entrée) avant de 
+taper la suivante.
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">touch</span> test.c
+<span style="color: #986801;">echo</span> <span style="color: #50a14f;">"#include &lt;stdio.h&gt;"</span> &gt; test.c
+<span style="color: #986801;">echo</span> <span style="color: #50a14f;">"int main(){printf(\"GCC fonctionne\n\"); return 0;}"</span> &gt;&gt; test.c
+gcc -o test.exe test.c
+./test.exe
+</pre>
+</div>
+<p>
+Si <code>GCC</code> fonctionne correctement, vous devriez voir 
+d’afficher «&nbsp;GCC fonctionne&nbsp;» dans votre terminal. Vous aurez 
+des explications sur ce qu’ont réellement fait les commandes précédentes
+ plus tard dans l’année lorsque vous commencerez à apprendre le langage 
+C. Vous pouvez également demander à un MPI de vous les expliquer au 
+moins partiellement.
+Bien entendu, il est possible de désinstaller un programme via la 
+commande :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt remove &lt;nom du programme&gt;
+</pre>
+</div>
+<p>
+Évidemment, tous les programmes qui nécessitent le programme que vous 
+souhaitez désinstaller seront eux aussi désinstallés après que vous ayez
+ confirmé la désinstallation.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc503254" class="outline-3">
+<h3 id="orgc503254"><span class="section-number-3">4.3.</span> Emacs</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+L’éditeur de texte (entre autres fonctions) <code>Emacs</code> dispose d’outils particulièrement utiles pour éditer de code <code>OCaml</code>
+ en plus d’être un outil assez standard. Pour les TP dans le langage 
+OCaml, c’est cet outil que vous utiliserez. Il n’est cependant pas 
+installé par défaut sur votre nouveau système.
+Il est possible de l’installer via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt install emacs
+</pre>
+</div>
+<p>
+Vous pouvez vérifier que le programme fonctionne correctement après installation en le lançant via la commande suivante :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">emacs
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeddec56" class="outline-3">
+<h3 id="orgeddec56"><span class="section-number-3">4.4.</span> Opam</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Pour travailler sur des programmes dans le langage <code>OCaml</code>, quelques outils vont être nécessaires : un compilateur et un interpréteur. <code>OCaml</code> dispose d’un gestionnaire de programmes qui permet d’installer et de gérer les différentes version de ces outils (comme <code>pip</code> pour le langage <code>python</code>) : il s’agit d’<code>OPaM</code> (pour <code>OCaml Package Manager</code>).
+Installez <code>opam</code> via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt install opam
+</pre>
+</div>
+<p>
+Il faut ensuite initialiser <code>opam</code> via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">opam init
+</pre>
+</div>
+<p>
+Il faut ensuite indiquer à votre terminal que cette installation s’est 
+bien passée. Pour ce faire, utilisez la commande suivante (que la 
+précédente commande vous a d’ailleurs indiqué de faire) :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #a626a4;">eval</span> $<span style="color: #4078f2;">(</span>opam env --switch=default<span style="color: #4078f2;">)</span>
+</pre>
+</div>
+<p>
+Vous pourrez confirmer lors des étapes suivantes si tout s’est passé correctement.
+</p>
+</div>
+</div>
+<div id="outline-container-org02c98c3" class="outline-3">
+<h3 id="org02c98c3"><span class="section-number-3">4.5.</span> Merlin et tuareg</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+<code>Merlin</code> et <code>tuareg</code> sont deux outils utiles pour travailler sur le code source de programme <code>OCaml</code>. On peut les installer à l’aide d’<code>opam</code> via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">opam install merlin
+</pre>
+</div>
+<p>
+<code>tuareg</code> permet à <code>emacs</code> d’éditer du code <code>OCaml</code> avec des fonctionnalités avancées que vous découvrirez plus tard dans l’année. On peut l’installer via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">opam install tuareg
+</pre>
+</div>
+<p>
+Il faut ensuite indiquer à <code>emacs</code> où se trouvent les outils que l’on vient d’installer, et <code>opam</code> propose un outil qui réalise de manière automatique cette configuration: <code>user-setup</code>. Vous pouvez donc réaliser cette configuration à l’aide d’<code>opam</code> simplement via la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">opam user-setup install
+</pre>
+</div>
+<p>
+qui va modifier le fichier de configuration d’<code>emacs</code>.
+Pour tester le bon fonctionnement de ces outils et leur configuration, exécuter la commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">emacs test.ml
+</pre>
+</div>
+<p>
+Vous pourrez alors vérifier que <code>tuareg</code> et <code>merlin</code> ont été correctement installés en vérifiant que deux menus déroulant intitulés <code>tuareg</code> et <code>merlin</code> apparaissent bien dans la barre d’outils d’<code>emacs</code>, en haut de la fenêtre.
+</p>
+</div>
+</div>
+<div id="outline-container-org698fb89" class="outline-3">
+<h3 id="org698fb89"><span class="section-number-3">4.6.</span> VSCode</h3>
+<div class="outline-text-3" id="text-4-6">
+<p>
+Un autre éditeur que vous pourriez vouloir utiliser est <code>Visual Studio Code</code>. Malheureusement, celui ci n’est pas disponible dans les programmes que peut installer <code>apt</code>, pour des raisons de propriété intellectuelle. Il est néanmoins possible de l’installer via un autre gestionnaire : <code>snap</code>. Pour cela, utilisez la commande :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> snap install code --classic
+</pre>
+</div>
+<p>
+Vous pouvez ensuite vérifier que l’installation s’est bien passé en lançant <code>Visual Studio Code</code> avec la commande :
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">code
+</pre>
+</div>
+
+<p>
+Pour ceux ne souhaitant pas utiliser <code>snap</code>, <code>Visual Studio Code</code> est aussi disponible via un PPA. Mais sachez que <code>firefox</code> est par défaut installé via <code>snap</code> sur <code>ubuntu</code> et donc que si vous voulez ne pas utiliser <code>snap</code>, il faudra trouver une autre façon d’installer <code>firefox</code>.
+</p>
+</div>
+</div>
+<div id="outline-container-org3361bb3" class="outline-3">
+<h3 id="org3361bb3"><span class="section-number-3">4.7.</span> SQLite3</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+Pour la manipulation de bases de données, vous pourrez vous appuyer sur <code>sqlite3</code> et <code>DB Browser for SQLite</code> permettant respectivement d’interagir avec une base de données dans un terminal ou via une interface graphique.
+Vous pouvez installer ces outils via les commande:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt install sqlite3
+</pre>
+</div>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #986801;">sudo</span> apt install sqlitebrowser
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcdf71e5" class="outline-2">
+<h2 id="orgcdf71e5"><span class="section-number-2">5.</span> Pour conclure</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Ces quelques étapes ont normalement permis l’installation d’un système <code>Linux</code>
+ fonctionnel ainsi que des outils de base dont vous aurez besoin pendant
+ ces deux ans et que vous pourrez continuer à utiliser dans la suite de 
+vos études et après.
+</p>
+
+<p>
+Bien entendu, ceci n’est qu’une courte introduction pour comprendre le système <code>Linux</code> pleinement, il vous faudra apprendre de très nombreuses autres choses. Mais c’est le cas pour tout système d’exploitation !
+</p>
+
+<p>
+Quelques outils dont vous pourriez aussi avoir l’usage mais que nous n’utiliserons pas directement
+</p>
+<ul class="org-ul">
+<li>Un compilateur Latex</li>
+<li>Un client mail</li>
+</ul>
+<p>
+Vous pouvez également installer tous les outils personnels que vous souhaitez ; il est généralement possible de le faire via <code>apt</code> avec la démarche expliquée ci-dessus.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Vladislav TEMPEZ, Lycée Descartes, Tours (<a href="mailto:(%CE%BB x y %E2%86%92 x.y@ac-orleans-tours.fr) vladislav tempez">(λ x y → x.y@ac-orleans-tours.fr) vladislav tempez</a>)</p>
+                                 <p class="date">Généré le 2024-12-03 Tue 16:28</p>
+</div>
+
+
+</body></html>

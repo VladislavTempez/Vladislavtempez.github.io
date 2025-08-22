@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Page web de Vladislav Tempez" />
+ <meta name="keywords" content="Computer Science, Vladislav, Tempez,vladislav, tempez, computer science, Informatique, informatique, CPGE, MP2I, MPI, Descartes, Tours, descartes, tours"/>
+ <meta charset="utf-8" />
+ <meta name="author" content="Vladislav Tempez">
+ <link rel="stylesheet" href="/style.css" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+{% if page.description %}
+ <meta name="description" content="{{ page.description | escape }}">
+{% endif %}
+</head>
+
+<body>
+<div id="container">
+
+<div id="menu">
+ <ul>
+  <li>{% if page.url == '/' %}<b>Accueil</b>{% else %}<a href="/" title="Accueil">Accueil</a>{% endif %}</li>
+  <li>{% if page.url == '/teaching/' %}<b> Enseignement</b>{% else %}<a href="/teaching/" title="Enseignement">Enseignement</a>{% endif %}</li>
+  <li>{% if page.url == '/cv/' %}<b>CV</b>{% else %}<a href="/cv/" title="CV">CV</a>{% endif %}</li>
+  <li>{% if page.url == '/research/' %}<b>Recherche</b>{% else %}<a href="/research/" title="Recherche">Recherche</a>{% endif %}</li>
+  <li>{% if page.url == '/misc/' %}<b>Recherche</b>{% else %}<a href="/misc/" title="Divers">Divers</a>{% endif %}</li>
+
+  <li><a href="mailto:vladislav.tempez[at]prepas.science">contact</a></li>
+  <li>{% if page.url == '/en/' %}<b></b>{% else %}<a href="/en/" title="In english">In English</a>{% endif %}</li>
+ </ul>
+</div>
+<div id="corps">
+{{ content }}
+</div>
+</div>
+</body>
+</html>
