@@ -4,6 +4,7 @@ title: Vladislav Tempez
 permalink: /
 description: Page web de Vladislav Tempez
 ---
+Site maintenu [ici](https://vladislav-savitzky.github.io/)
 Je suis actuellement professeur d'informatique en classe préparatoires au [Lycée Descartes](https://www.lyc-descartes.fr/) à Tours. 
 Les ressources liées à cet enseignement se trouvent sur [la page suivante](https://info-cpge-descartes-tours.forge.apps.education.fr/web/)
 
